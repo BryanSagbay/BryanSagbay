@@ -1,16 +1,20 @@
+
+<h2 align="center">👨‍💻 Bryan Samaniego - Sagbx </h2>
+
+---
 <div align="center">
-
-<!-- ANIMATED HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Bryan%20Sagbay&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Artificial%20Intelligence&descAlignY=58&descAlign=50&descSize=18&descColor=a78bfa"/>
-
-
+<!-- TYPING ANIMATION -->
+<a href="https://github.com/BryanSagbay">
+  <img height="15" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&height=25&size=22&duration=3000&pause=800&color=FFFF&center=true&vCenter=true&width=600&lines=MSc+Artificial+Intelligence;Software+Engineer;Full+Stack+Developer;Always+building+something+new+%E2%9A%A1" alt="Typing SVG" />
+</a>
 </div>
 
 <!-- ABOUT ME -->
-#### ⚡About Me
+
+<h3 align="left"> hey there 👋</h3>
 
 <!-- WHAT I BUILD -->
-<p>
+<p align="left"> 
 I am currently a software engineer and am pursuing a master's degree in Artificial Intelligence. I am interested in both backend and frontend development, and I am currently focused on integrating AI solutions into the systems and projects I work on. I also specialize in process automation, including chatbot creation, as well as the development of websites, mobile applications, and fully functional web applications.
 With this profile, my goal is not only to share my projects but also to document my progress and implement continuous improvement throughout my professional career.
 </p>
@@ -21,7 +25,7 @@ With this profile, my goal is not only to share my projects but also to document
 </div>
 
 <!-- TECH STACK -->
- #### 🛠️ Tech Stack & Tools
+#### 🛠️ Tech Stack & Tools
 
 <br>
 <div align="center">
