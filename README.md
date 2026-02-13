@@ -1,7 +1,6 @@
 
 <h2 align="center">👨‍💻 Bryan Samaniego - Sagbx </h2>
 
----
 <div align="center">
 <!-- TYPING ANIMATION -->
 <a href="https://github.com/BryanSagbay">
