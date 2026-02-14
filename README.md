@@ -6,7 +6,7 @@
 </a> 
 <br/> 
 <!-- BADGES -->
-<a href="www.linkedin.com/in/bryan-sagbay-1b9912267" target="_blank">
+<a href="https://www.linkedin.com/in/bryan-sagbay-1b9912267/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn"/>
 </a> 
 <img src="https://komarev.com/ghpvc/?username=BryanSagbay&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS"/> 
