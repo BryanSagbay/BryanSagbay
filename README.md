@@ -1,7 +1,11 @@
 <div align="center"> 
 <!-- ANIMATED HEADER --> 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Bryan%20Sagbay&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20%7C%20AI%20Engineer%20%7C%20Data%20Architect&descAlignY=58&descAlign=50&descSize=18&descColor=a78bfa"/> 
-<!-- TYPING ANIMATION --> <a href="https://github.com/BryanSagbay"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+%F0%9F%9A%80;AI+%26+Machine+Learning+Engineer+%F0%9F%A4%96;Data+ETL+Architect+%F0%9F%97%84%EF%B8%8F;Mobile+Dev+%7C+Android+%26+Flutter+%F0%9F%93%B1;Always+building+something+new+%E2%9A%A1" alt="Typing SVG" /> </a> <br/> <!-- BADGES --><a href="https://www.linkedin.com/in/tu-usuario-linkedin/" target="_blank">
+<!-- TYPING ANIMATION --> 
+<a href="https://github.com/BryanSagbay"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+%F0%9F%9A%80;AI+%26+Machine+Learning+Engineer+%F0%9F%A4%96;Data+ETL+Architect+%F0%9F%97%84%EF%B8%8F;Mobile+Dev+%7C+Android+%26+Flutter+%F0%9F%93%B1;Always+building+something+new+%E2%9A%A1" alt="Typing SVG" /> 
+</a> 
+<br/> 
+<!-- BADGES --><a href="https://www.linkedin.com/in/tu-usuario-linkedin/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn"/>
 </a> <img src="https://komarev.com/ghpvc/?username=BryanSagbay&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS"/> <img src="https://img.shields.io/github/followers/BryanSagbay?style=for-the-badge&color=5b21b6&labelColor=1e1b4b&label=FOLLOWERS"/> </div>
 
