@@ -1,7 +1,7 @@
 <div align="center">      
 <!-- ANIMATED HEADER -->
     <img width="100%"
-        src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Bryan%20Sagbay&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&descAlignY=58&descAlign=50&descSize=18&descColor=a78bfa" />
+        src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=ʙʀʏᴀɴ%20ꜱᴀɢʙᴀʏ&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&descAlignY=58&descAlign=50&descSize=18&descColor=a78bfa" />
     <!-- TYPING ANIMATION -->
     <a href="https://github.com/BryanSagbay"> <img
             src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=600&lines=Software+Engineer;MSc+Artificial+Intelligence;Full+Stack+Developer;Always+building+something+new+%E2%9A%A1"
