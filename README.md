@@ -30,4 +30,4 @@
     </div>
     <!-- FOOTER -->
     <img width="100%"
-        src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:ff6b35,50:f7287b,100:7c3aed&descAlignY=100&descAlign=100&fontAlign=50&animation=blink&section=footer" />
+        src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:00d2ff,50:3a7bd5,100:9333ea&descAlignY=100&descAlign=100&fontAlign=50&animation=blink&section=footer" />
