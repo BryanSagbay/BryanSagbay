@@ -30,6 +30,6 @@
     </div>
     <!-- FOOTER -->
     <div>
-        <img style="width:100%" width="100%"
-            src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=60&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=color=0:c8711a,50:c0392b,100:6b2d8b" />
+    <img width="100%"
+        src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:ff6b35,50:f7287b,100:7c3aed&descAlignY=100&descAlign=100&fontAlign=50&animation=blink" />
     </div>
