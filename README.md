@@ -1,4 +1,3 @@
-
 <div align="center">      
 <!-- ANIMATED HEADER -->
     <img width="100%"
