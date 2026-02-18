@@ -1,7 +1,4 @@
 <div align="center">
-    <!-- ANIMATED HEADER -->
-    <img width="100%"
-        src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=165&section=header&text=ʙʀʏᴀɴ%20ꜱᴀɢʙᴀʏ&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&descAlignY=58&descAlign=50&descSize=18&descColor=a78bfa" />
     <div>
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
