@@ -1,4 +1,3 @@
-__
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
