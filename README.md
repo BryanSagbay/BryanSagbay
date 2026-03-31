@@ -1,6 +1,6 @@
 --
 -
---<div>
+div>
     <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
