@@ -1,5 +1,4 @@
-w
-wx
+w\
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
