@@ -4,7 +4,6 @@ d
 d
 s
 d
-s
 
 <div>
     <div align="center">
