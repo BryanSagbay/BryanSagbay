@@ -3,7 +3,6 @@ d
 d
 d
 s
-d
 
 <div>
     <div align="center">
