@@ -1,3 +1,12 @@
+z
+d
+d
+d
+d
+s
+d
+s
+
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
