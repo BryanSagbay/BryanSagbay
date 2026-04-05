@@ -3,7 +3,6 @@ d
 d
 d
 s
-
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
