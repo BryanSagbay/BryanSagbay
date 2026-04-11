@@ -1,7 +1,6 @@
 --
 dfvas
 asdas
-asdas
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
