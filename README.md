@@ -2,8 +2,6 @@ qwras
 asd
 asd
 da
-dasdf
-
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
