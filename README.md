@@ -4,7 +4,6 @@ asd
 da
 dasdf
 
-afasfdas
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
