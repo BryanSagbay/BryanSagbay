@@ -1,7 +1,6 @@
 qwras
 asd
 asd
-da
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
