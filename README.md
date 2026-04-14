@@ -1,4 +1,12 @@
-
+asd
+asd
+asd
+asdasd
+asd
+sad
+asd
+asd
+as
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
