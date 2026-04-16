@@ -1,3 +1,13 @@
+asd
+asdsad
+asdasd
+asda
+s
+asd
+asdas
+sad
+asd
+asd
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
