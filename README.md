@@ -2,8 +2,6 @@ asd
 s
 asd
 asdas
-asd
-asd
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
