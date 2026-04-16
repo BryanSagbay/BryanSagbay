@@ -1,7 +1,6 @@
 asd
 s
 asd
-asdas
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
