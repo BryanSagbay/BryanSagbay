@@ -1,6 +1,5 @@
 ASD
 a
-fdg
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
