@@ -3,7 +3,6 @@ asd
 dsd
 sddg
 fdg
-asdas
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
