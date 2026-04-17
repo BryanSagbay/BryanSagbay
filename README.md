@@ -1,7 +1,6 @@
 bersd
 df----------
 sdfsdf
--*---------
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
