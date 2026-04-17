@@ -1,5 +1,4 @@
 bers
-sdfsdf
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
