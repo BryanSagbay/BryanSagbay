@@ -1,4 +1,3 @@
-bers
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
