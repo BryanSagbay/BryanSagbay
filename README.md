@@ -1,4 +1,3 @@
-baby i need yo bebay}
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
