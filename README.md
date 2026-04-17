@@ -1,5 +1,4 @@
 ASD
-a
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
