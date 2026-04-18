@@ -2,7 +2,6 @@ ssds
 ffgghtjh
 asffdhgf>
 >
->\>
 >>\sdasd
 >>asd
 >>dfda
