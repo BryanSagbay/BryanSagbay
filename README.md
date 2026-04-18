@@ -1,6 +1,5 @@
 ssds
 ffgghtjh
->>assdf
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
