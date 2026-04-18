@@ -1,7 +1,6 @@
 ssds
 ffgghtjh
 asffdhgf>
->>\sdasd
 >>asd
 >>assdf
 <div>
