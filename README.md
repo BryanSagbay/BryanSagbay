@@ -1,9 +1,7 @@
 <div>
 asdasd
    da 
-    asd
-    asd
-   
+    asd   
     <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
