@@ -3,7 +3,6 @@ fffffff
 sdf
 sdf
 sdfsd
-sdfsdf
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
