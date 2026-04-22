@@ -7,7 +7,6 @@ sdf
 sdf
 sdfsd
 sdfsdf
-sdfsdf
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
