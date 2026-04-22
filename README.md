@@ -2,7 +2,6 @@ sdasd
 fffffff
 sdf
 sdf
-sdfsd
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
