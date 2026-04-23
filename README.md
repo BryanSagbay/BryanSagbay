@@ -1,3 +1,12 @@
+asdas
+asdas
+
+df
+dd
+f
+f
+b
+ddfg
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
