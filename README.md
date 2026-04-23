@@ -1,7 +1,6 @@
 
 df
 dd
-f
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
