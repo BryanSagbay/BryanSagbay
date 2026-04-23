@@ -3,7 +3,6 @@ df
 dd
 f
 f
-b
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
