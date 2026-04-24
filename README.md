@@ -1,8 +1,6 @@
 dasd
 dfg
 f
-fg
-g
 h
 h
 j
