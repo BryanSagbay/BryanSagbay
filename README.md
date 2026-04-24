@@ -1,6 +1,5 @@
 dasd
 f
-h
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
