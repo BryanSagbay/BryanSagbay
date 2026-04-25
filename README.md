@@ -4,7 +4,6 @@ sfdsf
 asfasf
 asfa
 x
-xvsf
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
