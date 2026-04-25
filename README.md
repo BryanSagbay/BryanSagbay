@@ -5,7 +5,6 @@ asfasf
 asfa
 x
 xvsf
-sda
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
