@@ -1,3 +1,12 @@
+sadasd
+2123
+sfdsf
+asfasf
+asfa
+asxc
+x
+xvsf
+sda
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
