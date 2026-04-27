@@ -3,7 +3,6 @@ gfh
 fgh
 fgh
 fg
-fgh
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
