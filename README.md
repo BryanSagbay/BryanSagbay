@@ -7,8 +7,6 @@ fds
 fsd
 dfg
 bfg
-h
-
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
