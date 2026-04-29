@@ -5,8 +5,6 @@ dsf
 sd
 fds
 fsd
-dfg
-bfg
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
