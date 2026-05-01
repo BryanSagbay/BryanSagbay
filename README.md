@@ -1,7 +1,6 @@
 sadasdasasdasd
 adasds
 sad
-asdsad
 asda
 sadasdasdasd
 asdasdas
