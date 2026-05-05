@@ -1,7 +1,6 @@
 gh
 h
 d
-dg
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
