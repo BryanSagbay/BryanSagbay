@@ -3,7 +3,6 @@ asd
 sadasd
 wrwer
 we
-g
 
 <div>
     <div align="center">
