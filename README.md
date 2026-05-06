@@ -4,8 +4,6 @@ sadasd
 7768
 wrwer
 we
-
-gds
 g
 
 <div>
