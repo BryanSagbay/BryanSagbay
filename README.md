@@ -7,8 +7,6 @@ we
 
 gds
 g
-dgs
-er
 
 <div>
     <div align="center">
