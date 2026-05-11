@@ -1,7 +1,6 @@
 89+7
 +7+987
-+7
-asdasd
+
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
