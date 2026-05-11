@@ -1,6 +1,3 @@
-asdasd
-asd
-
 xcv
 xcvxcv
 xcv
