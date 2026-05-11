@@ -1,8 +1,6 @@
 89+7
 +7+987
 +7
-+9778
-+7
 asdasd
 <div>
     <div align="center">
