@@ -1,9 +1,3 @@
-xcv
-xcvxcv
-xcv
-xc
-vxc
-vxc
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
