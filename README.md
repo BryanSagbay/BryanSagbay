@@ -1,3 +1,12 @@
+asdasdasda
+6544
+54
+5456
+432
+1
+31321321321
+3212132
+123132132132
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
