@@ -2,7 +2,6 @@
 54
 432
 3212132
-123132132132
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
