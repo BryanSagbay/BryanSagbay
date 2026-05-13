@@ -1,5 +1,4 @@
 6544
-54
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
