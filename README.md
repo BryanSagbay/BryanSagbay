@@ -1,6 +1,5 @@
 sdas
 scxc
-xcxc
 x
 c
 xcx
