@@ -1,4 +1,3 @@
-sdas
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
