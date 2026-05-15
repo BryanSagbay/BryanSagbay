@@ -2,7 +2,6 @@ sdas
 scxc
 x
 c
-xcx
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
