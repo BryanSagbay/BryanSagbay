@@ -4,7 +4,6 @@ xcxc
 x
 c
 xcx
-xc
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
