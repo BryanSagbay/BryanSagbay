@@ -1,5 +1,4 @@
 asdas
-asdasd
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
