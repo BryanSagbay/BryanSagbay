@@ -1,5 +1,4 @@
 sdas
-scxc
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
