@@ -2,7 +2,6 @@ asDASDASDAS
 ASDA
 645
 WEFSDFSDF
-SDFSDFSDFSD=
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
