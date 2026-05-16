@@ -1,6 +1,5 @@
 asDASDASDAS
 ASDA
-645
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
