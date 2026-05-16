@@ -2,8 +2,7 @@ asDASDASDAS
 ASDA
 645
 WEFSDFSDF
-SDFSDFSDFSD
-SDFSDFS
+SDFSDFSDFSD=
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
