@@ -2,9 +2,6 @@ asd68sd7f6+4 + +
 +dasd a+ 
 +as+fd 
 asasd
-
-
-
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
