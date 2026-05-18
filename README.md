@@ -3,7 +3,6 @@ df
 df
 df
 df
-df
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
