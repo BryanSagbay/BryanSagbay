@@ -5,8 +5,6 @@ asasd
 
 
 
-+safasdfasd+asdasdasd
-
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
