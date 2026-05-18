@@ -1,8 +1,6 @@
 asdsdsdsfdf
 df
-df
-df
-df
+d----
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
