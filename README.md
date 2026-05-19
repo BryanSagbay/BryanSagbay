@@ -2,7 +2,6 @@ ADASFSDAF
 SD
 F
 SDF
-F
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
