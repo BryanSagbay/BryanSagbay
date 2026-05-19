@@ -1,5 +1,3 @@
-ADASFSDAF
-SD
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
