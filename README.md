@@ -1,4 +1,3 @@
-9779797
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
