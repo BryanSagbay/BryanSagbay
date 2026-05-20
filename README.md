@@ -6,7 +6,6 @@ fg+dfh+d
 +7hfg+ s +hs 
 +fghfghfg ++
  +fghfg+hfgs
-  +fghfg+h
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
