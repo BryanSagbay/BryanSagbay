@@ -1,7 +1,5 @@
 9779797
-79871
-1+g+ h 
-<div>
+79871<div>
     <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
