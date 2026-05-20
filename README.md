@@ -3,7 +3,6 @@
 1+g+ h 
 dfg2 4hd++
 fg+dfh+d 
-+7hfg+ s +hs 
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
