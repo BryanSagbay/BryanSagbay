@@ -1,5 +1,4 @@
 asdfasd
-asdfasdf
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
