@@ -2,7 +2,6 @@
 79871
 1+g+ h 
 dfg2 4hd++
-fg+dfh+d 
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
