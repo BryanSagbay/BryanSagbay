@@ -1,3 +1,12 @@
+9779797
+79871
+1+g+ h 
+dfg2 4hd++
+fg+dfh+d 
++7hfg+ s +hs 
++fghfghfg ++
+ +fghfg+hfgs
+  +fghfg+h
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
