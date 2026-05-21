@@ -3,7 +3,6 @@ asd6
 486
 4
 774854
-ad
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
