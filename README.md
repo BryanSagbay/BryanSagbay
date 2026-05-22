@@ -1,10 +1,3 @@
-safsf+6 
-asf
-sadfsf
----
-sdfa
---++6
-sdfs+fs
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
