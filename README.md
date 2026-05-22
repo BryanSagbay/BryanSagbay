@@ -1,7 +1,4 @@
 5465465465464
-64654
-56465
-4
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
