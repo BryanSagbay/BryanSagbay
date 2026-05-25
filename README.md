@@ -1,6 +1,5 @@
 sfsad
 asd
-asdasf
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
