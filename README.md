@@ -5,7 +5,6 @@ asd
 asdasf
 dsdfsdfsdf
 wrwdfs
-14134
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
