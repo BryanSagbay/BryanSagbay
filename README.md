@@ -1,4 +1,3 @@
-sfsad
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
