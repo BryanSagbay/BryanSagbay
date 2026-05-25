@@ -1,7 +1,6 @@
 sfsad
 asd
 asdasf
-wrwdfs
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
