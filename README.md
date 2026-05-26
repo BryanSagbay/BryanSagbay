@@ -2,7 +2,6 @@ sdaf66+574
 --96++4+
 sdf654sf4
 sdf615sd
-sG564
 32+645
 <div>
     <div align="center">
