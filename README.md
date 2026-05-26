@@ -1,5 +1,4 @@
 wofnnans
-19;!,&-'
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
