@@ -4,7 +4,6 @@ wofnnans
 shsjjfj
 iowpqu
 )-);$:&
-bajdjdn
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
