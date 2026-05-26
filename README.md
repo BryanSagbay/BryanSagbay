@@ -1,6 +1,6 @@
 sdaf66+574
 --96++4+
-sdf615sd<div>
+<div>
     <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
