@@ -1,5 +1,4 @@
 sdaf66+574
---96++4+
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
