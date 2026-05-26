@@ -1,9 +1,6 @@
 uwowlcmsbs
 wofnnans
 19;!,&-'
-
-d
-)-);$:&
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
