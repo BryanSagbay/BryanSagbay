@@ -1,5 +1,3 @@
-64546
-asdasdasd
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
