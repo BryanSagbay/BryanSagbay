@@ -1,5 +1,5 @@
 54446++46+4    asd
-orem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium magna vulputate diam faucibus, in tincidunt felis posuere. Donec condimentum odio ac porttitor pellentesque.
+orem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
