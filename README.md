@@ -1,5 +1,4 @@
 54446++46+4    asd
-orem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
