@@ -2,7 +2,6 @@
 asd466
 asd45
 564+4asd
-asd67
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
