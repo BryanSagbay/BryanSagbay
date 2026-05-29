@@ -1,6 +1,5 @@
 8**-/4484    
 asd466
-asd45
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
