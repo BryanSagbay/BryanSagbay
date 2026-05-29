@@ -23,12 +23,6 @@ foobar.pluralize('goose')
 
 # returns 'phenomenon'
 foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes
-
 
 
 <div>
