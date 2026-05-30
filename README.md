@@ -1,5 +1,4 @@
 $/$,$
-eklciu
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
