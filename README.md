@@ -1,3 +1,12 @@
+$/$,$
+eklciu
+\_\~€€
+$:$:&
+kdndkxk
+jsjsjdj
+jsu838838?
+iifi€€~^,€
+;$;$$/$
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
