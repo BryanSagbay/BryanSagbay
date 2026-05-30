@@ -4,7 +4,6 @@ eklciu
 $:$:&
 kdndkxk
 jsjsjdj
-iifi€€~^,
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
