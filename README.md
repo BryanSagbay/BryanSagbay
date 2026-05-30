@@ -4,8 +4,7 @@ eklciu
 $:$:&
 kdndkxk
 jsjsjdj
-iifi€€~^,€
-;$;$$/$
+iifi€€~^,
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
