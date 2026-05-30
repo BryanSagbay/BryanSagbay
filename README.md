@@ -2,7 +2,6 @@ $/$,$
 eklciu
 \_\~€€
 $:$:&
-jsjsjdj
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
