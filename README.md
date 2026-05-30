@@ -2,7 +2,6 @@ $/$,$
 eklciu
 \_\~€€
 $:$:&
-kdndkxk
 jsjsjdj
 <div>
     <div align="center">
