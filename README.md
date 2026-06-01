@@ -4,8 +4,7 @@
     bajdj
 
     727,$!-
-    jskksid
-    ujkdkfn
+    jskksi
     no nsjd
     <div align="center">
         <!-- TYPING ANIMATION -->
