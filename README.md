@@ -1,6 +1,5 @@
 <div>
 
-    jsjajjs
     
     <div align="center">
         <!-- TYPING ANIMATION -->
