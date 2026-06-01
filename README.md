@@ -4,8 +4,7 @@
     bajdj
 
     727,$!-
-    jskksi
-    no nsjd
+    jskk
     <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
