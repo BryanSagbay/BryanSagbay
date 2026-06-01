@@ -1,4 +1,3 @@
--- BUSCAR TRANSACCIONES
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
