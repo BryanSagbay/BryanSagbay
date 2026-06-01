@@ -3,7 +3,6 @@
     jsjajjs
     bajdj
 
-    727,$!-
     jskk
     <div align="center">
         <!-- TYPING ANIMATION -->
