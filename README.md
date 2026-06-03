@@ -1,5 +1,4 @@
-aLas consultas SQL son instrucciones utilizadas para comunicarse con bases de datos relacionales.
-<div>
+aLas consultas SQL son instrucciones utilizadas
     <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
