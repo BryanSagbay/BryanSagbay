@@ -1,4 +1,4 @@
-aLas consultas SQL son instrucciones utilizadas para comunicarse con bases de datos relacionales. Se estructuran mediante comandos (como SELECT), cláusulas (WHERE, GROUP BY)
+aLas consultas SQL son instrucciones utilizadas para comunicarse con bases de datos relacionales. Se estructuran mediante comandos (como SELECT)
 <div>
     <div align="center">
         <!-- TYPING ANIMATION -->
