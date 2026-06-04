@@ -1,7 +1,3 @@
-250.000 hablan español
-250.000 hablan español
-
-Soporte las 24 horas, todos los días
 Soporte las 24 horas, todos los días
 
 Pago seguro
