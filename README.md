@@ -1,3 +1,57 @@
+Encuentra el servicio freelanceadecuado de inmediato
+¿Qué buscas? Ej: Apps móviles
+
+250.000 hablan español
+250.000 hablan español
+
+Soporte las 24 horas, todos los días
+Soporte las 24 horas, todos los días
+
+Pago seguro
+Pago seguro
+
+programming_tech
+Programación y tecnología
+
+graphics_design
+Artes gráficas y diseño
+
+digital_marketing
+Marketing digital
+
+writing_translation
+Escritura y traducción
+
+video_animation
+Video y animación
+
+ai_services
+Servicios de IA
+
+music_audio
+Música y audio
+
+business
+Negocios
+
+consulting
+Consultoría de marketing
+
+Servicios populares
+
+Desarrollo de sitios web
+Desarrollo de sitios web
+Edición de video
+Edición de video
+Desarrollo de software
+Desarrollo de software
+Publicación de libros
+Publicación de libros
+Arquitectura y Diseño de Interiores
+Arquitectura y Diseño de Interiores
+D
+
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
