@@ -8,10 +8,6 @@ Programación y tecnología
 
 graphics_design
 Artes gráficas y diseño
-
-digital_marketing
-Marketing digital
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
