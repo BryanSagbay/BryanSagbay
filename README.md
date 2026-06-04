@@ -28,15 +28,6 @@ Video y animación
 ai_services
 Servicios de IA
 
-music_audio
-Música y audio
-
-business
-Negocios
-
-consulting
-Consultoría de marketing
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
