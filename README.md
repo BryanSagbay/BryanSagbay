@@ -1,5 +1,3 @@
-Soporte las 24 horas, todos los días
-
 Pago seguro
 Pago seguro
 
