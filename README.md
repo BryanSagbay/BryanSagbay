@@ -21,13 +21,6 @@ Marketing digital
 
 writing_translation
 Escritura y traducción
-
-video_animation
-Video y animación
-
-ai_services
-Servicios de IA
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
