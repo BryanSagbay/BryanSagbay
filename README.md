@@ -41,9 +41,6 @@ Servicios populares
 
 Desarrollo de sitios web
 Desarrollo de sitios web
-Edición de video
-Edición de video
-Desarrollo de software
 
 <div align="center">
         <!-- TYPING ANIMATION -->
