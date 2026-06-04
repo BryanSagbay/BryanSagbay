@@ -1,6 +1,3 @@
-Pago seguro
-Pago seguro
-
 graphics_design
 Artes gráficas y diseño
 <div align="center">
