@@ -37,11 +37,6 @@ Negocios
 consulting
 Consultoría de marketing
 
-Servicios populares
-
-Desarrollo de sitios web
-Desarrollo de sitios web
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
