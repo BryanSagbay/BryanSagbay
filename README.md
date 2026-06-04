@@ -12,8 +12,6 @@ Artes gráficas y diseño
 digital_marketing
 Marketing digital
 
-writing_translation
-Escritura y traducción
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
