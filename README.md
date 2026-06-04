@@ -1,6 +1,3 @@
-Encuentra el servicio freelanceadecuado de inmediato
-¿Qué buscas? Ej: Apps móviles
-
 250.000 hablan español
 250.000 hablan español
 
