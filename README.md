@@ -44,13 +44,6 @@ Desarrollo de sitios web
 Edición de video
 Edición de video
 Desarrollo de software
-Desarrollo de software
-Publicación de libros
-Publicación de libros
-Arquitectura y Diseño de Interiores
-Arquitectura y Diseño de Interiores
-D
-
 
 <div align="center">
         <!-- TYPING ANIMATION -->
