@@ -1,9 +1,6 @@
 Pago seguro
 Pago seguro
 
-programming_tech
-Programación y tecnología
-
 graphics_design
 Artes gráficas y diseño
 <div align="center">
