@@ -1,4 +1,4 @@
-btener todas las columnas:SELECT * FROM Empleados;Obtener columnas específicas:SELECT nombre, cargo, 
+btener todas las columnas:SELECT * FROM Empleados;
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
