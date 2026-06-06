@@ -1,3 +1,5 @@
+btener todas las columnas:SELECT * FROM Empleados;Obtener columnas específicas:SELECT nombre, cargo, salario FROM Empleados;Filtrar datos con WHERE:SELECT nombre, salario FROM Empleados WHERE salario > 3000;2. Insertar registros (INSERT INTO)Agrega nuevas filas a una tabla.Insertar un nuevo empleado:INSERT INTO Empleados (nombre, cargo, salario) VALUES ('Ana Gómez', 'Desarrolladora', 3500);
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
