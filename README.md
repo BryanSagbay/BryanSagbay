@@ -1,4 +1,4 @@
-btener todas las columnas:SELECT * FROM Empleados;Obtener columnas específicas:SELECT nombre, cargo, salario FROM Empleados;Filtrar datos con WHERE:SELECT nombre,
+btener todas las columnas:SELECT * FROM Empleados;Obtener columnas específicas:SELECT nombre, cargo, 
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
