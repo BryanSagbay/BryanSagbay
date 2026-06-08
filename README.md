@@ -24,8 +24,6 @@ id	first_name	last_name	department	salary
 8	Stephanie	Marx	Corporate	2,894.51
 9	Luca	Pavarotti	Private Individuals	4,123.45
 10	Victoria	Pollock	Corporate	4,789.53
-2. Selección de una columna de una tabla
-Puede utilizar esta consulta cuando sólo necesite una columna de la tabla...
 
 <div align="center">
         <!-- TYPING ANIMATION -->
