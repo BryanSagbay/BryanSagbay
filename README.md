@@ -3,8 +3,7 @@ Esta consulta es útil cuando quieres obtener rápidamente todas las columnas de
 Consulta
 SELECT *
 FROM employees;
-Explicación
-Siempre que quiera seleccionar cualquier número de columnas de cualquier tabla, necesita utilizar la sentencia SELECT. Se escribe, de forma bastante obvia, utilizando la palabra clave SELECT.
+
 
 
 
