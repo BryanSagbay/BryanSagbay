@@ -5,7 +5,6 @@ FROM Empleados
 WHERE Departamento = 'Ventas';
 Usa el código con precaución.Ordenar resultados (de mayor a menor salario):sqlSELECT Nombre, Salario 
 FROM Empleados 
-ORDER BY Salario DESC;
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
