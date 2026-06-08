@@ -1,5 +1,3 @@
-
-1. Lectura de Datos (SELECT)Se usa para extraer información de una
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
