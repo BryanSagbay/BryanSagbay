@@ -19,12 +19,6 @@ id	first_name	last_name	department	salary
 3	Matthias	Johnson	Private Individuals	3,009.41
 4	Lucy	Patterson	Private Individuals	3,547.25
 5	Tom	Page	Corporate	5,974.41
-6	Claudia	Conte	Corporate	4,714.12
-7	Walter	Deer	Private Individuals	3,547.25
-8	Stephanie	Marx	Corporate	2,894.51
-9	Luca	Pavarotti	Private Individuals	4,123.45
-10	Victoria	Pollock	Corporate	4,789.53
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
