@@ -27,10 +27,6 @@ id	first_name	last_name	department	salary
 2. Selección de una columna de una tabla
 Puede utilizar esta consulta cuando sólo necesite una columna de la tabla...
 
-Consulta
-SELECT first_name
-FROM employees;
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
