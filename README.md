@@ -3,7 +3,6 @@
 Usa el código con precaución.Obtener columnas específicas filtradas por una condición:sqlSELECT Nombre, Cargo, Salario 
 FROM Empleados 
 WHERE Departamento = 'Ventas';
-Usa el código con precaución.Ordenar resultados (de mayor a menor salario):sqlSELECT Nombre, Salario 
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
