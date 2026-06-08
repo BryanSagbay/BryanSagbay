@@ -6,9 +6,7 @@ FROM employees;
 Explicación
 Siempre que quiera seleccionar cualquier número de columnas de cualquier tabla, necesita utilizar la sentencia SELECT. Se escribe, de forma bastante obvia, utilizando la palabra clave SELECT.
 
-Después de la palabra clave viene un asterisco (*), que es la abreviatura de "todas las columnas de la tabla".
 
-Para especificar la tabla, utilice la cláusula FROM y escriba después el nombre de la tabla.
 
 <div align="center">
         <!-- TYPING ANIMATION -->
