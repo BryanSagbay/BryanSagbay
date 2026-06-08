@@ -10,10 +10,6 @@ Después de la palabra clave viene un asterisco (*), que es la abreviatura de "t
 
 Para especificar la tabla, utilice la cláusula FROM y escriba después el nombre de la tabla.
 
-Salida
-La salida de la consulta es la tabla completa employeescomo se muestra a continuación.
-
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
