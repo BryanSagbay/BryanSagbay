@@ -1,5 +1,3 @@
-Esta consulta es útil cuando quieres obtener rápidamente todas las columnas de una tabla sin escribir cada columna en la sentencia SELECT.
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
