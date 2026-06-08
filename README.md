@@ -1,3 +1,36 @@
+Esta consulta es útil cuando quieres obtener rápidamente todas las columnas de una tabla sin escribir cada columna en la sentencia SELECT.
+
+Consulta
+SELECT *
+FROM employees;
+Explicación
+Siempre que quiera seleccionar cualquier número de columnas de cualquier tabla, necesita utilizar la sentencia SELECT. Se escribe, de forma bastante obvia, utilizando la palabra clave SELECT.
+
+Después de la palabra clave viene un asterisco (*), que es la abreviatura de "todas las columnas de la tabla".
+
+Para especificar la tabla, utilice la cláusula FROM y escriba después el nombre de la tabla.
+
+Salida
+La salida de la consulta es la tabla completa employeescomo se muestra a continuación.
+
+id	first_name	last_name	department	salary
+1	Paul	Garrix	Corporate	3,547.25
+2	Astrid	Fox	Private Individuals	2,845.56
+3	Matthias	Johnson	Private Individuals	3,009.41
+4	Lucy	Patterson	Private Individuals	3,547.25
+5	Tom	Page	Corporate	5,974.41
+6	Claudia	Conte	Corporate	4,714.12
+7	Walter	Deer	Private Individuals	3,547.25
+8	Stephanie	Marx	Corporate	2,894.51
+9	Luca	Pavarotti	Private Individuals	4,123.45
+10	Victoria	Pollock	Corporate	4,789.53
+2. Selección de una columna de una tabla
+Puede utilizar esta consulta cuando sólo necesite una columna de la tabla...
+
+Consulta
+SELECT first_name
+FROM employees;
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
