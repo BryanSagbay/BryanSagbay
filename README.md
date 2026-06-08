@@ -2,7 +2,6 @@
 1. Lectura de Datos (SELECT)Se usa para extraer información de una o más tablas.Obtener todas las columnas de una tabla:sqlSELECT * FROM Empleados;
 Usa el código con precaución.Obtener columnas específicas filtradas por una condición:sqlSELECT Nombre, Cargo, Salario 
 FROM Empleados 
-WHERE Departamento = 'Ventas';
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
