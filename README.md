@@ -13,12 +13,7 @@ Para especificar la tabla, utilice la cláusula FROM y escriba después el nombr
 Salida
 La salida de la consulta es la tabla completa employeescomo se muestra a continuación.
 
-id	first_name	last_name	department	salary
-1	Paul	Garrix	Corporate	3,547.25
-2	Astrid	Fox	Private Individuals	2,845.56
-3	Matthias	Johnson	Private Individuals	3,009.41
-4	Lucy	Patterson	Private Individuals	3,547.25
-5	Tom	Page	Corporate	5,974.41
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
