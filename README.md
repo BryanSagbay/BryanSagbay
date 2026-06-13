@@ -1,5 +1,5 @@
 SQL (Structured Query Language) es el lenguaje estándar utilizado para administrar y consultar bases de datos relacionales. A continuación, encontrarás los comandos y ejemplos más utilizados para manipular y extraer datos.1. Consultas básicas (DQL)Extrae datos específicos de una tabla.Seleccionar todos los datos de una tabla:sqlSELECT * FROM Clientes;
-Usa el código con precaución.Seleccionar columnas específicas con un filtro (WHERE):sqlSELECT Nombre, Email FROM Clientes WHERE Pais = 'Ecuador';
+Usa el código con precaución.Seleccionar columnas específicas con un filtro
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
