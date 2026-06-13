@@ -1,4 +1,3 @@
-SQL (Structured Query Language) es el lenguaje estándar utilizado para administrar y consultar bases de datos relacionales.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
