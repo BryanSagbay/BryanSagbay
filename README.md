@@ -1,8 +1,3 @@
-for i in range(36):
-    flor.circle(100) # Dibuja un círculo
-
-# Dibujando el centro de la flor
-flor.color("orange")
 flor.begin_fill()
 flor.circle(40)
 flor.end_fill()
