@@ -1,8 +1,4 @@
-
-# Configuración de la tortuga (el lápiz)
-flor = turtle.Turtle()
-flor.speed(0)      # Velocidad máxima
-flor.color("yellow", "yellow")  # Borde amarillo, relleno amarillo
+flor.speed(0)      # Velocidad máximaflor.color("yellow", "yellow")  # Borde amarillo, relleno amarillo
 
 # Dibujando la flor
 flor.begin_fill()
