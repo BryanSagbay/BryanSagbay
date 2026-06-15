@@ -1,9 +1,3 @@
-import turtle
-
-# Configuración de la pantalla
-ventana = turtle.Screen()
-ventana.bgcolor("black")  # Fondo negro para que resalte el amarillo
-ventana.title("Flor Amarilla para ti 🌻")
 
 # Configuración de la tortuga (el lápiz)
 flor = turtle.Turtle()
