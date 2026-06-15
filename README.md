@@ -1,8 +1,3 @@
-# Dibujando el tallo
-flor.color("green")flor.right(90)
-flor.pensize(5)
-flor.forward(300)
-
 # Mantener la ventana abierta hasta hacer clic
 turtle.done()
 
