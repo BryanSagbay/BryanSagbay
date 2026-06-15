@@ -1,3 +1,38 @@
+import turtle
+
+# Configuración de la pantalla
+ventana = turtle.Screen()
+ventana.bgcolor("black")  # Fondo negro para que resalte el amarillo
+ventana.title("Flor Amarilla para ti 🌻")
+
+# Configuración de la tortuga (el lápiz)
+flor = turtle.Turtle()
+flor.speed(0)      # Velocidad máxima
+flor.color("yellow", "yellow")  # Borde amarillo, relleno amarillo
+
+# Dibujando la flor
+flor.begin_fill()
+for i in range(36):
+    flor.circle(100) # Dibuja un círculo
+    flor.right(10)   # Gira 10 grados a la derecha
+flor.end_fill()
+
+# Dibujando el centro de la flor
+flor.color("orange")
+flor.begin_fill()
+flor.circle(40)
+flor.end_fill()
+
+# Dibujando el tallo
+flor.color("green")
+flor.right(90)
+flor.pensize(5)
+flor.forward(300)
+
+# Mantener la ventana abierta hasta hacer clic
+turtle.done()
+
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
