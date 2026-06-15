@@ -1,10 +1,5 @@
-flor.begin_fill()
-flor.circle(40)
-flor.end_fill()
-
 # Dibujando el tallo
-flor.color("green")
-flor.right(90)
+flor.color("green")flor.right(90)
 flor.pensize(5)
 flor.forward(300)
 
