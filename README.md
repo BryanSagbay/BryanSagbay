@@ -1,5 +1,3 @@
-# Dibujando la flor
-flor.begin_fill()
 for i in range(36):
     flor.circle(100) # Dibuja un círculo
     flor.right(10)   # Gira 10 grados a la derecha
