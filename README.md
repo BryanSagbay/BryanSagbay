@@ -1,7 +1,3 @@
-# Mantener la ventana abierta hasta hacer clic
-turtle.done()
-
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
