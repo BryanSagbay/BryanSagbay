@@ -1,5 +1,3 @@
-flor.speed(0)      # Velocidad máximaflor.color("yellow", "yellow")  # Borde amarillo, relleno amarillo
-
 # Dibujando la flor
 flor.begin_fill()
 for i in range(36):
