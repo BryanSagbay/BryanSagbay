@@ -1,3 +1,43 @@
+Ejemplo 1: Cálculo de ranking con Funciones de Ventana y SubconsultasEste tipo de consulta clasifica elementos o personas dentro de sus propios grupos (por ejemplo, categorías). Permite identificar quiénes son los 3 mejores empleados por departamento utilizando funciones como DENSE_RANK().sqlWITH EmpleadosRanking AS (
+    SELECT 
+        id,
+        nombre,
+        id_departamento,
+        salario,
+        -- Asigna un ranking a los empleados dentro de su departamento por salario
+        DENSE_RANK() OVER (PARTITION BY id_departamento ORDER BY salario DESC) AS ranking_salario
+    FROM empleados
+)
+SELECT 
+    d.nombre_departamento,
+    er.nombre AS empleado,
+    er.salario
+FROM EmpleadosRanking er
+JOIN departamentos d ON er.id_departamento = d.id
+-- Filtramos para obtener solo los 3 primeros de cada departamento
+WHERE er.ranking_salario <= 3
+ORDER BY d.nombre_departamento, er.ranking_salario ASC;
+Usa el código con precaución.Ejemplo 2: Análisis financiero y segmentación de clientes (CASE y GROUP BY)Esta consulta agrupa a los clientes y etiqueta sus comportamientos, calculando el total gastado y categorizándolos en tiempo real (por ejemplo: 'VIP', 'Regular', 'Nuevo').sqlSELECT 
+    c.id_cliente,
+    c.nombre,
+    SUM(f.monto_total) AS gasto_acumulado,
+    COUNT(f.id_factura) AS total_compras,
+    -- Clasificación dinámica según el volumen de compras
+    CASE 
+        WHEN SUM(f.monto_total) > 10000 THEN 'VIP'
+        WHEN SUM(f.monto_total) BETWEEN 5000 AND 10000 THEN 'Regular'
+        ELSE 'Nuevo/Ocasional'
+    END AS categoria_cliente,
+    MAX(f.fecha_emision) AS ultima_compra
+FROM clientes c
+LEFT JOIN facturas f ON c.id_cliente = f.id_cliente
+WHERE f.fecha_emision >= DATE_SUB(CURRENT_DATE, INTERVAL 1 YEAR)
+GROUP BY 
+    c.id_cliente, 
+    c.nombre
+HAVING SUM(f.monto_total) > 1000
+ORDER BY gasto_acumulado DESC;
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
