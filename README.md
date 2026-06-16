@@ -1,5 +1,3 @@
-Data Retrieval Basics (DQL)Data Query Language (DQL) statements allow you to pull and sort specific information out of a single table.Select All Columns: Retrieves every record and column 
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
