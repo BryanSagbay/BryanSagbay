@@ -1,8 +1,4 @@
-FROM clientes c
-LEFT JOIN facturas f ON c.id_cliente = f.id_cliente
-WHERE f.fecha_emision >= DATE_SUB(CURRENT_DATE, INTERVAL 1 YEAR)
-GROUP BY 
-    c.id_cliente, 
+.id_cliente, 
     c.nombre
 HAVING SUM(f.monto_total) > 1000
 ORDER BY gasto_acumulado DESC;
