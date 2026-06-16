@@ -1,4 +1,4 @@
-Ejemplo 1: Cálculo de ranking con Funciones de Ventana y SubconsultasEste tipo de consulta clasifica elementos o personas dentro de sus propios grupos (por ejemplo, categorías). Permite identificar quiénes son los 3 mejores empleados por departamento utilizando funciones como DENSE_RANK().sqlWITH EmpleadosRanking AS (
+Permite identificar quiénes son los 3 mejores empleados por departamento utilizando funciones como DENSE_RANK().sqlWITH EmpleadosRanking AS (
     SELECT 
         id,
         nombre,
