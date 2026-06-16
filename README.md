@@ -1,9 +1,3 @@
-SELECT 
-    d.nombre_departamento,
-    er.nombre AS empleado,
-    er.salario
-FROM EmpleadosRanking er
-JOIN departamentos d ON er.id_departamento = d.id
 -- Filtramos para obtener solo los 3 primeros de cada departamento
 WHERE er.ranking_salario <= 3
 ORDER BY d.nombre_departamento, er.ranking_salario ASC;
