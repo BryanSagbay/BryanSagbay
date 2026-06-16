@@ -1,8 +1,3 @@
-.id_cliente, 
-    c.nombre
-HAVING SUM(f.monto_total) > 1000
-ORDER BY gasto_acumulado DESC;
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
