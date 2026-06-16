@@ -1,10 +1,4 @@
-SELECT 
-    c.id_cliente,
-    c.nombre,
-    SUM(f.monto_total) AS gasto_acumulado,
-    COUNT(f.id_factura) AS total_compras,
-    -- Clasificación dinámica según el volumen de compras
-    CASE 
+CASE 
         WHEN SUM(f.monto_total) > 10000 THEN 'VIP'
         WHEN SUM(f.monto_total) BETWEEN 5000 AND 10000 THEN 'Regular'
         ELSE 'Nuevo/Ocasional'
