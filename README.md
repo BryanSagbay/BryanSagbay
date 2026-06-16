@@ -1,7 +1,4 @@
--- Filtramos para obtener solo los 3 primeros de cada departamento
-WHERE er.ranking_salario <= 3
-ORDER BY d.nombre_departamento, er.ranking_salario ASC;
-Usa el código con precaución.Ejemplo 2: Análisis financiero y segmentación de clientes (CASE y GROUP BY)Esta consulta agrupa a los clientes y etiqueta sus comportamientos, calculando el total gastado y categorizándolos en tiempo real (por ejemplo: 'VIP', 'Regular', 'Nuevo').sqlSELECT 
+SELECT 
     c.id_cliente,
     c.nombre,
     SUM(f.monto_total) AS gasto_acumulado,
