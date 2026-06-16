@@ -1,13 +1,3 @@
-WITH EmpleadosRanking AS (
-    SELECT 
-        id,
-        nombre,
-        id_departamento,
-        salario,
-        -- Asigna un ranking a los empleados dentro de su departamento por salario
-        DENSE_RANK() OVER (PARTITION BY id_departamento ORDER BY salario DESC) AS ranking_salario
-    FROM empleados
-)
 SELECT 
     d.nombre_departamento,
     er.nombre AS empleado,
