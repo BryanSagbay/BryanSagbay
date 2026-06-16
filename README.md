@@ -1,4 +1,4 @@
-Permite identificar quiénes son los 3 mejores empleados por departamento utilizando funciones como DENSE_RANK().sqlWITH EmpleadosRanking AS (
+WITH EmpleadosRanking AS (
     SELECT 
         id,
         nombre,
