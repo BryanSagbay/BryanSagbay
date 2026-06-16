@@ -1,7 +1,6 @@
 Data Retrieval Basics (DQL)Data Query Language (DQL) statements allow you to pull and sort specific information out of a single table.Select All Columns: Retrieves every record and column from a specific table.sqlSELECT * FROM employees;
 Usa el código con precaución.Select Specific Columns: Restricts the output to only chosen fields to keep your query efficient.sqlSELECT first_name, last_name, salary FROM employees;
 Usa el código con precaución.Filter with WHERE: Narrows down records based on a specific numerical or text condition.sqlSELECT * FROM employees WHERE salary > 70000;
-Usa el código con precaución.Sort with ORDER BY: Organizes your results chronologically, numerically, or alphabetically.
 
 <div align="center">
         <!-- TYPING ANIMATION -->
