@@ -1,9 +1,3 @@
-CASE 
-        WHEN SUM(f.monto_total) > 10000 THEN 'VIP'
-        WHEN SUM(f.monto_total) BETWEEN 5000 AND 10000 THEN 'Regular'
-        ELSE 'Nuevo/Ocasional'
-    END AS categoria_cliente,
-    MAX(f.fecha_emision) AS ultima_compra
 FROM clientes c
 LEFT JOIN facturas f ON c.id_cliente = f.id_cliente
 WHERE f.fecha_emision >= DATE_SUB(CURRENT_DATE, INTERVAL 1 YEAR)
