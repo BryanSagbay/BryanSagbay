@@ -1,5 +1,4 @@
 These queries extract information from your database tables.Select all columns: Retrieves every row and column from a specific table.sqlSELECT * FROM employees;
-Usa el código con precaución.Select specific columns: Limits the results to requested attributes for better efficiency.sqlSELECT first_name, last_name, salary FROM employees;
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
