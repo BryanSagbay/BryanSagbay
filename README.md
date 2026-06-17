@@ -2,7 +2,6 @@ These queries extract information from your database tables.Select all columns: 
 Usa el código con precaución.Select specific columns: Limits the results to requested attributes for better efficiency.sqlSELECT first_name, last_name, salary FROM employees;
 Usa el código con precaución.Filter data with conditions (WHERE): Isolates specific records based on numerical or text logic.sqlSELECT * FROM employees WHERE salary > 70000;
 Usa el código con precaución.Combine filters (AND/OR): Joins multiple conditions together for precision filtering.sqlSELECT * FROM employees WHERE salary > 70000 AND department_id = 2;
-Usa el código con precaución.Pattern matching (LIKE): Finds specific string structures, such as names starting with "J".sqlSELECT first_name, last_name FROM employees WHERE last_name LIKE 'J%';
 
 <div align="center">
         <!-- TYPING ANIMATION -->
