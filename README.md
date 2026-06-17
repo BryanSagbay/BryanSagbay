@@ -1,3 +1,13 @@
+These queries extract information from your database tables.Select all columns: Retrieves every row and column from a specific table.sqlSELECT * FROM employees;
+Usa el código con precaución.Select specific columns: Limits the results to requested attributes for better efficiency.sqlSELECT first_name, last_name, salary FROM employees;
+Usa el código con precaución.Filter data with conditions (WHERE): Isolates specific records based on numerical or text logic.sqlSELECT * FROM employees WHERE salary > 70000;
+Usa el código con precaución.Combine filters (AND/OR): Joins multiple conditions together for precision filtering.sqlSELECT * FROM employees WHERE salary > 70000 AND department_id = 2;
+Usa el código con precaución.Pattern matching (LIKE): Finds specific string structures, such as names starting with "J".sqlSELECT first_name, last_name FROM employees WHERE last_name LIKE 'J%';
+Usa el código con precaución.Data Manipulation (DML)These operations allow you to add, modify, or delete database rows.Insert a new record: Adds a single new row into a designated table.sqlINSERT INTO employees (id, first_name, last_name, salary) 
+VALUES (101, 'Alice', 'Smith', 85000);
+Usa el código con precaución.Update existing records: Modifies data matching a specific rule (always use a WHERE clause to avoid updating everything).sqlUPDATE employees SET salary = 90000 WHERE id = 101;
+Usa el código con precaución.Delete records: Permanently removes rows matching a chosen condition
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
