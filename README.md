@@ -6,7 +6,6 @@ Usa el código con precaución.Pattern matching (LIKE): Finds specific string st
 Usa el código con precaución.Data Manipulation (DML)These operations allow you to add, modify, or delete database rows.Insert a new record: Adds a single new row into a designated table.sqlINSERT INTO employees (id, first_name, last_name, salary) 
 VALUES (101, 'Alice', 'Smith', 85000);
 Usa el código con precaución.Update existing records: Modifies data matching a specific rule (always use a WHERE clause to avoid updating everything).sqlUPDATE employees SET salary = 90000 WHERE id = 101;
-Usa el código con precaución.Delete records: Permanently removes rows matching a chosen condition
 
 <div align="center">
         <!-- TYPING ANIMATION -->
