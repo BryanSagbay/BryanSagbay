@@ -1,4 +1,3 @@
-1. Basic Data Retrieval (DQL)Data Query Language (DQL) is used to fetch records from a database.Select All Columns: Retrieves every row and column from a table.sqlSELECT * FROM employees;
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
