@@ -2,7 +2,6 @@
 Usa el código con precaución.Select Specific Columns: Retrieves only targeted attributes.sqlSELECT first_name, last_name, salary FROM employees;
 Usa el código con precaución.Filter with WHERE: Filters rows based on a specific condition.sqlSELECT * FROM employees WHERE department_id = 1;
 Usa el código con precaución.Sort with ORDER BY: Sorts the output in ascending (ASC) or descending (DESC) order.sqlSELECT * FROM employees ORDER BY salary DESC;
-Usa el código con precaución.2. Data Modification (DML)
 
 <div align="center">
         <!-- TYPING ANIMATION -->
