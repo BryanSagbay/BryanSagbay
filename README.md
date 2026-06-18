@@ -1,8 +1,7 @@
 1. Basic Data Retrieval (DQL)Data Query Language (DQL) is used to fetch records from a database.Select All Columns: Retrieves every row and column from a table.sqlSELECT * FROM employees;
 Usa el código con precaución.Select Specific Columns: Retrieves only targeted attributes.sqlSELECT first_name, last_name, salary FROM employees;
 Usa el código con precaución.Filter with WHERE: Filters rows based on a specific condition.sqlSELECT * FROM employees WHERE department_id = 1;
-Usa el código con precaución.Sort with ORDER BY: Sorts the output in ascending (ASC) or descending (DESC) order.sqlSELECT * FROM employees ORDER BY salary DESC;
-
+Usa el código con precaución.Sort with ORDER BY
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
