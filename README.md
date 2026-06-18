@@ -1,4 +1,3 @@
-These queries extract information from your database tables.Select all columns: Retrieves every row and column from a specific table.sqlSELECT * FROM employees;
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
