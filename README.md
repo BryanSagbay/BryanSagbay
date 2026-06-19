@@ -6,12 +6,6 @@ Create a TableCreates a new table named employees with columns, data types, and 
     salary DECIMAL(10, 2),
     hire_date DATE
 );
-Usa el código con precaución.Insert RowsAdds new records directly into the employees table.sqlINSERT INTO employees (employee_id, first_name, last_name, department, salary, hire_date)
-VALUES 
-(1, 'Alice', 'Smith', 'Engineering', 95000.00, '2022-03-15'),
-(2, 'Bob', 'Jones', 'HR', 65000.00, '2021-06-01'),
-(3, 'Charlie', 'Brown', 'Engineering', 80000.00, '2023-01-10'),
-(4, 'Diana', 'Prince', 'Marketing', 75000.00, '2020-11-22');
 
 <div align="center">
         <!-- TYPING ANIMATION -->
