@@ -1,3 +1,24 @@
+Create a TableCreates a new table named employees with columns, data types, and primary key constraints.sqlCREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    department VARCHAR(50),
+    salary DECIMAL(10, 2),
+    hire_date DATE
+);
+Usa el código con precaución.Insert RowsAdds new records directly into the employees table.sqlINSERT INTO employees (employee_id, first_name, last_name, department, salary, hire_date)
+VALUES 
+(1, 'Alice', 'Smith', 'Engineering', 95000.00, '2022-03-15'),
+(2, 'Bob', 'Jones', 'HR', 65000.00, '2021-06-01'),
+(3, 'Charlie', 'Brown', 'Engineering', 80000.00, '2023-01-10'),
+(4, 'Diana', 'Prince', 'Marketing', 75000.00, '2020-11-22');
+Usa el código con precaución.Basic Queries (Data Retrieval)Select All DataExtracts every column and row from the target table.sqlSELECT * FROM employees;
+Usa el código con precaución.Select Specific ColumnsRetrieves only the named columns to save memory and processing time.sqlSELECT first_name, salary FROM employees;
+Usa el código con precaución.Filter Results (WHERE Clause)Filters data to return only rows matching a specific numeric or text condition.sqlSELECT * FROM employees 
+WHERE salary > 70000;
+Usa el código con precaución.Multiple Conditions (AND / OR)Combines filters to isolate highly specific data criteria.sqlSELECT * FROM employees 
+WHERE department = 'Engineering' AND hire_date > '2022-01-01';
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
