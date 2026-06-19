@@ -12,7 +12,6 @@ VALUES
 (2, 'Bob', 'Jones', 'HR', 65000.00, '2021-06-01'),
 (3, 'Charlie', 'Brown', 'Engineering', 80000.00, '2023-01-10'),
 (4, 'Diana', 'Prince', 'Marketing', 75000.00, '2020-11-22');
-Usa el código con precaución.Basic Queries (Data Retrieval)Select All DataExtracts every column and row from the target table.sqlSELECT * FROM employees;
 
 <div align="center">
         <!-- TYPING ANIMATION -->
