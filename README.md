@@ -14,8 +14,7 @@ VALUES
 (4, 'Diana', 'Prince', 'Marketing', 75000.00, '2020-11-22');
 Usa el código con precaución.Basic Queries (Data Retrieval)Select All DataExtracts every column and row from the target table.sqlSELECT * FROM employees;
 Usa el código con precaución.Select Specific ColumnsRetrieves only the named columns to save memory and processing time.sqlSELECT first_name, salary FROM employees;
-Usa el código con precaución.Filter Results (WHERE Clause)Filters data to return only rows matching a specific numeric or text condition.sqlSELECT * FROM employees 
-WHERE salary > 70000;
+Usa el código con precaución.Filter Results (WHERE Clause)Filters data to return only rows matching a specific numeric or text condition.
 
 <div align="center">
         <!-- TYPING ANIMATION -->
