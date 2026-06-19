@@ -1,5 +1,3 @@
-Create a TableCreates a new table named employees with columns, data types, and primary key constraints.
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
