@@ -16,7 +16,6 @@ Usa el código con precaución.Basic Queries (Data Retrieval)Select All DataExtr
 Usa el código con precaución.Select Specific ColumnsRetrieves only the named columns to save memory and processing time.sqlSELECT first_name, salary FROM employees;
 Usa el código con precaución.Filter Results (WHERE Clause)Filters data to return only rows matching a specific numeric or text condition.sqlSELECT * FROM employees 
 WHERE salary > 70000;
-Usa el código con precaución.Multiple Conditions (AND / OR)Combines filters to isolate highly specific data criteria.sql
 
 <div align="center">
         <!-- TYPING ANIMATION -->
