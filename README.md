@@ -1,5 +1,5 @@
 1. Data Retrieval (DQL)The SELECT statement is used to fetch specific records from a table.Select All Columns: Retrieves every field from the table.sqlSELECT * FROM employees;
-Usa el código con precaución.Select Specific Columns: Limits the returned fields to save system memory
+
 
 <div align="center">
         <!-- TYPING ANIMATION -->
