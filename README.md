@@ -1,5 +1,3 @@
-1. Data Retrieval (DQL)The SELECT statement is used to fetch specific records from a table.
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
