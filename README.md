@@ -2,7 +2,7 @@
 Usa el código con precaución.Select Specific Columns: Limits the returned fields to save system memory.sqlSELECT first_name, last_name, salary FROM employees;
 Usa el código con precaución.Filter Data with WHERE: Filters rows using logical conditions.sqlSELECT * FROM employees WHERE salary > 70000;
 Usa el código con precaución.Combine Conditions (AND/OR): Adds multi-layer logical filtering.sqlSELECT * FROM employees WHERE department_id = 2 AND salary >= 50000;
-Usa el código con precaución.
+
 
 <div align="center">
         <!-- TYPING ANIMATION -->
