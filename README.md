@@ -1,10 +1,4 @@
 
-
-CREATE TABLE Employees (
-    EmployeeID INT PRIMARY KEY IDENTITY(1,1),
-    FirstName VARCHAR(50) NOT NULL,
-    DepartmentID INT FOREIGN KEY REFERENCES Departments(DepartmentID)
-);
 GO
 
 <div align="center">
