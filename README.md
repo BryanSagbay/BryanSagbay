@@ -1,7 +1,4 @@
-CREATE TABLE Departments (
-    DepartmentID INT PRIMARY KEY IDENTITY(1,1),
-    DepartmentName VARCHAR(50) NOT NULL
-);
+
 
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY IDENTITY(1,1),
