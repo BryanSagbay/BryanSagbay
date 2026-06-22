@@ -3,9 +3,6 @@
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY IDENTITY(1,1),
     FirstName VARCHAR(50) NOT NULL,
-    LastName VARCHAR(50) NOT NULL,
-    Salary DECIMAL(10,2),
-    HireDate DATE DEFAULT GETDATE(),
     DepartmentID INT FOREIGN KEY REFERENCES Departments(DepartmentID)
 );
 GO
