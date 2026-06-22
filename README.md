@@ -1,4 +1,3 @@
--- 1. Create a brand new database
 CREATE DATABASE CompanyDB;
 GO
 
