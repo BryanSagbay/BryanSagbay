@@ -1,7 +1,4 @@
 
-USE CompanyDB;
-GO
-
 -- 3. Create a Employees table with a Primary Key and a Foreign Key
 CREATE TABLE Departments (
     DepartmentID INT PRIMARY KEY IDENTITY(1,1),
