@@ -1,7 +1,6 @@
 xbnsnx
 juan 
 pepe 
-lucas
 lolco
 <div align="center">
         <!-- TYPING ANIMATION -->
