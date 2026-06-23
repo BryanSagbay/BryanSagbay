@@ -2,7 +2,6 @@ xbnsnx
 abxnnc
 bryan 
 juan 
-urdiales
 pepe 
 lucas
 lolco
