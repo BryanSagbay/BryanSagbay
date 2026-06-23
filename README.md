@@ -1,3 +1,12 @@
+xbnsnx
+abxnnc
+27199491884
+bryan 
+juan 
+urdiales
+pepe 
+lucas
+lolco
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
