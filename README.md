@@ -1,6 +1,5 @@
 xbnsnx
 abxnnc
-bryan 
 juan 
 pepe 
 lucas
