@@ -1,6 +1,5 @@
 xbnsnx
 abxnnc
-27199491884
 bryan 
 juan 
 urdiales
