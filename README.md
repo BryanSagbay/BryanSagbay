@@ -1,3 +1,8 @@
+select * from tpersona<
+select
+elect All Columns: Retrieves every record and field from the designated table.sqlSELECT * FROM employees;
+Usa el código con precaución.Select Specific Columns: Restricts the output to only the fields you explicitly name.sqlSELECT first_name, last_name, salary FROM employees;
+Usa el código con precaución.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
