@@ -1,6 +1,5 @@
 kakdixka
 282948
-jajsjdj
 <br/>ffd
 <div align="center">
         <!-- TYPING ANIMATION -->
