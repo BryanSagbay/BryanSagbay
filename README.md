@@ -1,7 +1,6 @@
 kakdixka
 282948
 jakslfk
-kalsfklx
 jajsjdj
 <br/>ffd
 <div align="center">
