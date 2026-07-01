@@ -1,6 +1,6 @@
 kakdixka
 282948
-<br/>ffd
+<br/>
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
