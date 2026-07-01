@@ -1,5 +1,4 @@
 Data Query Language (DQL)DQL commands are used to find and retrieve data from your tables.Select All Columns: Retrieves every column and row from a table.sqlSELECT * FROM Employees;
-Usa el código con precaución.Select Specific Columns: Limits the retrieved data to specific columns for better efficiency.sqlSELECT FirstName, LastName FROM Employees;
 <br/>
 <div align="center">
         <!-- TYPING ANIMATION -->
