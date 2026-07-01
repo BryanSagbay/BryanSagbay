@@ -1,4 +1,3 @@
-kakdixka
 <br/>
 <div align="center">
         <!-- TYPING ANIMATION -->
