@@ -1,6 +1,5 @@
 asdas
 
-asfdas
 f
 <div align="center">
         <!-- TYPING ANIMATION -->
