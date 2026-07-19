@@ -1,3 +1,12 @@
+hzdjfj
+jdjfjf
+w238:&$
+jsjxj
+:$$$
+shjxjd
+hajdjd
+jsjdk
+jsjdjx
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
