@@ -2,7 +2,6 @@ jdjfjf
 w238:&$
 jsjxj
 :$$$
-shjxjd
 hajdjd
 jsjdk
 jsjdjx
