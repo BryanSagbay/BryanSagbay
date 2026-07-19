@@ -1,6 +1,5 @@
 
 jsjxj
-:$$$
 hajdjd
 jsjdk
 jsjdjx
