@@ -1,14 +1,3 @@
--- 3. Create an Employees table with a Foreign Key
-CREATE TABLE Employees (
-    EmployeeID INT PRIMARY KEY IDENTITY(1,1),
-    FirstName VARCHAR(50) NOT NULL,
-    LastName VARCHAR(50) NOT NULL,
-    Salary DECIMAL(10,2),
-    HireDate DATE DEFAULT GETDATE(),
-    DepartmentID INT,
-    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
-);
-
 -- INSERT: Add records to the tables
 INSERT INTO Departments (DepartmentName, Location) 
 VALUES ('Engineering', 'New York'), ('HR', 'Chicago');
