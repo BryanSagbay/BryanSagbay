@@ -1,7 +1,3 @@
--- INSERT: Add records to the tables
-INSERT INTO Departments (DepartmentName, Location) 
-VALUES ('Engineering', 'New York'), ('HR', 'Chicago');
-
 INSERT INTO Employees (FirstName, LastName, Salary, DepartmentID)
 VALUES ('John', 'Doe', 85000.00, 1),
        ('Jane', 'Smith', 95000.00, 1),
