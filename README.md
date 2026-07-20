@@ -1,3 +1,29 @@
+-- 1. Create a new database
+CREATE DATABASE CompanyDB;
+GO
+
+-- Switch to the new database context
+USE CompanyDB;
+GO
+
+-- 2. Create a Departments table
+CREATE TABLE Departments (
+    DepartmentID INT PRIMARY KEY IDENTITY(1,1),
+    DepartmentName VARCHAR(100) NOT NULL,
+    Location VARCHAR(50)
+);
+
+-- 3. Create an Employees table with a Foreign Key
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY IDENTITY(1,1),
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Salary DECIMAL(10,2),
+    HireDate DATE DEFAULT GETDATE(),
+    DepartmentID INT,
+    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
+);
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
