@@ -1,8 +1,3 @@
--- UPDATE: Increase Alice's salary
-UPDATE Employees 
-SET Salary = 68000.00 
-WHERE FirstName = 'Alice' AND LastName = 'Johnson';
-
 -- DELETE: Remove a specific employee record
 DELETE FROM Employees 
 WHERE EmployeeID = 3;
