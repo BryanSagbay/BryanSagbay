@@ -1,7 +1,3 @@
--- 1. Create a new database
-CREATE DATABASE CompanyDB;
-GO
-
 -- Switch to the new database context
 USE CompanyDB;
 GO
