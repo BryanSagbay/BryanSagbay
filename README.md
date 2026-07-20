@@ -24,6 +24,30 @@ CREATE TABLE Employees (
     FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
 );
 
+-- INSERT: Add records to the tables
+INSERT INTO Departments (DepartmentName, Location) 
+VALUES ('Engineering', 'New York'), ('HR', 'Chicago');
+
+INSERT INTO Employees (FirstName, LastName, Salary, DepartmentID)
+VALUES ('John', 'Doe', 85000.00, 1),
+       ('Jane', 'Smith', 95000.00, 1),
+       ('Alice', 'Johnson', 65000.00, 2);
+
+-- SELECT: Retrieve all employees earning more than 70,000
+SELECT FirstName, LastName, Salary 
+FROM Employees 
+WHERE Salary > 70000.00;
+
+-- UPDATE: Increase Alice's salary
+UPDATE Employees 
+SET Salary = 68000.00 
+WHERE FirstName = 'Alice' AND LastName = 'Johnson';
+
+-- DELETE: Remove a specific employee record
+DELETE FROM Employees 
+WHERE EmployeeID = 3;
+
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
