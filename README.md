@@ -1,8 +1,3 @@
--- SELECT: Retrieve all employees earning more than 70,000
-SELECT FirstName, LastName, Salary 
-FROM Employees 
-WHERE Salary > 70000.00;
-
 -- UPDATE: Increase Alice's salary
 UPDATE Employees 
 SET Salary = 68000.00 
