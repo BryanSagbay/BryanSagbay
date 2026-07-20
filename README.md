@@ -1,8 +1,3 @@
-INSERT INTO Employees (FirstName, LastName, Salary, DepartmentID)
-VALUES ('John', 'Doe', 85000.00, 1),
-       ('Jane', 'Smith', 95000.00, 1),
-       ('Alice', 'Johnson', 65000.00, 2);
-
 -- SELECT: Retrieve all employees earning more than 70,000
 SELECT FirstName, LastName, Salary 
 FROM Employees 
