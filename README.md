@@ -1,14 +1,3 @@
--- Switch to the new database context
-USE CompanyDB;
-GO
-
--- 2. Create a Departments table
-CREATE TABLE Departments (
-    DepartmentID INT PRIMARY KEY IDENTITY(1,1),
-    DepartmentName VARCHAR(100) NOT NULL,
-    Location VARCHAR(50)
-);
-
 -- 3. Create an Employees table with a Foreign Key
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY IDENTITY(1,1),
