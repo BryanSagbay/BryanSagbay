@@ -2,7 +2,6 @@ ASDad
 aSadasdsaf
 wegf
 dw
-gwds
 g
 <div align="center">
         <!-- TYPING ANIMATION -->
