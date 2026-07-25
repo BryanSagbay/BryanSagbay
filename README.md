@@ -1,7 +1,6 @@
 Usa el código con precaución.Filter with WHERE: Returns records matching a strict conditional statement.sqlSELECT * FROM employees WHERE salary > 70000;
 Usa el código con precaución.Sort with ORDER BY: Organizes results alphabetically or numerically in descending (DESC) or ascending order.sqlSELECT * FROM employees ORDER BY hire_date DESC;
-Usa el código con precaución.Data Modification (DML)These statements allow you to add, modify, or erase data values stored inside your tables.Insert Records: Adds a completely new row of data to the table.sqlINSERT INTO employees (first_name, last_name, salary) 
-VALUES ('John', 'Doe', 65000);
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
