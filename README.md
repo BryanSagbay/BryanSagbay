@@ -2,9 +2,6 @@ Usa el código con precaución.Filter with WHERE: Returns records matching a str
 Usa el código con precaución.Sort with ORDER BY: Organizes results alphabetically or numerically in descending (DESC) or ascending order.sqlSELECT * FROM employees ORDER BY hire_date DESC;
 Usa el código con precaución.Data Modification (DML)These statements allow you to add, modify, or erase data values stored inside your tables.Insert Records: Adds a completely new row of data to the table.sqlINSERT INTO employees (first_name, last_name, salary) 
 VALUES ('John', 'Doe', 65000);
-Usa el código con precaución.Update Records: Overwrites existing table cells using a filter to target specific rows.sqlUPDATE employees SET salary = 68000 WHERE employee_id = 101;
-Usa el código con precaución.Delete Records: Permanently removes rows matching the criteria.sqlDELETE FROM employees WHERE status = 'Terminated';
-Usa el código con precaución.Aggregation & GroupingUse these queries to calculate math summaries like sums, averages, and counts across multiple rows.Group and Count: Counts how many 
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
