@@ -1,5 +1,3 @@
-Usa el código con precaución.Filter with WHERE: Returns records matching a strict conditional statement.sqlSELECT * FROM employees WHERE salary > 70000;
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
