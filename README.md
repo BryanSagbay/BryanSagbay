@@ -1,5 +1,4 @@
 Usa el código con precaución.Filter with WHERE: Returns records matching a strict conditional statement.sqlSELECT * FROM employees WHERE salary > 70000;
-Usa el código con precaución.Sort with ORDER BY: Organizes results alphabetically or numerically in descending (DESC) or ascending order.sqlSELECT * FROM employees ORDER BY hire_date DESC;
 
 <div align="center">
         <!-- TYPING ANIMATION -->
