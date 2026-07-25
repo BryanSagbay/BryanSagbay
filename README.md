@@ -4,12 +4,7 @@ Usa el código con precaución.Data Modification (DML)These statements allow you
 VALUES ('John', 'Doe', 65000);
 Usa el código con precaución.Update Records: Overwrites existing table cells using a filter to target specific rows.sqlUPDATE employees SET salary = 68000 WHERE employee_id = 101;
 Usa el código con precaución.Delete Records: Permanently removes rows matching the criteria.sqlDELETE FROM employees WHERE status = 'Terminated';
-Usa el código con precaución.Aggregation & GroupingUse these queries to calculate math summaries like sums, averages, and counts across multiple rows.Group and Count: Counts how many records belong to each individual group.sqlSELECT department_id, COUNT(*) FROM employees GROUP BY department_id;
-Usa el código con precaución.Filter Groups with HAVING: Filters grouped data blocks after aggregation occurs.sqlSELECT department_id, AVG(salary) 
-FROM employees 
-GROUP BY department_id 
-HAVING AVG(salary) > 60000;
-Usa el código con precaución.
+Usa el código con precaución.Aggregation & GroupingUse these queries to calculate math summaries like sums, averages, and counts across multiple rows.Group and Count: Counts how many 
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
