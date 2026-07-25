@@ -1,4 +1,3 @@
-SQL (Structured Query Language) is the standard language used to manage, manipulate, and retrieve data from relational databases. Below is a structured guide featuring essential SQL command examples categorized by their use case.Data Retrieval (DQL)These queries pull information out of database tables without changing any underlying data.Select All Columns: Retrieves every column and row from a table.sqlSELECT * FROM employees;
 Usa el código con precaución.Select Specific Columns: Limits the output to only chosen fields for better performance.sqlSELECT first_name, salary FROM employees;
 Usa el código con precaución.Filter with WHERE: Returns records matching a strict conditional statement.sqlSELECT * FROM employees WHERE salary > 70000;
 Usa el código con precaución.Sort with ORDER BY: Organizes results alphabetically or numerically in descending (DESC) or ascending order.sqlSELECT * FROM employees ORDER BY hire_date DESC;
