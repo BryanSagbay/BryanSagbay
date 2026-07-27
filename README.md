@@ -2,7 +2,6 @@ SQL (Structured Query Language) is used to store, manage, and retrieve data from
 Usa el código con precaución.Select Specific Columns: Restricts the output to only the designated columns for efficiency.sqlSELECT first_name, last_name, salary FROM employees;
 Usa el código con precaución.Filter Data (WHERE Clause): Filters rows using targeted conditions or operators.sqlSELECT * FROM employees WHERE salary > 70000 AND department_id = 2;
 Usa el código con precaución.Pattern Matching (LIKE Operator): Finds text strings matching a designated wildcard pattern.sql-- Finds names starting with 'J'
-SELECT first_name, last_name FROM employees WHERE last_name LIKE 'J%';
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
