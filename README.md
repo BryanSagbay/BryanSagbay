@@ -1,3 +1,12 @@
+SQL (Structured Query Language) is used to store, manage, and retrieve data from relational databases.Below is a comprehensive categorization of foundational SQL examples, structured by their functional category.Data Query Language (DQL)DQL is used to fetch and filter data from your database.Select All Columns: Retrieves every record and column from a specific table.sqlSELECT * FROM employees;
+Usa el código con precaución.Select Specific Columns: Restricts the output to only the designated columns for efficiency.sqlSELECT first_name, last_name, salary FROM employees;
+Usa el código con precaución.Filter Data (WHERE Clause): Filters rows using targeted conditions or operators.sqlSELECT * FROM employees WHERE salary > 70000 AND department_id = 2;
+Usa el código con precaución.Pattern Matching (LIKE Operator): Finds text strings matching a designated wildcard pattern.sql-- Finds names starting with 'J'
+SELECT first_name, last_name FROM employees WHERE last_name LIKE 'J%';
+Usa el código con precaución.Sort Results (ORDER BY): Organizes output columns in ascending (ASC, default) or descending (DESC) order.sqlSELECT first_name, salary FROM employees ORDER BY salary DESC;
+Usa el código con precaución.Data Manipulation Language (DML)DML is utilized to modify, add, or erase data within existing tables.Insert a Single Row: Adds a new record containing explicitly defined values into a table.sqlINSERT INTO employees (employee_id, name, department, salary) 
+VALUES (201, 'Alice Johnson', 'HR', 50000);
+Usa el código con precaución.Update Existing Rows: Modifies specific fields based on a matching constraint. 
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
