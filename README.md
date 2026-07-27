@@ -4,8 +4,7 @@ Usa el código con precaución.Filter Data (WHERE Clause): Filters rows using ta
 Usa el código con precaución.Pattern Matching (LIKE Operator): Finds text strings matching a designated wildcard pattern.sql-- Finds names starting with 'J'
 SELECT first_name, last_name FROM employees WHERE last_name LIKE 'J%';
 Usa el código con precaución.Sort Results (ORDER BY): Organizes output columns in ascending (ASC, default) or descending (DESC) order.sqlSELECT first_name, salary FROM employees ORDER BY salary DESC;
-Usa el código con precaución.Data Manipulation Language (DML)DML is utilized to modify, add, or erase data within existing tables.Insert a Single Row: Adds a new record containing explicitly defined values into a table.sqlINSERT INTO employees (employee_id, name, department, salary) 
-VALUES (201, 'Alice Johnson', 'HR', 50000);
+Usa el código con precaución.Data Manipulation Language (DML)DML is utilized to modify, add, or erase data within existing tables.Insert a Single Row: Adds a new record containing explicitly defined values into a table.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
