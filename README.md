@@ -3,8 +3,6 @@ Usa el código con precaución.Select Specific Columns: Restricts the output to 
 Usa el código con precaución.Filter Data (WHERE Clause): Filters rows using targeted conditions or operators.sqlSELECT * FROM employees WHERE salary > 70000 AND department_id = 2;
 Usa el código con precaución.Pattern Matching (LIKE Operator): Finds text strings matching a designated wildcard pattern.sql-- Finds names starting with 'J'
 SELECT first_name, last_name FROM employees WHERE last_name LIKE 'J%';
-Usa el código con precaución.Sort Results (ORDER BY): Organizes output columns in ascending (ASC, default) or descending (DESC) order.sqlSELECT first_name, salary FROM employees ORDER BY salary DESC;
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
