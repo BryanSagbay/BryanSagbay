@@ -1,4 +1,3 @@
-SQL (Structured Query Language) is used to store, manage, and retrieve data from relational databases.Below is a comprehensive categorization of foundational SQL examples, structured by their functional category.Data Query Language (DQL)DQL is used to fetch and filter data from your database.Select All Columns: Retrieves every record and column from a specific table.sqlSELECT * FROM employees;
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
