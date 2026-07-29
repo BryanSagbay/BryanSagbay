@@ -1,8 +1,4 @@
 
-ORDER BY LastName ASC;
-Usa el código con precaución.4. Update DataModifies existing records based on a conditional filter.sqlUPDATE Employees 
-SET Salary = Salary * 1.05 
-WHERE EmployeeID = 1;
 Usa el código con precaución.5. Delete DataRemoves data safely using a WHERE clause.sqlDELETE FROM Employees 
 WHERE EmployeeID = 1;
 Usa el código con precaución.Intermediate & Advanced QueriesInner JoinCombines rows from two tables based on a related column.sqlSELECT e.FirstName, e.LastName, d.DepartmentName
