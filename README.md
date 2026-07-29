@@ -1,11 +1,4 @@
-Microsoft SQL Server uses Transact-SQL (T-SQL), which extends standard SQL with proprietary features like variables, error handling, and string processing. Below is a structured compilation of essential SQL Server coding examples and official sample databases.Basic Data Manipulation (CRUD)1. Create a TableCreates a new table named Employees with an auto-incrementing primary key.sqlCREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName VARCHAR(50) NOT NULL,
-    LastName VARCHAR(50) NOT NULL,
-    Email VARCHAR(100) UNIQUE,
-    HireDate DATE DEFAULT GETDATE(),
-    Salary DECIMAL(10,2)
-);
+Microsoft SQL Server uses Transact-SQL (T-SQL), which extends standard SQL with proprietary features like variables, error handling, and string processing. Below is a structured compilation of essential SQL Server coding examples and official sample databases.Basic Data Manipulation (CRUD)1. Create a TableCreates a new table named Employees with an auto-incrementing primary key.sqlCREATE
 Usa el código con precaución.2. Insert DataInserts a new record into the Employees table.sqlINSERT INTO Employees (FirstName, LastName, Email, Salary)
 VALUES ('Jane', 'Doe', 'jane.doe@example.com', 65000.00);
 Usa el código con precaución.3. Select DataRetrieves specific columns for active or high-earning employees.sqlSELECT EmployeeID, FirstName, LastName, Salary 
