@@ -1,3 +1,30 @@
+Microsoft SQL Server uses Transact-SQL (T-SQL), which extends standard SQL with proprietary features like variables, error handling, and string processing. Below is a structured compilation of essential SQL Server coding examples and official sample databases.Basic Data Manipulation (CRUD)1. Create a TableCreates a new table named Employees with an auto-incrementing primary key.sqlCREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) UNIQUE,
+    HireDate DATE DEFAULT GETDATE(),
+    Salary DECIMAL(10,2)
+);
+Usa el código con precaución.2. Insert DataInserts a new record into the Employees table.sqlINSERT INTO Employees (FirstName, LastName, Email, Salary)
+VALUES ('Jane', 'Doe', 'jane.doe@example.com', 65000.00);
+Usa el código con precaución.3. Select DataRetrieves specific columns for active or high-earning employees.sqlSELECT EmployeeID, FirstName, LastName, Salary 
+FROM Employees 
+WHERE Salary >= 50000.00 
+ORDER BY LastName ASC;
+Usa el código con precaución.4. Update DataModifies existing records based on a conditional filter.sqlUPDATE Employees 
+SET Salary = Salary * 1.05 
+WHERE EmployeeID = 1;
+Usa el código con precaución.5. Delete DataRemoves data safely using a WHERE clause.sqlDELETE FROM Employees 
+WHERE EmployeeID = 1;
+Usa el código con precaución.Intermediate & Advanced QueriesInner JoinCombines rows from two tables based on a related column.sqlSELECT e.FirstName, e.LastName, d.DepartmentName
+FROM Employees e
+INNER JOIN Departments d ON e.DepartmentID = d.DepartmentID;
+Usa el código con precaución.Aggregation and GroupingCalculates the total salary spent per department, filtering for groups exceeding $100,000.sqlSELECT DepartmentID, SUM(Salary) AS TotalBudget
+FROM Employees
+GROUP BY DepartmentID
+HAVING SUM(Salary) > 100000.00;
+Usa el código con precaución.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
