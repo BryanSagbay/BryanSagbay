@@ -1,4 +1,3 @@
-Usa el código con precaución.2. Insert DataInserts a new record into the Employees table.sqlINSERT INTO Employees (FirstName, LastName, Email, Salary)
 VALUES ('Jane', 'Doe', 'jane.doe@example.com', 65000.00);
 Usa el código con precaución.3. Select DataRetrieves specific columns for active or high-earning employees.sqlSELECT EmployeeID, FirstName, LastName, Salary 
 FROM Employees 
