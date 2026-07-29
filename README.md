@@ -1,6 +1,4 @@
-VALUES ('Jane', 'Doe', 'jane.doe@example.com', 65000.00);
-FROM Employees 
-WHERE Salary >= 50000.00 
+
 ORDER BY LastName ASC;
 Usa el código con precaución.4. Update DataModifies existing records based on a conditional filter.sqlUPDATE Employees 
 SET Salary = Salary * 1.05 
