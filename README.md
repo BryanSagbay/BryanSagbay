@@ -1,5 +1,4 @@
 VALUES ('Jane', 'Doe', 'jane.doe@example.com', 65000.00);
-Usa el código con precaución.3. Select DataRetrieves specific columns for active or high-earning employees.sqlSELECT EmployeeID, FirstName, LastName, Salary 
 FROM Employees 
 WHERE Salary >= 50000.00 
 ORDER BY LastName ASC;
