@@ -1,9 +1,3 @@
-
-Usa el código con precaución.5. Delete DataRemoves data safely using a WHERE clause.sqlDELETE FROM Employees 
-WHERE EmployeeID = 1;
-Usa el código con precaución.Intermediate & Advanced QueriesInner JoinCombines rows from two tables based on a related column.sqlSELECT e.FirstName, e.LastName, d.DepartmentName
-FROM Employees e
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
