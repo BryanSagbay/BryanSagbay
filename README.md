@@ -3,12 +3,7 @@ Usa el código con precaución.5. Delete DataRemoves data safely using a WHERE c
 WHERE EmployeeID = 1;
 Usa el código con precaución.Intermediate & Advanced QueriesInner JoinCombines rows from two tables based on a related column.sqlSELECT e.FirstName, e.LastName, d.DepartmentName
 FROM Employees e
-INNER JOIN Departments d ON e.DepartmentID = d.DepartmentID;
-Usa el código con precaución.Aggregation and GroupingCalculates the total salary spent per department, filtering for groups exceeding $100,000.sqlSELECT DepartmentID, SUM(Salary) AS TotalBudget
-FROM Employees
-GROUP BY DepartmentID
-HAVING SUM(Salary) > 100000.00;
-Usa el código con precaución.
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
