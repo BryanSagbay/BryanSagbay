@@ -1,5 +1,5 @@
 
- Works with SQL Server Management Studio (SSMS) to view and edit databases.Common EditionsExpress: A free version for small web and desktop apps.Developer: A free version with full features for testing and learning.Standard & Enterprise: Paid versions for large business systems with heavy use.If you want to move forward, tell me:Are you trying to install SQL Server?Do you need help writing a SQL query?Are you looking to connect an app to a database?
+ Common EditionsExpress: A free version for small web and desktop apps.Developer: A free version with full features for testing and learning.Standard & Enterprise: Paid versions for large business systems with heavy use.If you want to move forward, tell me:Are you trying to install SQL Server?Do you need help writing a SQL query?Are you looking to connect an app to a database?
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
