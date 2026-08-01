@@ -1,7 +1,4 @@
--- Delete a specific record
-DELETE FROM Employees
-WHERE EmployeeID = 2;
-Usa el código con precaución.3. Aggregation and GroupingAggregate functions allow you to perform calculations on sets of rows.sql-- Calculate the average salary and total staff size
+
 SELECT 
     COUNT(EmployeeID) AS TotalEmployees,
     AVG(Salary) AS AverageSalary,
