@@ -1,12 +1,3 @@
-GO
-Usa el código con precaución.2. Data Manipulation Language (DML)Use these statements to add, modify, delete, and view your records.sql-- Insert multiple records
-INSERT INTO Employees (FirstName, LastName, Email, Salary)
-VALUES 
-('Jane', 'Doe', 'jane.doe@example.com', 65000.00),
-('John', 'Smith', 'john.smith@example.com', 55000.00),
-('Alice', 'Johnson', 'alice.j@example.com', 72000.00);
-
--- Query data using filtering and sorting
 SELECT EmployeeID, FirstName, LastName, Salary
 FROM Employees
 WHERE Salary > 60000
