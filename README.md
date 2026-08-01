@@ -1,8 +1,3 @@
--- Switch context to the new database
-USE CompanyDB;
-GO
-
--- Create a table with constraints
 CREATE TABLE Employees (
     EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
     FirstName VARCHAR(50) NOT NULL,
