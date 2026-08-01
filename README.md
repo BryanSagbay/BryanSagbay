@@ -1,4 +1,3 @@
-Microsoft SQL Server utilizes Transact-SQL (T-SQL) to manage and manipulate relational databases.Below are fundamental, practical examples categorized by everyday database operations.1. Data Definition Language (DDL)These commands define and alter your database structures.sql-- Create a new database
 CREATE DATABASE CompanyDB;
 GO
 
