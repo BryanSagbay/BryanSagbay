@@ -1,5 +1,3 @@
-CREATE DATABASE CompanyDB;
-GO
 
 -- Switch context to the new database
 USE CompanyDB;
