@@ -1,9 +1,3 @@
-
-
--- Delete a specific record
-DELETE FROM Employees
-WHERE EmployeeID = 2;
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
