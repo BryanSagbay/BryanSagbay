@@ -1,7 +1,4 @@
--- Update specific data records
-UPDATE Employees
-SET Salary = 68000.00
-WHERE EmployeeID = 1;
+
 
 -- Delete a specific record
 DELETE FROM Employees
