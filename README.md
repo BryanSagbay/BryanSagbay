@@ -1,8 +1,3 @@
-SELECT EmployeeID, FirstName, LastName, Salary
-FROM Employees
-WHERE Salary > 60000
-ORDER BY LastName ASC;
-
 -- Update specific data records
 UPDATE Employees
 SET Salary = 68000.00
