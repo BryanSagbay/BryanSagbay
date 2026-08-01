@@ -1,11 +1,3 @@
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName VARCHAR(50) NOT NULL,
-    LastName VARCHAR(50) NOT NULL,
-    Email VARCHAR(100) UNIQUE,
-    HireDate DATE DEFAULT GETDATE(),
-    Salary DECIMAL(10,2)
-);
 GO
 Usa el código con precaución.2. Data Manipulation Language (DML)Use these statements to add, modify, delete, and view your records.sql-- Insert multiple records
 INSERT INTO Employees (FirstName, LastName, Email, Salary)
