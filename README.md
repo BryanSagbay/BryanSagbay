@@ -1,3 +1,50 @@
+
+Microsoft SQL Server utilizes Transact-SQL (T-SQL) to manage and manipulate relational databases.Below are fundamental, practical examples categorized by everyday database operations.1. Data Definition Language (DDL)These commands define and alter your database structures.sql-- Create a new database
+CREATE DATABASE CompanyDB;
+GO
+
+-- Switch context to the new database
+USE CompanyDB;
+GO
+
+-- Create a table with constraints
+CREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) UNIQUE,
+    HireDate DATE DEFAULT GETDATE(),
+    Salary DECIMAL(10,2)
+);
+GO
+Usa el código con precaución.2. Data Manipulation Language (DML)Use these statements to add, modify, delete, and view your records.sql-- Insert multiple records
+INSERT INTO Employees (FirstName, LastName, Email, Salary)
+VALUES 
+('Jane', 'Doe', 'jane.doe@example.com', 65000.00),
+('John', 'Smith', 'john.smith@example.com', 55000.00),
+('Alice', 'Johnson', 'alice.j@example.com', 72000.00);
+
+-- Query data using filtering and sorting
+SELECT EmployeeID, FirstName, LastName, Salary
+FROM Employees
+WHERE Salary > 60000
+ORDER BY LastName ASC;
+
+-- Update specific data records
+UPDATE Employees
+SET Salary = 68000.00
+WHERE EmployeeID = 1;
+
+-- Delete a specific record
+DELETE FROM Employees
+WHERE EmployeeID = 2;
+Usa el código con precaución.3. Aggregation and GroupingAggregate functions allow you to perform calculations on sets of rows.sql-- Calculate the average salary and total staff size
+SELECT 
+    COUNT(EmployeeID) AS TotalEmployees,
+    AVG(Salary) AS AverageSalary,
+    MAX(Salary) AS HighestSalary
+FROM Employees;
+Usa el código con precaución.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
