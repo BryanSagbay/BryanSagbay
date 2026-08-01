@@ -1,10 +1,3 @@
-
-SELECT 
-    COUNT(EmployeeID) AS TotalEmployees,
-    AVG(Salary) AS AverageSalary,
-    MAX(Salary) AS HighestSalary
-FROM Employees;
-Usa el código con precaución.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
