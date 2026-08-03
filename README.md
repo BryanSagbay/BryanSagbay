@@ -1,10 +1,4 @@
--- Find employees whose last name starts with 'J'
-SELECT * FROM Employees
-WHERE LastName LIKE 'J%';
-Usa el código con precaución.4. Updating and Deleting DataModify existing data safely using precise filtering criteria.sql-- Give a raise to the IT department
-UPDATE Employees
-SET Salary = Salary * 1.05
-WHERE Department = 'IT';
+
 
 -- Remove a specific employee record
 DELETE FROM Employees
