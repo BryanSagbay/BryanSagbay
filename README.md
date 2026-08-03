@@ -1,8 +1,4 @@
-'Smith', 'IT', 85000.00),
-('Bob', 'Johnson', 'HR', 60000.00),
-('Charlie', 'Brown', 'IT', 90000.00),
-('David', 'Miller', 'Finance', 75000.00);
-GO
+
 Usa el código con precaución.3. Querying and Filtering DataRetrieve specific records using filtering, sorting, and pattern-matching conditions.sql-- Find high earners in the IT department ordered by salary
 SELECT EmployeeID, FirstName, LastName, Salary
 FROM Employees
