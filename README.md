@@ -1,5 +1,3 @@
-
-Usa el código con precaución.3. Querying and Filtering DataRetrieve specific records using filtering, sorting, and pattern-matching conditions.sql-- Find high earners in the IT department ordered by salary
 SELECT EmployeeID, FirstName, LastName, Salary
 FROM Employees
 WHERE Department = 'IT' AND Salary >= 80000.00
