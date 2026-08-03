@@ -1,8 +1,3 @@
-SELECT EmployeeID, FirstName, LastName, Salary
-FROM Employees
-WHERE Department = 'IT' AND Salary >= 80000.00
-ORDER BY Salary DESC;
-
 -- Find employees whose last name starts with 'J'
 SELECT * FROM Employees
 WHERE LastName LIKE 'J%';
