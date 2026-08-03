@@ -1,3 +1,53 @@
+Here are core T-SQL examples for Microsoft SQL Server, ranging from basic database operations to intermediate query logic.1. Database and Table ManagementCreate a brand new database and an indexed table to start storing your operational data.sql-- Create a new database
+CREATE DATABASE CompanyDB;
+GO
+
+USE CompanyDB;
+GO
+
+-- Create a table with constraints
+CREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    Department NVARCHAR(50),
+    Salary DECIMAL(10,2),
+    HireDate DATE DEFAULT GETDATE()
+);
+GO
+Usa el código con precaución.2. Inserting DataAdd multiple records into your newly created table using a single statement.sqlINSERT INTO Employees (FirstName, LastName, Department, Salary)
+VALUES 
+('Alice', 'Smith', 'IT', 85000.00),
+('Bob', 'Johnson', 'HR', 60000.00),
+('Charlie', 'Brown', 'IT', 90000.00),
+('David', 'Miller', 'Finance', 75000.00);
+GO
+Usa el código con precaución.3. Querying and Filtering DataRetrieve specific records using filtering, sorting, and pattern-matching conditions.sql-- Find high earners in the IT department ordered by salary
+SELECT EmployeeID, FirstName, LastName, Salary
+FROM Employees
+WHERE Department = 'IT' AND Salary >= 80000.00
+ORDER BY Salary DESC;
+
+-- Find employees whose last name starts with 'J'
+SELECT * FROM Employees
+WHERE LastName LIKE 'J%';
+Usa el código con precaución.4. Updating and Deleting DataModify existing data safely using precise filtering criteria.sql-- Give a raise to the IT department
+UPDATE Employees
+SET Salary = Salary * 1.05
+WHERE Department = 'IT';
+
+-- Remove a specific employee record
+DELETE FROM Employees
+WHERE EmployeeID = 2;
+Usa el código con precaución.5. Aggregations and GroupingCalculate summary statistics across different categories in your data.sql-- Get average salary and head count per department
+SELECT 
+    Department,
+    COUNT(EmployeeID) AS TotalEmployees,
+    AVG(Salary) AS AverageSalary
+FROM Employees
+GROUP BY Department
+HAVING COUNT(EmployeeID) > 0;
+Usa el código con precaución.Ready-Made Sample DatabasesIf you want to practice complex queries on fully built datasets, download Microsoft's official sample environments:AdventureWorks: The standard, enterprise-scale relational database example.WideWorldImporters: Modernized sample showcasing newer SQL Server features like JSON parsing and temporal tables.If you are looking for specific functionality, let me know if you want to see examples of JOIN operations, Stored Procedures, Common Table Expressions (CTEs), or Window Functions.GitHubAzure Data SQL Samples - Official Microsoft GitHub Repository ...Azure Data SQL Samples Repository * Wide World Importers sample database v1. 0 is the main sample for SQL Server 2016 and Azure SQ...Microsoft LearnMicrosoft SQL samples - SQL Server | Microsoft Learn20 jul 2026 — Code samples for SQL products are in the Microsoft SQL Server samples GitHub repository. Each sample includes a README file that e...Microsoft LearnBases de datos de ejemplo AdventureWorks - SQL Server20 jul 2026 — Implementación en Azure SQL Database Tiene dos opciones para ver datos de SQL Database de ejemplo. Puede usar un ejemplo al crear ...Mostrar todo
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
