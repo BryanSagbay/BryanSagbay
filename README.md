@@ -1,17 +1,4 @@
-USE CompanyDB;
-GO
-
--- Create a table with constraints
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName NVARCHAR(50) NOT NULL,
-    LastName NVARCHAR(50) NOT NULL,
-    Department NVARCHAR(50),
-    Salary DECIMAL(10,2),
-    HireDate DATE DEFAULT GETDATE()
-);
-GO
-Usa el código con precaución.2. Inserting DataAdd multiple records into your newly created table using a single statement.sqlINSERT INTO Employees (FirstName, LastName, Department, Salary)
+código con precaución.2. Inserting DataAdd multiple records into your newly created table using a single statement.sqlINSERT INTO Employees (FirstName, LastName, Department, Salary)
 VALUES 
 ('Alice', 'Smith', 'IT', 85000.00),
 ('Bob', 'Johnson', 'HR', 60000.00),
