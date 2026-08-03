@@ -1,7 +1,3 @@
-Here are core T-SQL examples for Microsoft SQL Server, ranging from basic database operations to intermediate query logic.1. Database and Table ManagementCreate a brand new database and an indexed table to start storing your operational data.sql-- Create a new database
-CREATE DATABASE CompanyDB;
-GO
-
 USE CompanyDB;
 GO
 
