@@ -1,6 +1,4 @@
-código con precaución.2. Inserting DataAdd multiple records into your newly created table using a single statement.sqlINSERT INTO Employees (FirstName, LastName, Department, Salary)
-VALUES 
-('Alice', 'Smith', 'IT', 85000.00),
+'Smith', 'IT', 85000.00),
 ('Bob', 'Johnson', 'HR', 60000.00),
 ('Charlie', 'Brown', 'IT', 90000.00),
 ('David', 'Miller', 'Finance', 75000.00);
