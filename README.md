@@ -1,6 +1,4 @@
 
-Usa el código con precaución.Sort Data (ORDER BY): Sort results in ascending or descending (DESC) order.sqlSELECT * FROM products ORDER BY price DESC;
-VALUES (1, 'Alice', 'Smith');
 Usa el código con precaución.Update Data: Modify existing records.sqlUPDATE employees SET salary = 60000 WHERE id = 1;
 Usa el código con precaución.Delete Data: Remove specific records.sqlDELETE FROM customers WHERE id = 1;
 Usa el código con precaución.Data Definition Language (DDL) - Structuring DatabasesCreate a Table: Define columns and data types.sqlCREATE TABLE employees (
