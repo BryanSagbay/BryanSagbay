@@ -1,9 +1,4 @@
 
-Usa el código con precaución.Data Definition Language (DDL) - Structuring DatabasesCreate a Table: Define columns and data types.sqlCREATE TABLE employees (
-    id INT PRIMARY KEY,
-    first_name VARCHAR(50),
-    salary DECIMAL(10,2)
-);
 Usa el código con precaución.Intermediate Queries - Aggregation & Combining TablesGroup & Aggregate (GROUP BY): Count records matching a category.sqlSELECT department_id, COUNT(*) FROM employees GROUP BY department_id;
 Usa el código con precaución.Join Tables (INNER JOIN): Combine rows from two different tables based on a related column.sqlSELECT orders.id, customers.first_name 
 FROM orders 
