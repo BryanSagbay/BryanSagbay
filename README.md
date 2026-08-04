@@ -1,5 +1,4 @@
 
-Usa el código con precaución.Intermediate Queries - Aggregation & Combining TablesGroup & Aggregate (GROUP BY): Count records matching a category.sqlSELECT department_id, COUNT(*) FROM employees GROUP BY department_id;
 Usa el código con precaución.Join Tables (INNER JOIN): Combine rows from two different tables based on a related column.sqlSELECT orders.id, customers.first_name 
 FROM orders 
 INNER JOIN customers ON orders.customer_id = customers.id;
