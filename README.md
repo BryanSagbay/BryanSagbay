@@ -1,6 +1,4 @@
 
-Usa el código con precaución.Select Specific Columns: Fetch only specific details.sqlSELECT first_name, last_name FROM customers;
-Usa el código con precaución.Filter Data (WHERE): Limit rows using a condition.sqlSELECT * FROM employees WHERE salary > 50000;
 Usa el código con precaución.Sort Data (ORDER BY): Sort results in ascending or descending (DESC) order.sqlSELECT * FROM products ORDER BY price DESC;
 Usa el código con precaución.Data Manipulation Language (DML) - Modifying DataInsert Data: Add a new record into a table.sqlINSERT INTO customers (id, first_name, last_name) 
 VALUES (1, 'Alice', 'Smith');
