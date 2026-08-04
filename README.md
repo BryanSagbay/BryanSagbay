@@ -1,5 +1,3 @@
-INNER JOIN customers ON orders.customer_id = customers.id;
-Usa el código con precaución.If you are working on a project, tell me what database platform you are using (like MySQL or PostgreSQL) and what problem you are trying to solve so I can write the exact query you need.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
