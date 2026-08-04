@@ -1,4 +1,4 @@
-databases.Here are the most common SQL examples organized by function:Data Query Language (DQL) - Retrieving DataSelect All: Retrieve every column and row from a table.sqlSELECT * FROM customers;
+
 Usa el código con precaución.Select Specific Columns: Fetch only specific details.sqlSELECT first_name, last_name FROM customers;
 Usa el código con precaución.Filter Data (WHERE): Limit rows using a condition.sqlSELECT * FROM employees WHERE salary > 50000;
 Usa el código con precaución.Sort Data (ORDER BY): Sort results in ascending or descending (DESC) order.sqlSELECT * FROM products ORDER BY price DESC;
