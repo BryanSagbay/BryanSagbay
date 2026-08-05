@@ -1,9 +1,3 @@
-
-INNER JOIN Departments D ON E.DepartmentID = D.DepartmentID;
-Usa el código con precaución.Aggregation: Bundles data arrays into calculated analytical outcomes.sqlSELECT DepartmentID, AVG(Salary) AS AverageSalary, COUNT(*) AS Headcount
-FROM Employees
-GROUP BY DepartmentID
-HAVING COUNT(*) > 5;
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
