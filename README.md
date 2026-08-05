@@ -1,7 +1,3 @@
-SET Salary = Salary * 1.05
-WHERE HireDate < '2025-01-01';
-Usa el código con precaución.Delete Rows: Purges specific row instances matching targeted search criteria.sqlDELETE FROM Employees
-WHERE EmployeeID = 2;
 Usa el código con precaución.Querying DataExtract tailored insights from your database structures:Basic Select: Pulls specified column details using clean sorting layouts.sqlSELECT FirstName, LastName, Salary
 FROM Employees
 WHERE Salary >= 60000
