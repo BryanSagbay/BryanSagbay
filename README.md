@@ -1,4 +1,3 @@
-Usa el código con precaución.Update Rows: Edits existing field variables safely via filtered conditional tags.sqlUPDATE Employees
 SET Salary = Salary * 1.05
 WHERE HireDate < '2025-01-01';
 Usa el código con precaución.Delete Rows: Purges specific row instances matching targeted search criteria.sqlDELETE FROM Employees
