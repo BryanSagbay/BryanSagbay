@@ -1,8 +1,4 @@
-FROM Employees
-WHERE Salary >= 60000
-ORDER BY LastName ASC;
-Usa el código con precaución.Inner Join: Connects multiple relational targets across mapped key attributes.sqlSELECT E.FirstName, E.LastName, D.DepartmentName
-FROM Employees E
+
 INNER JOIN Departments D ON E.DepartmentID = D.DepartmentID;
 Usa el código con precaución.Aggregation: Bundles data arrays into calculated analytical outcomes.sqlSELECT DepartmentID, AVG(Salary) AS AverageSalary, COUNT(*) AS Headcount
 FROM Employees
