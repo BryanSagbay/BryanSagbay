@@ -1,4 +1,3 @@
-Usa el código con precaución.Querying DataExtract tailored insights from your database structures:Basic Select: Pulls specified column details using clean sorting layouts.sqlSELECT FirstName, LastName, Salary
 FROM Employees
 WHERE Salary >= 60000
 ORDER BY LastName ASC;
