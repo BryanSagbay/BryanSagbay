@@ -1,7 +1,4 @@
-Database and Table SetupUse these commands to build your initial structural architecture:Create Database: Initializes a new physical database wrapper.sqlCREATE DATABASE CorporateDB;
-GO
-Usa el código con precaución.Create Table: Defines a table schema with specific data types and constraint logic.sqlUSE CorporateDB;
-GO
+
 
 CREATE TABLE Employees (
     EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
