@@ -1,3 +1,34 @@
+Database and Table SetupUse these commands to build your initial structural architecture:Create Database: Initializes a new physical database wrapper.sqlCREATE DATABASE CorporateDB;
+GO
+Usa el código con precaución.Create Table: Defines a table schema with specific data types and constraint logic.sqlUSE CorporateDB;
+GO
+
+CREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    HireDate DATE DEFAULT GETDATE(),
+    Salary DECIMAL(10,2) NULL
+);
+Usa el código con precaución.Data Manipulation (DML)Modify and add actual record rows inside your structural tables:Insert Rows: Adds fresh structural data rows directly into target fields.sqlINSERT INTO Employees (FirstName, LastName, Salary)
+VALUES ('Jane', 'Doe', 75000.00),
+       ('John', 'Smith', 62000.50);
+Usa el código con precaución.Update Rows: Edits existing field variables safely via filtered conditional tags.sqlUPDATE Employees
+SET Salary = Salary * 1.05
+WHERE HireDate < '2025-01-01';
+Usa el código con precaución.Delete Rows: Purges specific row instances matching targeted search criteria.sqlDELETE FROM Employees
+WHERE EmployeeID = 2;
+Usa el código con precaución.Querying DataExtract tailored insights from your database structures:Basic Select: Pulls specified column details using clean sorting layouts.sqlSELECT FirstName, LastName, Salary
+FROM Employees
+WHERE Salary >= 60000
+ORDER BY LastName ASC;
+Usa el código con precaución.Inner Join: Connects multiple relational targets across mapped key attributes.sqlSELECT E.FirstName, E.LastName, D.DepartmentName
+FROM Employees E
+INNER JOIN Departments D ON E.DepartmentID = D.DepartmentID;
+Usa el código con precaución.Aggregation: Bundles data arrays into calculated analytical outcomes.sqlSELECT DepartmentID, AVG(Salary) AS AverageSalary, COUNT(*) AS Headcount
+FROM Employees
+GROUP BY DepartmentID
+HAVING COUNT(*) > 5;
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
