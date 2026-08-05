@@ -1,12 +1,4 @@
 
-
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName VARCHAR(50) NOT NULL,
-    LastName VARCHAR(50) NOT NULL,
-    HireDate DATE DEFAULT GETDATE(),
-    Salary DECIMAL(10,2) NULL
-);
 Usa el código con precaución.Data Manipulation (DML)Modify and add actual record rows inside your structural tables:Insert Rows: Adds fresh structural data rows directly into target fields.sqlINSERT INTO Employees (FirstName, LastName, Salary)
 VALUES ('Jane', 'Doe', 75000.00),
        ('John', 'Smith', 62000.50);
