@@ -1,11 +1,4 @@
 
-Usa el código con precaución.2. Inserting and Modifying Data (DML)These commands allow you to populate, change, and remove records from your tables.sql-- Insert multiple records
-INSERT INTO Departments (DepartmentName) 
-VALUES ('Engineering'), ('HR'), ('Sales');
-
-INSERT INTO Employees (FirstName, LastName, Email, Salary, DepartmentID)
-VALUES ('Jane', 'Doe', 'jane.doe@company.com', 85000.00, 1),
-       ('John', 'Smith', 'john.smith@company.com', 60000.00, 2);
 
 -- Update an existing record
 UPDATE Employees
