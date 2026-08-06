@@ -1,10 +1,3 @@
-
-
--- Update an existing record
-UPDATE Employees
-SET Salary = 90000.00
-WHERE EmployeeID = 1;
-
 -- Delete a record safely using a condition
 DELETE FROM Employees
 WHERE EmployeeID = 2;
