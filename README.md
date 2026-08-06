@@ -1,6 +1,3 @@
-1. Database and Table CreationBefore storing data, you must define the structure of your database and tables.sql-- Create a new database
-CREATE DATABASE CompanyDB;
-GO
 
 -- Switch to the new database context
 USE CompanyDB;
