@@ -1,11 +1,3 @@
--- Delete a record safely using a condition
-DELETE FROM Employees
-WHERE EmployeeID = 2;
-Usa el código con precaución.3. Querying Data with Joins and AggregatesExtract and combine relevant details across multiple tables using common query filters.sql-- Select specific records matching a criteria using INNER JOIN
-SELECT e.EmployeeID, e.FirstName, e.LastName, d.DepartmentName, e.Salary
-FROM Employees e
-INNER JOIN Departments d ON e.DepartmentID = d.DepartmentID
-WHERE e.Salary >= 70000.00;
 
 -- Calculate aggregate performance (average salary per department)
 SELECT d.DepartmentName, COUNT(e.EmployeeID) AS TotalEmployees, AVG(e.Salary) AS AvgSalary
