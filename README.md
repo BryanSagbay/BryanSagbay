@@ -1,12 +1,4 @@
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName VARCHAR(50) NOT NULL,
-    LastName VARCHAR(50) NOT NULL,
-    Email VARCHAR(100) UNIQUE,
-    HireDate DATE DEFAULT GETDATE(),
-    Salary DECIMAL(10,2),
-    DepartmentID INT FOREIGN KEY REFERENCES Departments(DepartmentID)
-);
+
 Usa el código con precaución.2. Inserting and Modifying Data (DML)These commands allow you to populate, change, and remove records from your tables.sql-- Insert multiple records
 INSERT INTO Departments (DepartmentName) 
 VALUES ('Engineering'), ('HR'), ('Sales');
