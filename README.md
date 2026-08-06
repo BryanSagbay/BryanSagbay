@@ -1,3 +1,66 @@
+1. Database and Table CreationBefore storing data, you must define the structure of your database and tables.sql-- Create a new database
+CREATE DATABASE CompanyDB;
+GO
+
+-- Switch to the new database context
+USE CompanyDB;
+GO
+
+-- Create a table with primary and foreign keys
+CREATE TABLE Departments (
+    DepartmentID INT IDENTITY(1,1) PRIMARY KEY,
+    DepartmentName VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) UNIQUE,
+    HireDate DATE DEFAULT GETDATE(),
+    Salary DECIMAL(10,2),
+    DepartmentID INT FOREIGN KEY REFERENCES Departments(DepartmentID)
+);
+Usa el código con precaución.2. Inserting and Modifying Data (DML)These commands allow you to populate, change, and remove records from your tables.sql-- Insert multiple records
+INSERT INTO Departments (DepartmentName) 
+VALUES ('Engineering'), ('HR'), ('Sales');
+
+INSERT INTO Employees (FirstName, LastName, Email, Salary, DepartmentID)
+VALUES ('Jane', 'Doe', 'jane.doe@company.com', 85000.00, 1),
+       ('John', 'Smith', 'john.smith@company.com', 60000.00, 2);
+
+-- Update an existing record
+UPDATE Employees
+SET Salary = 90000.00
+WHERE EmployeeID = 1;
+
+-- Delete a record safely using a condition
+DELETE FROM Employees
+WHERE EmployeeID = 2;
+Usa el código con precaución.3. Querying Data with Joins and AggregatesExtract and combine relevant details across multiple tables using common query filters.sql-- Select specific records matching a criteria using INNER JOIN
+SELECT e.EmployeeID, e.FirstName, e.LastName, d.DepartmentName, e.Salary
+FROM Employees e
+INNER JOIN Departments d ON e.DepartmentID = d.DepartmentID
+WHERE e.Salary >= 70000.00;
+
+-- Calculate aggregate performance (average salary per department)
+SELECT d.DepartmentName, COUNT(e.EmployeeID) AS TotalEmployees, AVG(e.Salary) AS AvgSalary
+FROM Departments d
+LEFT JOIN Employees e ON d.DepartmentID = e.DepartmentID
+GROUP BY d.DepartmentName;
+Usa el código con precaución.4. Advanced T-SQL FeaturesVariables, conditional logic (CASE statements), and temporary tables help build sophisticated logic.sql-- Declare and use a variable
+DECLARE @MinSalary DECIMAL(10,2) = 50000.00;
+
+-- Use a CASE statement for conditional grouping inside a query
+SELECT FirstName, LastName, Salary,
+       CASE 
+           WHEN Salary >= 80000 THEN 'High Tier'
+           WHEN Salary >= 50000 THEN 'Mid Tier'
+           ELSE 'Entry Tier'
+       END AS SalaryBracket
+FROM Employees
+WHERE Salary > @MinSalary;
+Usa el código con precaución.Official Ready-to-Use Sample DatabasesIf you want to practice with pre-configured relational data instead of writing your own script from scratch, download these official sample environments hosted on the Azure Data SQL Samples GitHub Repository:AdventureWorks: The primary, comprehensive operational database (OLTP) modeling a fictional bicycle manufacturing company.Wide World Importers: The standard dataset for SQL Server 2016 and newer, showcasing modern features like JSON and temporal tables.Northwind & Pubs: Lightweight legacy databases containing sample tracking data for order management and book publishing.If you want to continue, let me know:What specific business scenario you are trying to solve (e.g., inventory tracking, user login)?Do you need help with performance tuning (like indexing) or automation (like stored procedures)?I can generate custom-tailored scripts to fit your project.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
