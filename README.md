@@ -1,6 +1,3 @@
-Usa el código con precaución.4. Advanced T-SQL FeaturesVariables, conditional logic (CASE statements), and temporary tables help build sophisticated logic.sql-- Declare and use a variable
-DECLARE @MinSalary DECIMAL(10,2) = 50000.00;
-
 -- Use a CASE statement for conditional grouping inside a query
 SELECT FirstName, LastName, Salary,
        CASE 
