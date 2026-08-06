@@ -1,9 +1,3 @@
-
--- Calculate aggregate performance (average salary per department)
-SELECT d.DepartmentName, COUNT(e.EmployeeID) AS TotalEmployees, AVG(e.Salary) AS AvgSalary
-FROM Departments d
-LEFT JOIN Employees e ON d.DepartmentID = e.DepartmentID
-GROUP BY d.DepartmentName;
 Usa el código con precaución.4. Advanced T-SQL FeaturesVariables, conditional logic (CASE statements), and temporary tables help build sophisticated logic.sql-- Declare and use a variable
 DECLARE @MinSalary DECIMAL(10,2) = 50000.00;
 
