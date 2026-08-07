@@ -1,13 +1,3 @@
-
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName NVARCHAR(50) NOT NULL,
-    LastName NVARCHAR(50) NOT NULL,
-    Email VARCHAR(100) UNIQUE,
-    Salary DECIMAL(10,2) CHECK (Salary > 0),
-    HireDate DATE DEFAULT GETDATE()
-);
-GO
 Usa el código con precaución.Data Manipulation Language (DML)3. Insert RecordsAdds single or multiple rows into a table.sqlINSERT INTO Employees (FirstName, LastName, Email, Salary)
 VALUES 
 ('Alice', 'Smith', 'alice.smith@example.com', 65000.00),
