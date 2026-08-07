@@ -1,4 +1,3 @@
-Microsoft SQL Server uses Transact-SQL (T-SQL), which extends standard SQL with additional features like error handling, declaring variables, and string manipulation.Below is a comprehensive guide featuring essential T-SQL queries, ranging from basic database operations to advanced data analysis techniques.Database and Table Operations1. Create a DatabaseCreates a new database instance container.sqlCREATE DATABASE CompanyDB;
 GO
 Usa el código con precaución.2. Create a Table with ConstraintsCreates a table named Employees with automated primary keys, text constraints, and basic validation.sqlUSE CompanyDB;
 GO
