@@ -1,12 +1,4 @@
-Usa el código con precaución.4. Update RecordsModifies data safely using filtering criteria.sqlUPDATE Employees
-SET Salary = Salary * 1.05
-WHERE EmployeeID = 1;
-Usa el código con precaución.5. Delete RecordsRemoves records based on specific parameters.sqlDELETE FROM Employees
-WHERE EmployeeID = 2;
-Usa el código con precaución.Data Querying & Analysis6. Basic Select with Filtering and SortingFinds records matching unique criteria and organizes the resulting data.sqlSELECT EmployeeID, FirstName, LastName, Salary
-FROM Employees
-WHERE Salary >= 60000
-ORDER BY LastName ASC;
+
 Usa el código con precaución.7. Inner JoinCombines records across multiple tables by linking their keys.sql-- Assumes a second table 'Departments' exists with DepartmentID
 SELECT E.FirstName, E.LastName, D.DepartmentName
 FROM Employees E
