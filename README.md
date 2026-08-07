@@ -1,10 +1,4 @@
-
-ced T-SQL Features9. Common Table Expressions (CTE) & Window FunctionsCalculates running analytical operations across data subsets without grouping rows.sqlWITH RankedEmployees AS (
-    SELECT FirstName, LastName, Salary, DepartmentID,
-           ROW_NUMBER() OVER (PARTITION BY DepartmentID ORDER BY Salary DESC) AS SalaryRank
-    FROM Employees
-)
-SELECT FirstName, LastName, Salary, DepartmentID
+FirstName, LastName, Salary, DepartmentID
 FROM RankedEmployees
 WHERE SalaryRank = 1; -- Returns the highest paid employee in each department
 Usa el código con precaución.10. Stored Procedure with VariablesSaves modular, parameterized code inside the database engine for optimized reuse.sqlCREATE PROCEDURE GetEmployeeByEmail
