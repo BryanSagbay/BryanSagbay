@@ -1,6 +1,3 @@
-GO
-Usa el código con precaución.2. Create a Table with ConstraintsCreates a table named Employees with automated primary keys, text constraints, and basic validation.sqlUSE CompanyDB;
-GO
 
 CREATE TABLE Employees (
     EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
