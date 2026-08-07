@@ -1,13 +1,5 @@
 
-Usa el código con precaución.7. Inner JoinCombines records across multiple tables by linking their keys.sql-- Assumes a second table 'Departments' exists with DepartmentID
-SELECT E.FirstName, E.LastName, D.DepartmentName
-FROM Employees E
-INNER JOIN Departments D ON E.DepartmentID = D.DepartmentID;
-Usa el código con precaución.8. Aggregate Data with Group ByCalculates group metrics and applies filters to the grouped results.sqlSELECT DepartmentID, COUNT(*) AS EmployeeCount, AVG(Salary) AS AverageSalary
-FROM Employees
-GROUP BY DepartmentID
-HAVING AVG(Salary) > 50000;
-Usa el código con precaución.Advanced T-SQL Features9. Common Table Expressions (CTE) & Window FunctionsCalculates running analytical operations across data subsets without grouping rows.sqlWITH RankedEmployees AS (
+ced T-SQL Features9. Common Table Expressions (CTE) & Window FunctionsCalculates running analytical operations across data subsets without grouping rows.sqlWITH RankedEmployees AS (
     SELECT FirstName, LastName, Salary, DepartmentID,
            ROW_NUMBER() OVER (PARTITION BY DepartmentID ORDER BY Salary DESC) AS SalaryRank
     FROM Employees
