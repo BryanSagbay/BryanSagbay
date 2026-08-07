@@ -1,8 +1,3 @@
-Usa el código con precaución.Data Manipulation Language (DML)3. Insert RecordsAdds single or multiple rows into a table.sqlINSERT INTO Employees (FirstName, LastName, Email, Salary)
-VALUES 
-('Alice', 'Smith', 'alice.smith@example.com', 65000.00),
-('Bob', 'Jones', 'bob.jones@example.com', 55000.00),
-('Charlie', 'Brown', 'charlie.brown@example.com', 72000.00);
 Usa el código con precaución.4. Update RecordsModifies data safely using filtering criteria.sqlUPDATE Employees
 SET Salary = Salary * 1.05
 WHERE EmployeeID = 1;
