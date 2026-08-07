@@ -1,12 +1,4 @@
-FirstName, LastName, Salary, DepartmentID
-FROM RankedEmployees
-WHERE SalaryRank = 1; -- Returns the highest paid employee in each department
-Usa el código con precaución.10. Stored Procedure with VariablesSaves modular, parameterized code inside the database engine for optimized reuse.sqlCREATE PROCEDURE GetEmployeeByEmail
-    @EmailAddress VARCHAR(100)
-AS
-BEGIN
-    SET NOCOUNT ON;
-    
+
     SELECT EmployeeID, FirstName, LastName, Salary
     FROM Employees
     WHERE Email = @EmailAddress;
