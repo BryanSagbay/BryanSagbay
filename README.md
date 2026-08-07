@@ -1,13 +1,3 @@
-
-    SELECT EmployeeID, FirstName, LastName, Salary
-    FROM Employees
-    WHERE Email = @EmailAddress;
-END;
-GO
-
--- To execute the procedure:
-EXEC GetEmployeeByEmail @EmailAddress = 'alice.smith@example.com';
-Usa el código con precaución.Official Ready-Made Sample DatabasesIf you are looking for ready-made sample schemas populated with dummy data for deep practice, testing, or benchmarking, Microsoft officially maintains several open-source databases:AdventureWorks: The standard, classic fictional bicycle manufacturing company database used for OLTP, data warehousing, and lightweight scenarios.WideWorldImporters: A modern wholesale grocery distributor database showcasing newer SQL Server engine features like JSON parsing, temporal tables, and In-Memory OLTP.Northwind and Pubs: Legacy, highly simplified database scripts built for older application tutorials.Would you like help writing a specific type of query, such as database performance tuning scripts, JSON data processing, or handling try-catch error blocks?
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
