@@ -1,3 +1,57 @@
+Microsoft SQL Server uses Transact-SQL (T-SQL), which extends standard SQL with procedural programming features, local variables, and string processing support.The essential code examples below cover database creation, data manipulation, and advanced querying.1. Database and Table CreationUse CREATE DATABASE and CREATE TABLE to set up your storage structure. The IDENTITY(1,1) constraint automatically generates primary key values starting at 1 and incrementing by 1.sql-- Create a new database
+CREATE DATABASE CompanyDB;
+GO
+
+-- Switch to the new database
+USE CompanyDB;
+GO
+
+-- Create an Employees table
+CREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    Email VARCHAR(100) UNIQUE,
+    HireDate DATE DEFAULT GETDATE(),
+    Salary DECIMAL(10,2)
+);
+GO
+Usa el código con precaución.2. Inserting DataInsert single or multiple rows into a table using INSERT INTO.sql-- Insert a single record
+INSERT INTO Employees (FirstName, LastName, Email, Salary)
+VALUES ('Jane', 'Doe', 'jane.doe@example.com', 75000.00);
+
+-- Insert multiple records at once
+INSERT INTO Employees (FirstName, LastName, Email, Salary)
+VALUES 
+('John', 'Smith', 'john.smith@example.com', 62000.50),
+('Alice', 'Johnson', 'alice.j@example.com', 85000.00);
+Usa el código con precaución.3. Querying DataRetrieve specific columns and filter results using operators.sql-- Select specific columns for high earners
+SELECT FirstName, LastName, Salary
+FROM Employees
+WHERE Salary >= 70000.00
+ORDER BY Salary DESC;
+Usa el código con precaución.4. Updating and Deleting DataModify existing data safely using conditions. Always include a WHERE clause to avoid unintentionally modifying the entire table.sql-- Update an employee's salary
+UPDATE Employees
+SET Salary = 78000.00
+WHERE Email = 'jane.doe@example.com';
+
+-- Delete a specific record
+DELETE FROM Employees
+WHERE EmployeeID = 2;
+Usa el código con precaución.5. Stored ProceduresStored procedures allow you to save and reuse complex T-SQL code. They accept inputs and make code execution more secure and efficient.sql-- Create a stored procedure with a parameter
+CREATE PROCEDURE GetEmployeesBySalary
+    @MinSalary DECIMAL(10,2)
+AS
+BEGIN
+    SELECT FirstName, LastName, Salary 
+    FROM Employees
+    WHERE Salary >= @MinSalary;
+END;
+GO
+
+-- Execute the stored procedure
+EXEC GetEmployeesBySalary @MinSalary = 70000.00;
+Usa el código con precaución.Ready-To-Use Practice DatabasesIf you are learning SQL Server and want large, pre-made datasets to test queries, Microsoft provides official sample databases that you can download and restore via Azure Data SQL Samples on GitHub:AdventureWorks: The standard enterprise database containing production, sales, and human resources data.WideWorldImporters: A modern database showcasing newer SQL Server features like temporal tables and JSON support.To practice deeper, tell me if you want examples of joins, indexing, or window functions.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
