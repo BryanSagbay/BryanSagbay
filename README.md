@@ -1,4 +1,4 @@
-Microsoft SQL Server uses Transact-SQL (T-SQL), an extended version of standard SQL that incorporates procedural programming capabilities, local variables, and string/data processing functions.The examples below cover basic to advanced database operations commonly used in SQL Server.Creating Databases & TablesBefore manipulating data, you must define the structures to hold it.sql-- 1. Create a new database
+
 CREATE DATABASE CompanyDB;
 GO
 
