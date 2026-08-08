@@ -1,18 +1,3 @@
--- Insert multiple records at once
-INSERT INTO Employees (FirstName, LastName, Email, Salary)
-VALUES 
-('John', 'Smith', 'john.smith@example.com', 62000.50),
-('Alice', 'Johnson', 'alice.j@example.com', 85000.00);
-Usa el código con precaución.3. Querying DataRetrieve specific columns and filter results using operators.sql-- Select specific columns for high earners
-SELECT FirstName, LastName, Salary
-FROM Employees
-WHERE Salary >= 70000.00
-ORDER BY Salary DESC;
-Usa el código con precaución.4. Updating and Deleting DataModify existing data safely using conditions. Always include a WHERE clause to avoid unintentionally modifying the entire table.sql-- Update an employee's salary
-UPDATE Employees
-SET Salary = 78000.00
-WHERE Email = 'jane.doe@example.com';
-
 -- Delete a specific record
 DELETE FROM Employees
 WHERE EmployeeID = 2;
