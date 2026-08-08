@@ -1,4 +1,3 @@
--- 3. Create an Employees table with a Foreign Key
 CREATE TABLE Employees (
     EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
     FirstName VARCHAR(50) NOT NULL,
