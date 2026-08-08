@@ -1,13 +1,3 @@
--- Create an Employees table
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName NVARCHAR(50) NOT NULL,
-    LastName NVARCHAR(50) NOT NULL,
-    Email VARCHAR(100) UNIQUE,
-    HireDate DATE DEFAULT GETDATE(),
-    Salary DECIMAL(10,2)
-);
-GO
 Usa el código con precaución.2. Inserting DataInsert single or multiple rows into a table using INSERT INTO.sql-- Insert a single record
 INSERT INTO Employees (FirstName, LastName, Email, Salary)
 VALUES ('Jane', 'Doe', 'jane.doe@example.com', 75000.00);
