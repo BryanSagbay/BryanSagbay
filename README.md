@@ -1,10 +1,4 @@
 
-CREATE DATABASE CompanyDB;
-GO
-
--- Switch to the new database context
-USE CompanyDB;
-GO
 
 -- 2. Create a Department table
 CREATE TABLE Departments (
