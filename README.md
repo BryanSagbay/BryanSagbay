@@ -1,3 +1,48 @@
+Microsoft SQL Server uses Transact-SQL (T-SQL), an extended version of standard SQL that incorporates procedural programming capabilities, local variables, and string/data processing functions.The examples below cover basic to advanced database operations commonly used in SQL Server.Creating Databases & TablesBefore manipulating data, you must define the structures to hold it.sql-- 1. Create a new database
+CREATE DATABASE CompanyDB;
+GO
+
+-- Switch to the new database context
+USE CompanyDB;
+GO
+
+-- 2. Create a Department table
+CREATE TABLE Departments (
+    DepartmentID INT IDENTITY(1,1) PRIMARY KEY, -- Auto-incrementing primary key
+    DepartmentName VARCHAR(50) NOT NULL,
+    Location VARCHAR(100) DEFAULT 'Main Campus'
+);
+
+-- 3. Create an Employees table with a Foreign Key
+CREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) UNIQUE,
+    HireDate DATE DEFAULT GETDATE(), -- Defaults to current system date
+    Salary DECIMAL(10, 2),
+    DepartmentID INT FOREIGN KEY REFERENCES Departments(DepartmentID)
+);
+Usa el código con precaución.Data Manipulation Language (DML)These commands handle data insertions, modifications, and deletions.sql-- 1. Insert multiple rows of data
+INSERT INTO Departments (DepartmentName, Location)
+VALUES ('Engineering', 'Building A'),
+       ('Human Resources', 'Building B'),
+       ('Marketing', 'Building A');
+
+INSERT INTO Employees (FirstName, LastName, Email, Salary, DepartmentID)
+VALUES ('John', 'Doe', 'john.doe@company.com', 85000.00, 1),
+       ('Jane', 'Smith', 'jane.smith@company.com', 92000.00, 1),
+       ('Alice', 'Johnson', 'alice.j@company.com', 65000.00, 2);
+
+-- 2. Update existing data securely
+UPDATE Employees
+SET Salary = Salary * 1.05
+WHERE DepartmentID = 1; -- 5% raise for Engineering
+
+-- 3. Delete specific records
+DELETE FROM Employees
+WHERE EmployeeID = 3;
+Usa el código con precaución.Querying Data (Advanced Selects)SQL Server offers advanced querying mechanisms like JOIN op
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
