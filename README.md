@@ -1,12 +1,4 @@
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName VARCHAR(50) NOT NULL,
-    LastName VARCHAR(50) NOT NULL,
-    Email VARCHAR(100) UNIQUE,
-    HireDate DATE DEFAULT GETDATE(), -- Defaults to current system date
-    Salary DECIMAL(10, 2),
-    DepartmentID INT FOREIGN KEY REFERENCES Departments(DepartmentID)
-);
+
 Usa el código con precaución.Data Manipulation Language (DML)These commands handle data insertions, modifications, and deletions.sql-- 1. Insert multiple rows of data
 INSERT INTO Departments (DepartmentName, Location)
 VALUES ('Engineering', 'Building A'),
