@@ -1,7 +1,3 @@
-
-DELETE FROM Employees
-WHERE EmployeeID = 3;
-Usa el código con precaución.Querying Data (Advanced Selects)SQL Server offers advanced querying mechanisms like JOIN op
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
