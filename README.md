@@ -1,7 +1,3 @@
-Microsoft SQL Server uses Transact-SQL (T-SQL), which extends standard SQL with procedural programming features, local variables, and string processing support.The essential code examples below cover database creation, data manipulation, and advanced querying.1. Database and Table CreationUse CREATE DATABASE and CREATE TABLE to set up your storage structure. The IDENTITY(1,1) constraint automatically generates primary key values starting at 1 and incrementing by 1.sql-- Create a new database
-CREATE DATABASE CompanyDB;
-GO
-
 -- Switch to the new database
 USE CompanyDB;
 GO
