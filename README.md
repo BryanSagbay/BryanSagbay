@@ -1,12 +1,3 @@
-
-
--- 2. Create a Department table
-CREATE TABLE Departments (
-    DepartmentID INT IDENTITY(1,1) PRIMARY KEY, -- Auto-incrementing primary key
-    DepartmentName VARCHAR(50) NOT NULL,
-    Location VARCHAR(100) DEFAULT 'Main Campus'
-);
-
 -- 3. Create an Employees table with a Foreign Key
 CREATE TABLE Employees (
     EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
