@@ -1,7 +1,3 @@
--- Switch to the new database
-USE CompanyDB;
-GO
-
 -- Create an Employees table
 CREATE TABLE Employees (
     EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
