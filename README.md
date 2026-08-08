@@ -1,7 +1,3 @@
-Usa el código con precaución.2. Inserting DataInsert single or multiple rows into a table using INSERT INTO.sql-- Insert a single record
-INSERT INTO Employees (FirstName, LastName, Email, Salary)
-VALUES ('Jane', 'Doe', 'jane.doe@example.com', 75000.00);
-
 -- Insert multiple records at once
 INSERT INTO Employees (FirstName, LastName, Email, Salary)
 VALUES 
