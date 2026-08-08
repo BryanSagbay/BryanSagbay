@@ -1,6 +1,3 @@
--- Execute the stored procedure
-EXEC GetEmployeesBySalary @MinSalary = 70000.00;
-Usa el código con precaución.Ready-To-Use Practice DatabasesIf you are learning SQL Server and want large, pre-made datasets to test queries, Microsoft provides official sample databases that you can download and restore via Azure Data SQL Samples on GitHub:AdventureWorks: The standard enterprise database containing production, sales, and human resources data.WideWorldImporters: A modern database showcasing newer SQL Server features like temporal tables and JSON support.To practice deeper, tell me if you want examples of joins, indexing, or window functions.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
