@@ -1,9 +1,4 @@
--- 2. Update existing data securely
-UPDATE Employees
-SET Salary = Salary * 1.05
-WHERE DepartmentID = 1; -- 5% raise for Engineering
 
--- 3. Delete specific records
 DELETE FROM Employees
 WHERE EmployeeID = 3;
 Usa el código con precaución.Querying Data (Advanced Selects)SQL Server offers advanced querying mechanisms like JOIN op
