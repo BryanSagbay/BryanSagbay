@@ -1,10 +1,3 @@
-
-Usa el código con precaución.Data Manipulation Language (DML)These commands handle data insertions, modifications, and deletions.sql-- 1. Insert multiple rows of data
-INSERT INTO Departments (DepartmentName, Location)
-VALUES ('Engineering', 'Building A'),
-       ('Human Resources', 'Building B'),
-       ('Marketing', 'Building A');
-
 INSERT INTO Employees (FirstName, LastName, Email, Salary, DepartmentID)
 VALUES ('John', 'Doe', 'john.doe@company.com', 85000.00, 1),
        ('Jane', 'Smith', 'jane.smith@company.com', 92000.00, 1),
