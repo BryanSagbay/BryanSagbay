@@ -1,8 +1,3 @@
-INSERT INTO Employees (FirstName, LastName, Email, Salary, DepartmentID)
-VALUES ('John', 'Doe', 'john.doe@company.com', 85000.00, 1),
-       ('Jane', 'Smith', 'jane.smith@company.com', 92000.00, 1),
-       ('Alice', 'Johnson', 'alice.j@company.com', 65000.00, 2);
-
 -- 2. Update existing data securely
 UPDATE Employees
 SET Salary = Salary * 1.05
