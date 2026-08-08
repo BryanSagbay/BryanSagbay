@@ -1,6 +1,3 @@
--- Delete a specific record
-DELETE FROM Employees
-WHERE EmployeeID = 2;
 Usa el código con precaución.5. Stored ProceduresStored procedures allow you to save and reuse complex T-SQL code. They accept inputs and make code execution more secure and efficient.sql-- Create a stored procedure with a parameter
 CREATE PROCEDURE GetEmployeesBySalary
     @MinSalary DECIMAL(10,2)
