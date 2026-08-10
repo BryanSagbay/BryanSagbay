@@ -1,6 +1,4 @@
-er for your schemas and data.sqlCREATE DATABASE CompanyDB;
-GO
-USE CompanyDB;
+
 GO
 Usa el código con precaución.Create Table: Defines a structured schema including a auto-incrementing Primary Key and constraints.sqlCREATE TABLE Employees (
     EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
