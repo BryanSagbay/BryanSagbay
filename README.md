@@ -1,5 +1,4 @@
-00.00 
-WHERE EmployeeID = 1;
+
 Usa el código con precaución.Delete Data: Permanently removes matching rows from the database.
 <div align="center">
         <!-- TYPING ANIMATION -->
