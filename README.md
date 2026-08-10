@@ -1,7 +1,4 @@
-
-VALUES ('Jane', 'Doe', 'jane.doe@example.com', 75000.00),
-       ('John', 'Smith', 'john.smith@example.com', 62000.00);
-Usa el código con precaución.Select and Filter: Retrieves specific records matching search criteria.sqlSELECT EmployeeID, FirstName, LastName, Salary 
+ón.Select and Filter: Retrieves specific records matching search criteria.sqlSELECT EmployeeID, FirstName, LastName, Salary 
 FROM Employees 
 WHERE Salary > 65000;
 Usa el código con precaución.Update Data: Modifies values for existing rows based on a unique identifier.sqlUPDATE Employees 
