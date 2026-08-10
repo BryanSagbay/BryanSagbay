@@ -1,3 +1,25 @@
+Microsoft SQL Server uses Transact-SQL (T-SQL) to manage databases, manipulate data, and enforce business logic. Below are practical examples covering basic database setup, standard data operations, and essential optimization tools.1. Database and Table Setup (DDL)Use these commands to establish your database layout and structures.Create Database: Initializes a brand new container for your schemas and data.sqlCREATE DATABASE CompanyDB;
+GO
+USE CompanyDB;
+GO
+Usa el código con precaución.Create Table: Defines a structured schema including a auto-incrementing Primary Key and constraints.sqlCREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) UNIQUE,
+    HireDate DATE DEFAULT GETDATE(),
+    Salary DECIMAL(10,2)
+);
+Usa el código con precaución.2. Basic Data Operations (DML)These core commands manage the data stored within your established tables.Insert Data: Adds fresh records into specific table columns.sqlINSERT INTO Employees (FirstName, LastName, Email, Salary)
+VALUES ('Jane', 'Doe', 'jane.doe@example.com', 75000.00),
+       ('John', 'Smith', 'john.smith@example.com', 62000.00);
+Usa el código con precaución.Select and Filter: Retrieves specific records matching search criteria.sqlSELECT EmployeeID, FirstName, LastName, Salary 
+FROM Employees 
+WHERE Salary > 65000;
+Usa el código con precaución.Update Data: Modifies values for existing rows based on a unique identifier.sqlUPDATE Employees 
+SET Salary = 78000.00 
+WHERE EmployeeID = 1;
+Usa el código con precaución.Delete Data: Permanently removes matching rows from the database.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
