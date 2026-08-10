@@ -1,8 +1,4 @@
-ón.Select and Filter: Retrieves specific records matching search criteria.sqlSELECT EmployeeID, FirstName, LastName, Salary 
-FROM Employees 
-WHERE Salary > 65000;
-Usa el código con precaución.Update Data: Modifies values for existing rows based on a unique identifier.sqlUPDATE Employees 
-SET Salary = 78000.00 
+00.00 
 WHERE EmployeeID = 1;
 Usa el código con precaución.Delete Data: Permanently removes matching rows from the database.
 <div align="center">
