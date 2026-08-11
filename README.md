@@ -1,8 +1,3 @@
-
-
-Usa el código con precaución.Create Table: Defines a structured schema including a auto-incrementing Primary Key and constraints.sqlCREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName VARCHAR(50) NOT NULL,
     LastName VARCHAR(50) NOT NULL,
     Email VARCHAR(100) UNIQUE,
     HireDate DATE DEFAULT GETDATE(),
