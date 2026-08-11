@@ -1,4 +1,4 @@
-Microsoft SQL Server uses Transact-SQL (T-SQL) to manage databases, manipulate data, and enforce business logic. Below are practical examples covering basic database setup, standard data operations, and essential optimization tools.1. Database and Table Setup (DDL)Use these commands to establish your database layout and structures.Create Database: Initializes a brand new container for your schemas and data.sqlCREATE DATABASE CompanyDB;
+al optimization tools.1. Database and Table Setup (DDL)Use these commands to establish your database layout and structures.Create Database: Initializes a brand new container for your schemas and data.sqlCREATE DATABASE CompanyDB;
 GO
 USE CompanyDB;
 GO
