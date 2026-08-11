@@ -1,8 +1,5 @@
     LastName VARCHAR(50) NOT NULL,
-    Email VARCHAR(100) UNIQUE,
-    HireDate DATE DEFAULT GETDATE(),
-    Salary DECIMAL(10,2)
-);
+]
 Usa el código con precaución.2. Basic Data Operations (DML)These core commands manage the data stored within your established tables.Insert Data: Adds fresh records into specific table columns.sqlINSERT INTO Employees (FirstName, LastName, Email, Salary)
 VALUES ('Jane', 'Doe', 'jane.doe@example.com', 75000.00),
        ('John', 'Smith', 'john.smith@example.com', 62000.00);
