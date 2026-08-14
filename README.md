@@ -1,8 +1,4 @@
 
-readability.sqlWITH HighEarners AS (
-    SELECT EmployeeID, FirstName, Salary
-    FROM Employees
-    WHERE Salary > 70000
 )
 SELECT * FROM HighEarners;
 Usa el código con precaución.Stored Procedures: Saves reusable SQL code blocks to execute parameters safely.sqlCREATE PROCEDURE GetEmployeeByLastName
