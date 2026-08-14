@@ -1,9 +1,5 @@
 
-Usa el código con precaución.3. Aggregation and GroupingThese functions summarize massive amounts of data into readable metrics.Group By & Having: Groups rows and filters the resulting sets.sqlSELECT LastName, AVG(Salary) AS AverageSalary
-FROM Employees
-GROUP BY LastName
-HAVING AVG(Salary) > 50000;
-Usa el código con precaución.4. Advanced T-SQL FeaturesSQL Server provides built-in tools for complex queries and execution speed.Common Table Expressions (CTE): Creates a temporary result set for readability.sqlWITH HighEarners AS (
+readability.sqlWITH HighEarners AS (
     SELECT EmployeeID, FirstName, Salary
     FROM Employees
     WHERE Salary > 70000
