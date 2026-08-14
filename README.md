@@ -1,14 +1,4 @@
 
-Usa el código con precaución.2. Basic CRUD OperationsThese commands handle basic data modification and extraction.Insert Data: Adds rows to a table.sqlINSERT INTO Employees (FirstName, LastName, Salary)
-VALUES ('John', 'Doe', 60000.00), ('Jane', 'Smith', 75000.00);
-Usa el código con precaución.Select Data: Retrieves information based on filtered criteria.sqlSELECT FirstName, LastName, Salary 
-FROM Employees 
-WHERE Salary > 65000;
-Usa el código con precaución.Update Data: Modifies existing records.sqlUPDATE Employees 
-SET Salary = Salary * 1.05 
-WHERE EmployeeID = 1;
-Usa el código con precaución.Delete Data: Permanently removes rows.sqlDELETE FROM Employees 
-WHERE EmployeeID = 2;
 Usa el código con precaución.3. Aggregation and GroupingThese functions summarize massive amounts of data into readable metrics.Group By & Having: Groups rows and filters the resulting sets.sqlSELECT LastName, AVG(Salary) AS AverageSalary
 FROM Employees
 GROUP BY LastName
