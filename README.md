@@ -1,11 +1,4 @@
-QL Server uses Transact-SQL (T-SQL), an extended version of standard SQL developed by Microsoft.The most common SQL Server syntax examples range from basic CRUD (Create, Read, Update, Delete) operations to advanced analytical tools.1. Database and Table ManagementBefore manipulating data, you must define the database structure.Create Database: Initializes a new storage container.sqlCREATE DATABASE CompanyDB;
-Usa el código con precaución.Create Table: Defines columns, data types, and primary keys.sqlCREATE TABLE Employees (
-    EmployeeID INT PRIMARY KEY IDENTITY(1,1),
-    FirstName VARCHAR(50) NOT NULL,
-    LastName VARCHAR(50) NOT NULL,
-    HireDate DATE DEFAULT GETDATE(),
-    Salary DECIMAL(10,2)
-);
+
 Usa el código con precaución.2. Basic CRUD OperationsThese commands handle basic data modification and extraction.Insert Data: Adds rows to a table.sqlINSERT INTO Employees (FirstName, LastName, Salary)
 VALUES ('John', 'Doe', 60000.00), ('Jane', 'Smith', 75000.00);
 Usa el código con precaución.Select Data: Retrieves information based on filtered criteria.sqlSELECT FirstName, LastName, Salary 
