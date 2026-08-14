@@ -1,10 +1,4 @@
 
-)
-SELECT * FROM HighEarners;
-Usa el código con precaución.Stored Procedures: Saves reusable SQL code blocks to execute parameters safely.sqlCREATE PROCEDURE GetEmployeeByLastName
-    @LName VARCHAR(50)
-AS
-BEGIN
     SELECT * FROM Employees WHERE LastName = @LName;
 END;
 
