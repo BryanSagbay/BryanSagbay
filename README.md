@@ -1,3 +1,41 @@
+QL Server uses Transact-SQL (T-SQL), an extended version of standard SQL developed by Microsoft.The most common SQL Server syntax examples range from basic CRUD (Create, Read, Update, Delete) operations to advanced analytical tools.1. Database and Table ManagementBefore manipulating data, you must define the database structure.Create Database: Initializes a new storage container.sqlCREATE DATABASE CompanyDB;
+Usa el código con precaución.Create Table: Defines columns, data types, and primary keys.sqlCREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY IDENTITY(1,1),
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    HireDate DATE DEFAULT GETDATE(),
+    Salary DECIMAL(10,2)
+);
+Usa el código con precaución.2. Basic CRUD OperationsThese commands handle basic data modification and extraction.Insert Data: Adds rows to a table.sqlINSERT INTO Employees (FirstName, LastName, Salary)
+VALUES ('John', 'Doe', 60000.00), ('Jane', 'Smith', 75000.00);
+Usa el código con precaución.Select Data: Retrieves information based on filtered criteria.sqlSELECT FirstName, LastName, Salary 
+FROM Employees 
+WHERE Salary > 65000;
+Usa el código con precaución.Update Data: Modifies existing records.sqlUPDATE Employees 
+SET Salary = Salary * 1.05 
+WHERE EmployeeID = 1;
+Usa el código con precaución.Delete Data: Permanently removes rows.sqlDELETE FROM Employees 
+WHERE EmployeeID = 2;
+Usa el código con precaución.3. Aggregation and GroupingThese functions summarize massive amounts of data into readable metrics.Group By & Having: Groups rows and filters the resulting sets.sqlSELECT LastName, AVG(Salary) AS AverageSalary
+FROM Employees
+GROUP BY LastName
+HAVING AVG(Salary) > 50000;
+Usa el código con precaución.4. Advanced T-SQL FeaturesSQL Server provides built-in tools for complex queries and execution speed.Common Table Expressions (CTE): Creates a temporary result set for readability.sqlWITH HighEarners AS (
+    SELECT EmployeeID, FirstName, Salary
+    FROM Employees
+    WHERE Salary > 70000
+)
+SELECT * FROM HighEarners;
+Usa el código con precaución.Stored Procedures: Saves reusable SQL code blocks to execute parameters safely.sqlCREATE PROCEDURE GetEmployeeByLastName
+    @LName VARCHAR(50)
+AS
+BEGIN
+    SELECT * FROM Employees WHERE LastName = @LName;
+END;
+
+-- To run it:
+EXEC GetEmployeeByLastName @LName = 'Doe';
+Usa el código con precaución.Official Sample Databases
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
