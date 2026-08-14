@@ -1,10 +1,3 @@
-
-    SELECT * FROM Employees WHERE LastName = @LName;
-END;
-
--- To run it:
-EXEC GetEmployeeByLastName @LName = 'Doe';
-Usa el código con precaución.Official Sample Databases
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
