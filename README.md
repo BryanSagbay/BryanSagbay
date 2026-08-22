@@ -1,6 +1,4 @@
 
-GO
-Usa el código con precaución.2. Inserting and Modifying Data (DML)These commands handle data entry, content modification, and row deletion.sql-- Insert a single record
 INSERT INTO Employees (FirstName, LastName, Email, Salary)
 
 -- Insert multiple records simultaneously
