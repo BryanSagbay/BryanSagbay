@@ -1,8 +1,4 @@
 
-INSERT INTO Employees (FirstName, LastName, Email, Salary)
-
--- Insert multiple records simultaneously
-
 
 -- Update an existing record
 UPDATE Employees
