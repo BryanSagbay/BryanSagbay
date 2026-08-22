@@ -16,7 +16,6 @@ CREATE TABLE Employees (
 GO
 Usa el código con precaución.2. Inserting and Modifying Data (DML)These commands handle data entry, content modification, and row deletion.sql-- Insert a single record
 INSERT INTO Employees (FirstName, LastName, Email, Salary)
-VALUES ('Jane', 'Doe', 'jane.doe@example.com', 75000.00);
 
 -- Insert multiple records simultaneously
 INSERT INTO Employees (FirstName, LastName, Email, Salary)
