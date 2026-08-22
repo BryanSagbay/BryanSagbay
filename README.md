@@ -1,13 +1,4 @@
 
--- Create a table with constraints
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY, -- Auto-incrementing primary key
-    FirstName NVARCHAR(50) NOT NULL,
-    LastName NVARCHAR(50) NOT NULL,
-    Email VARCHAR(100) UNIQUE,
-    HireDate DATE DEFAULT GETDATE(),          -- Defaults to the current system date
-    Salary DECIMAL(10, 2) CHECK (Salary > 0)  -- Ensures valid salary entries
-);
 GO
 Usa el código con precaución.2. Inserting and Modifying Data (DML)These commands handle data entry, content modification, and row deletion.sql-- Insert a single record
 INSERT INTO Employees (FirstName, LastName, Email, Salary)
