@@ -18,10 +18,7 @@ Usa el código con precaución.2. Inserting and Modifying Data (DML)These comman
 INSERT INTO Employees (FirstName, LastName, Email, Salary)
 
 -- Insert multiple records simultaneously
-INSERT INTO Employees (FirstName, LastName, Email, Salary)
-VALUES 
-('John', 'Smith', 'john.smith@example.com', 62000.00),
-('Alice', 'Johnson', 'alice.j@example.com', 88000.00);
+
 
 -- Update an existing record
 UPDATE Employees
