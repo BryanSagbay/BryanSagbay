@@ -1,9 +1,3 @@
-
-
--- Delete a record
-DELETE FROM Employees
-WHERE EmployeeID = 2;
-Usa el código con precaución.3. Querying Data (DQL)
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
