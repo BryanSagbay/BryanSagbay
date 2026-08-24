@@ -1,4 +1,4 @@
-ollection of common code examples organized by core database tasks.1. Database and Table Creation (DDL)To begin storing data, you must first build a target structure.sql-- Create a new database
+
 CREATE DATABASE CompanyDB;
 GO
 
