@@ -1,3 +1,40 @@
+Microsoft SQL Server uses Transact-SQL (T-SQL), an extended version of standard SQL that adds procedural programming features, local variables, and string/data processing functions.Below is a collection of common code examples organized by core database tasks.1. Database and Table Creation (DDL)To begin storing data, you must first build a target structure.sql-- Create a new database
+CREATE DATABASE CompanyDB;
+GO
+
+-- Switch context to the new database
+USE CompanyDB;
+GO
+
+-- Create a table with constraints
+CREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY, -- Auto-incrementing primary key
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    Email VARCHAR(100) UNIQUE,
+    HireDate DATE DEFAULT GETDATE(),          -- Defaults to the current system date
+    Salary DECIMAL(10, 2) CHECK (Salary > 0)  -- Ensures valid salary entries
+);
+GO
+Usa el código con precaución.2. Inserting and Modifying Data (DML)These commands handle data entry, content modification, and row deletion.sql-- Insert a single record
+INSERT INTO Employees (FirstName, LastName, Email, Salary)
+VALUES ('Jane', 'Doe', 'jane.doe@example.com', 75000.00);
+
+-- Insert multiple records simultaneously
+INSERT INTO Employees (FirstName, LastName, Email, Salary)
+VALUES 
+('John', 'Smith', 'john.smith@example.com', 62000.00),
+('Alice', 'Johnson', 'alice.j@example.com', 88000.00);
+
+-- Update an existing record
+UPDATE Employees
+SET Salary = 80000.00
+WHERE EmployeeID = 1;
+
+-- Delete a record
+DELETE FROM Employees
+WHERE EmployeeID = 2;
+Usa el código con precaución.3. Querying Data (DQL)
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
