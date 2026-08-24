@@ -1,4 +1,4 @@
-Microsoft SQL Server uses Transact-SQL (T-SQL), an extended version of standard SQL that adds procedural programming features, local variables, and string/data processing functions.Below is a collection of common code examples organized by core database tasks.1. Database and Table Creation (DDL)To begin storing data, you must first build a target structure.sql-- Create a new database
+ollection of common code examples organized by core database tasks.1. Database and Table Creation (DDL)To begin storing data, you must first build a target structure.sql-- Create a new database
 CREATE DATABASE CompanyDB;
 GO
 
