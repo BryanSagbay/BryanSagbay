@@ -1,12 +1,4 @@
 
-, 'john.smith@example.com', 62000.00),
-('Alice', 'Johnson', 'alice.j@example.com', 88000.00);
-
--- Update an existing record
-UPDATE Employees
-SET Salary = 80000.00
-WHERE EmployeeID = 1;
-
 -- Delete a record
 DELETE FROM Employees
 WHERE EmployeeID = 2;
