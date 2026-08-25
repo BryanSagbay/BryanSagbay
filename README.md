@@ -1,8 +1,4 @@
 
--- Update an existing record
-UPDATE Employees
-SET Salary = 80000.00
-WHERE EmployeeID = 1;
 
 -- Delete a record
 DELETE FROM Employees
