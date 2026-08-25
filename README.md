@@ -1,11 +1,4 @@
 
-
--- Insert multiple records simultaneously
-INSERT INTO Employees (FirstName, LastName, Email, Salary)
-VALUES 
-('John', 'Smith', 'john.smith@example.com', 62000.00),
-('Alice', 'Johnson', 'alice.j@example.com', 88000.00);
-
 -- Update an existing record
 UPDATE Employees
 SET Salary = 80000.00
