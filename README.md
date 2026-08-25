@@ -1,7 +1,3 @@
-x
--- Switch context to the new database
-USE CompanyDB;
-GO
 
 -- Create a table with constraints
 CREATE TABLE Employees (
