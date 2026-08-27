@@ -1,4 +1,3 @@
-sql-- Create a new database
 CREATE DATABASE CompanyDB;
 GO
 
