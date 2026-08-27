@@ -1,10 +1,5 @@
 CREATE DATABASE CompanyDB;
 GO
-
-USE CompanyDB;
-GO
-
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
