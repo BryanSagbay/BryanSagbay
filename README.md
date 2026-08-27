@@ -10,17 +10,7 @@ CREATE TABLE Departments (
     DepartmentName VARCHAR(50) NOT NULL
 );
 
--- Create an Employees table with a Foreign Key
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName VARCHAR(50) NOT NULL,
-    LastName VARCHAR(50) NOT NULL,
-    Email VARCHAR(100) UNIQUE,
-    Salary DECIMAL(10,2) CHECK (Salary > 0),
-    HireDate DATE DEFAULT GETDATE(),
-    DepartmentID INT FOREIGN KEY REFERENCES Departments(DepartmentID)
-);
-GO
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
