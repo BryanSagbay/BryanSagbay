@@ -4,9 +4,6 @@ GO
 USE CompanyDB;
 GO
 
--- Create a Departments lookup table
-
-
 
 <div align="center">
         <!-- TYPING ANIMATION -->
