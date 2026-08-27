@@ -5,10 +5,7 @@ USE CompanyDB;
 GO
 
 -- Create a Departments lookup table
-CREATE TABLE Departments (
-    DepartmentID INT IDENTITY(1,1) PRIMARY KEY,
-    DepartmentName VARCHAR(50) NOT NULL
-);
+
 
 
 <div align="center">
