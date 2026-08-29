@@ -1,9 +1,5 @@
 
 
--- Switch to the new database context
-USE CompanyDB;
-GO
-
 -- Create an Employees table
 CREATE TABLE Employees (
     EmployeeID INT IDENTITY(1,1) PRIMARY KEY, -- Auto-incrementing primary key
