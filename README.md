@@ -1,16 +1,3 @@
-
-
--- Create an Employees table
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY, -- Auto-incrementing primary key
-    FirstName NVARCHAR(50) NOT NULL,
-    LastName NVARCHAR(50) NOT NULL,
-    Email VARCHAR(100) UNIQUE,
-    HireDate DATE DEFAULT GETDATE(),          -- Defaults to the current date
-    Salary DECIMAL(10,2) CHECK (Salary > 0)
-);
-GO
-
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
