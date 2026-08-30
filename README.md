@@ -1,3 +1,96 @@
+Here are practical, ready-to-run examples for Microsoft SQL Server (T-SQL), ranging from basic data manipulation to advanced querying.📊 1. Basic Data Manipulation (CRUD)These queries handle database creation, table construction, and foundational data operations.sql-- Create a new database
+CREATE DATABASE CompanyDB;
+GO
+
+USE CompanyDB;
+GO
+
+-- Create a table with primary and foreign keys
+CREATE TABLE Departments (
+    DepartmentID INT IDENTITY(1,1) PRIMARY KEY,
+    DepartmentName VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Salary DECIMAL(10,2),
+    DepartmentID INT FOREIGN KEY REFERENCES Departments(DepartmentID)
+);
+
+-- Insert rows into tables
+INSERT INTO Departments (DepartmentName) VALUES ('IT'), ('HR'), ('Sales');
+
+INSERT INTO Employees (FirstName, LastName, Salary, DepartmentID)
+VALUES 
+('Alice', 'Smith', 85000.00, 1),
+('Bob', 'Jones', 95000.00, 1),
+('Charlie', 'Brown', 60000.00, 2),
+('David', 'Miller', 70000.00, NULL);
+
+-- Update an existing record
+UPDATE Employees 
+SET Salary = 88000.00 
+WHERE FirstName = 'Alice' AND LastName = 'Smith';
+
+-- Delete a specific record
+DELETE FROM Employees 
+WHERE EmployeeID = 4;
+Usa el código con precaución.🔍 2. Querying and Joining DataThese examples demonstrate how to aggregate rows and retrieve matching data across multiple tables.sql-- INNER JOIN: Fetch employees who belong to a department
+SELECT E.EmployeeID, E.FirstName, E.LastName, D.DepartmentName
+FROM Employees E
+INNER JOIN Departments D ON E.DepartmentID = D.DepartmentID;
+
+-- LEFT JOIN: Fetch all employees, including those without a department
+SELECT E.FirstName, E.LastName, D.DepartmentName
+FROM Employees E
+LEFT JOIN Departments D ON E.DepartmentID = D.DepartmentID;
+
+-- GROUP BY & HAVING: Calculate average salary per department for departments averaging over $70,000
+SELECT D.DepartmentName, AVG(E.Salary) AS AvgSalary
+FROM Employees E
+INNER JOIN Departments D ON E.DepartmentID = D.DepartmentID
+GROUP BY D.DepartmentName
+HAVING AVG(E.Salary) > 70000;
+Usa el código con precaución.⚡ 3. Advanced T-SQL FeaturesThese examples show how to solve complex analytics and logic challenges directly inside SQL Server.sql-- Window Function: Rank employees by salary within their department without collapsing rows
+SELECT 
+    FirstName, LastName, DepartmentID, Salary,
+    RANK() OVER (PARTITION BY DepartmentID ORDER BY Salary DESC) AS SalaryRank
+FROM Employees;
+
+-- Common Table Expression (CTE): Define a temporary result set for reuse
+WITH HighEarners AS (
+    SELECT FirstName, LastName, Salary 
+    FROM Employees 
+    WHERE Salary > 80000
+)
+SELECT * FROM HighEarners WHERE LastName LIKE 'S%';
+
+-- Conditional Logic using CASE
+SELECT FirstName, LastName, Salary,
+    CASE 
+        WHEN Salary >= 90000 THEN 'Tier 1'
+        WHEN Salary >= 70000 THEN 'Tier 2'
+        ELSE 'Tier 3'
+    END AS SalaryTier
+FROM Employees;
+Usa el código con precaución.📦 4. Programmability (Stored Procedures & Variables)Encapsulate logic into reusable blocks that accept runtime variables.sql-- Create a stored procedure with an input parameter
+CREATE PROCEDURE GetEmployeesByDept
+    @DeptId INT
+AS
+BEGIN
+    SET NOCOUNT ON; -- Prevents sending extra DONE_IN_PROC messages to client for performance
+    
+    SELECT FirstName, LastName, Salary 
+    FROM Employees 
+    WHERE DepartmentID = @DeptId;
+END;
+GO
+
+-- Execute the stored procedure
+EXEC GetEmployeesByDept @DeptId = 1;
+Usa el código con precaución.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
