@@ -1,22 +1,5 @@
 
 
--- LEFT JOIN: Fetch all employees, including those without a department
-SELECT E.FirstName, E.LastName, D.DepartmentName
-FROM Employees E
-LEFT JOIN Departments D ON E.DepartmentID = D.DepartmentID;
-
--- GROUP BY & HAVING: Calculate average salary per department for departments averaging over $70,000
-SELECT D.DepartmentName, AVG(E.Salary) AS AvgSalary
-FROM Employees E
-INNER JOIN Departments D ON E.DepartmentID = D.DepartmentID
-GROUP BY D.DepartmentName
-HAVING AVG(E.Salary) > 70000;
-Usa el código con precaución.⚡ 3. Advanced T-SQL FeaturesThese examples show how to solve complex analytics and logic challenges directly inside SQL Server.sql-- Window Function: Rank employees by salary within their department without collapsing rows
-SELECT 
-    FirstName, LastName, DepartmentID, Salary,
-    RANK() OVER (PARTITION BY DepartmentID ORDER BY Salary DESC) AS SalaryRank
-FROM Employees;
-
 -- Common Table Expression (CTE): Define a temporary result set for reuse
 WITH HighEarners AS (
     SELECT FirstName, LastName, Salary 
