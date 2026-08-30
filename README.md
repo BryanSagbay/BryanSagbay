@@ -1,15 +1,5 @@
 
 
--- Insert rows into tables
-INSERT INTO Departments (DepartmentName) VALUES ('IT'), ('HR'), ('Sales');
-
-INSERT INTO Employees (FirstName, LastName, Salary, DepartmentID)
-VALUES 
-('Alice', 'Smith', 85000.00, 1),
-('Bob', 'Jones', 95000.00, 1),
-('Charlie', 'Brown', 60000.00, 2),
-('David', 'Miller', 70000.00, NULL);
-
 -- Update an existing record
 UPDATE Employees 
 SET Salary = 88000.00 
