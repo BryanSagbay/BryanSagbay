@@ -1,34 +1,5 @@
 
 
--- Common Table Expression (CTE): Define a temporary result set for reuse
-WITH HighEarners AS (
-    SELECT FirstName, LastName, Salary 
-    FROM Employees 
-    WHERE Salary > 80000
-)
-SELECT * FROM HighEarners WHERE LastName LIKE 'S%';
-
--- Conditional Logic using CASE
-SELECT FirstName, LastName, Salary,
-    CASE 
-        WHEN Salary >= 90000 THEN 'Tier 1'
-        WHEN Salary >= 70000 THEN 'Tier 2'
-        ELSE 'Tier 3'
-    END AS SalaryTier
-FROM Employees;
-Usa el código con precaución.📦 4. Programmability (Stored Procedures & Variables)Encapsulate logic into reusable blocks that accept runtime variables.sql-- Create a stored procedure with an input parameter
-CREATE PROCEDURE GetEmployeesByDept
-    @DeptId INT
-AS
-BEGIN
-    SET NOCOUNT ON; -- Prevents sending extra DONE_IN_PROC messages to client for performance
-    
-    SELECT FirstName, LastName, Salary 
-    FROM Employees 
-    WHERE DepartmentID = @DeptId;
-END;
-GO
-
 -- Execute the stored procedure
 EXEC GetEmployeesByDept @DeptId = 1;
 Usa el código con precaución.
