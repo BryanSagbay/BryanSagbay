@@ -1,9 +1,4 @@
--- Create a new database
-CREATE DATABASE CompanyDB;
-GO
 
-USE CompanyDB;
-GO
 
 -- Create a table with primary and foreign keys
 CREATE TABLE Departments (
