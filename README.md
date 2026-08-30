@@ -1,19 +1,5 @@
 
 
--- Create a table with primary and foreign keys
-CREATE TABLE Departments (
-    DepartmentID INT IDENTITY(1,1) PRIMARY KEY,
-    DepartmentName VARCHAR(50) NOT NULL
-);
-
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName VARCHAR(50) NOT NULL,
-    LastName VARCHAR(50) NOT NULL,
-    Salary DECIMAL(10,2),
-    DepartmentID INT FOREIGN KEY REFERENCES Departments(DepartmentID)
-);
-
 -- Insert rows into tables
 INSERT INTO Departments (DepartmentName) VALUES ('IT'), ('HR'), ('Sales');
 
