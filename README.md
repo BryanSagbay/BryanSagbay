@@ -1,11 +1,4 @@
 
-
--- Update an existing record
-UPDATE Employees 
-SET Salary = 88000.00 
-WHERE FirstName = 'Alice' AND LastName = 'Smith';
-
--- Delete a specific record
 DELETE FROM Employees 
 WHERE EmployeeID = 4;
 Usa el código con precaución.🔍 2. Querying and Joining DataThese examples demonstrate how to aggregate rows and retrieve matching data across multiple tables.sql-- INNER JOIN: Fetch employees who belong to a department
