@@ -1,8 +1,3 @@
-
-
--- Execute the stored procedure
-EXEC GetEmployeesByDept @DeptId = 1;
-Usa el código con precaución.
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
