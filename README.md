@@ -1,10 +1,4 @@
 
-DELETE FROM Employees 
-WHERE EmployeeID = 4;
-Usa el código con precaución.🔍 2. Querying and Joining DataThese examples demonstrate how to aggregate rows and retrieve matching data across multiple tables.sql-- INNER JOIN: Fetch employees who belong to a department
-SELECT E.EmployeeID, E.FirstName, E.LastName, D.DepartmentName
-FROM Employees E
-INNER JOIN Departments D ON E.DepartmentID = D.DepartmentID;
 
 -- LEFT JOIN: Fetch all employees, including those without a department
 SELECT E.FirstName, E.LastName, D.DepartmentName
