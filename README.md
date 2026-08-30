@@ -1,4 +1,4 @@
-Here are practical, ready-to-run examples for Microsoft SQL Server (T-SQL), ranging from basic data manipulation to advanced querying.📊 1. Basic Data Manipulation (CRUD)These queries handle database creation, table construction, and foundational data operations.sql-- Create a new database
+-- Create a new database
 CREATE DATABASE CompanyDB;
 GO
 
