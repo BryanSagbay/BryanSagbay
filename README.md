@@ -1,5 +1,4 @@
 
-WHERE Department = 'Engineering' AND IsActive = 1;
 Usa el código con precaución.INSERT (Adding Data)Inserts new rows into an existing table.sqlINSERT INTO dbo.Employees (FirstName, LastName, Department, IsActive)
 VALUES ('Jane', 'Doe', 'Engineering', 1);
 Usa el código con precaución.UPDATE (Modifying Data)Changes existing records. Always use a WHERE clause to avoid modifying every row in the table.sqlUPDATE dbo.Employees
