@@ -1,5 +1,4 @@
-sqlSELECT EmployeeID, FirstName, LastName, Department 
-FROM dbo.Employees
+
 WHERE Department = 'Engineering' AND IsActive = 1;
 Usa el código con precaución.INSERT (Adding Data)Inserts new rows into an existing table.sqlINSERT INTO dbo.Employees (FirstName, LastName, Department, IsActive)
 VALUES ('Jane', 'Doe', 'Engineering', 1);
