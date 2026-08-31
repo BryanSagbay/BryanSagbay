@@ -1,5 +1,3 @@
-INSERT INTO dbo.Employees (FirstName, LastName, Department, IsActive)
-VALUES ('Jane', 'Doe', 'Engineering', 1);
 Usa el código con precaución.UPDATE (Modifying Data)Changes existing records. Always use a WHERE clause to avoid modifying every row in the table.sqlUPDATE dbo.Employees
 SET Department = 'DevOps'
 WHERE EmployeeID = 1042;
