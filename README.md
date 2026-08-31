@@ -1,3 +1,13 @@
+1. Data Manipulation Language (DML)These commands are used to query and modify data within existing tables.SELECT (Querying Data)Retrieves specific columns from a table and filters rows using a WHERE clause.sqlSELECT EmployeeID, FirstName, LastName, Department 
+FROM dbo.Employees
+WHERE Department = 'Engineering' AND IsActive = 1;
+Usa el código con precaución.INSERT (Adding Data)Inserts new rows into an existing table.sqlINSERT INTO dbo.Employees (FirstName, LastName, Department, IsActive)
+VALUES ('Jane', 'Doe', 'Engineering', 1);
+Usa el código con precaución.UPDATE (Modifying Data)Changes existing records. Always use a WHERE clause to avoid modifying every row in the table.sqlUPDATE dbo.Employees
+SET Department = 'DevOps'
+WHERE EmployeeID = 1042;
+Usa el código con precaución.DELETE (Removing Data)Permanently deletes specific rows from a table.sqlDELETE FROM dbo.Employees
+WHERE IsActive = 0;
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
