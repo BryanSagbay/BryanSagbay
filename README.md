@@ -1,4 +1,4 @@
-Usa el código con precaución.UPDATE (Modifying Data)Changes existing records. Always use a WHERE clause to avoid modifying every row in the table.sqlUPDATE dbo.Employees
+UPDATE dbo.Employees
 SET Department = 'DevOps'
 WHERE EmployeeID = 1042;
 Usa el código con precaución.DELETE (Removing Data)Permanently deletes specific rows from a table.sqlDELETE FROM dbo.Employees
