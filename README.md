@@ -1,5 +1,4 @@
-
-Usa el código con precaución.DELETE (Removing Data)Permanently deletes specific rows from a table.sqlDELETE FROM dbo.Employees
+DELETE (Removing Data)Permanently deletes specific rows from a table.sqlDELETE FROM dbo.Employees
 WHERE IsActive = 0;
 <div align="center">
         <!-- TYPING ANIMATION -->
