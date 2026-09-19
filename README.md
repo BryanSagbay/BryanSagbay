@@ -1,3 +1,13 @@
+
+djdj
+zznndnd
+andndjd
+andjdjdj
+ajsjdjd
+ajdjdjdj
+jajajaj
+jzjzjzj2772;
+queuidmxm
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
