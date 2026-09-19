@@ -2,7 +2,6 @@
 
 
 
-ajdjdjdj
 jajajaj
 jzjzjzj2772;
 queuidmxm
