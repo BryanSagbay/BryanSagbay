@@ -2,7 +2,6 @@
 
 
 
-jzjzjzj2772;
 queuidmxm
 <div align="center">
         <!-- TYPING ANIMATION -->
