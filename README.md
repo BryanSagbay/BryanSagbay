@@ -1,7 +1,6 @@
 jajaja
 jajajaja
 jajajaja
-jajajaja
 
 jajaja
 jaja
