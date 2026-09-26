@@ -1,6 +1,4 @@
 jajaja
-
-jajaja
 jaja
 ndjdbdn
 jajaja
