@@ -1,6 +1,4 @@
 jajaja
-
-ndjdbdn
 jajaja
 <div align="center">
         <!-- TYPING ANIMATION -->
