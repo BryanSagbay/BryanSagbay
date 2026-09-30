@@ -1,7 +1,6 @@
 • SELECT: Permite seleccionar columnas específicas de una tabla.
 • FROM: Indica la tabla de origen de los datos.
 • WHERE: Filtra los registros según una condición.
-• INSERT: Añade nuevos datos a la base de datos
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
