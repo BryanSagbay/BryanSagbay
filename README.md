@@ -1,7 +1,6 @@
 jdkdjf
 jajxjxjc
 jajdjjcx
-ajsjxjxjx
 ajdjxjxj
 ajdjxjxj
 jajaj f
