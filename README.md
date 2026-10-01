@@ -2,7 +2,6 @@ jdkdjf
 jajxjxjc
 jajdjjcx
 ajdjxjxj
-ajdjxjxj
 jajaj f
 ajsjsjdjx
 <div align="center">
