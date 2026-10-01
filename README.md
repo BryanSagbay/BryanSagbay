@@ -1,3 +1,12 @@
+jdkdjf
+najdjxjajx
+jajxjxjc
+jajdjjcx
+ajsjxjxjx
+ajdjxjxj
+ajdjxjxj
+jajaj f
+ajsjsjdjx
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
