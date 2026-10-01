@@ -1,7 +1,6 @@
 jdkdjf
 jajxjxjc
-jajdjjcx
-ajdjxjxj
+jajdjjc
 ajsjsjdjx
 <div align="center">
         <!-- TYPING ANIMATION -->
