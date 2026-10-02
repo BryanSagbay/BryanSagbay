@@ -1,3 +1,27 @@
+A. Creating a Table (DDL)
+Creates a schema object to store your business data safely with strict data types. 
+
+Progress Software
+ +1
+sql
+CREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY, -- Auto-incrementing ID
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    HireDate DATE DEFAULT GETDATE(),
+    Salary DECIMAL(10,2) NOT NULL
+);
+Usa el código con precaución.
+B. Inserting Data (DML)
+Populates your table with new rows of record information. 
+
+Progress Software
+sql
+INSERT INTO Employees (FirstName, LastName, Salary)
+VALUES 
+('Jane', 'Doe', 75000.00),
+('John', 'Smith', 62000.50),
+('Alice', 'Johnson', 90000.00);
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
