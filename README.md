@@ -1,8 +1,5 @@
-A. Creating a Table (DDL)
-Creates a schema object to store your business data safely with strict data types. 
 
-Progress Software
- +1
+Progress Softwar +1
 sql
 CREATE TABLE Employees (
     EmployeeID INT IDENTITY(1,1) PRIMARY KEY, -- Auto-incrementing ID
