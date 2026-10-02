@@ -1,13 +1,4 @@
 
-Progress Softwar +1
-sql
-CREATE TABLE Employees (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY, -- Auto-incrementing ID
-    FirstName NVARCHAR(50) NOT NULL,
-    LastName NVARCHAR(50) NOT NULL,
-    HireDate DATE DEFAULT GETDATE(),
-    Salary DECIMAL(10,2) NOT NULL
-);
 Usa el código con precaución.
 B. Inserting Data (DML)
 Populates your table with new rows of record information. 
