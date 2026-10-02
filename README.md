@@ -1,7 +1,4 @@
 
-Usa el código con precaución.
-B. Inserting Data (DML)
-Populates your table with new rows of record information. 
 
 Progress Software
 
