@@ -16,12 +16,7 @@ B. Inserting Data (DML)
 Populates your table with new rows of record information. 
 
 Progress Software
-sql
-INSERT INTO Employees (FirstName, LastName, Salary)
-VALUES 
-('Jane', 'Doe', 75000.00),
-('John', 'Smith', 62000.50),
-('Alice', 'Johnson', 90000.00);
+
 <div align="center">
         <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
