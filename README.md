@@ -1,6 +1,5 @@
 
 
-Progress Software
 
 <div align="center">
         <!-- TYPING ANIMATION -->
