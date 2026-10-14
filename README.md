@@ -1,5 +1,3 @@
-abdbdbd
-ansjxjcj
 
 ajsjdjd
 jajsjd
