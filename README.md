@@ -1,7 +1,6 @@
 abdbdbd
 ahdbxbjxx
 ansjxjcj
-abandons
 
 ajsjdjd
 jajsjd
