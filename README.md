@@ -1,5 +1,4 @@
 
-ajsjdjd
 jajsjd
 <div align="center">
 <!-- TYPING ANIMATION -->
