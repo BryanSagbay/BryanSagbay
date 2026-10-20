@@ -1,7 +1,4 @@
 
-• Modificación de tablas (DDL):
-	• Pregunta: ¿Qué comando se utiliza para cambiar la estructura de una tabla existente (por ejemplo, agregar una columna)?
-	• Opciones típicas:
 		• A) DELETE TABLE
 		• B) ALTER TABLE (Correcta)
 		• C) UPDATE TABLE
