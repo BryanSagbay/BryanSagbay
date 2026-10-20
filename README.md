@@ -1,8 +1,4 @@
-	• Pregunta: ¿Cuál es la sintaxis correcta para seleccionar todos los registros de la tabla employees donde el salario sea mayor a 50,000?
-	• Opciones típicas:
-		• A) SELECT * FROM employees WHERE salary > 50000; (Correcta)
-		• B) SELECT salary FROM employees WHERE salary 50000;
-		• C) SELECT FROM employees WHERE salary = 50000;
+
 • Modificación de tablas (DDL):
 	• Pregunta: ¿Qué comando se utiliza para cambiar la estructura de una tabla existente (por ejemplo, agregar una columna)?
 	• Opciones típicas:
