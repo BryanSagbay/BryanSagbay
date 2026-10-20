@@ -1,7 +1,3 @@
-
-jemplos de Preguntas de Examen de SQL
-
-• Selección básica de datos:
 	• Pregunta: ¿Cuál es la sintaxis correcta para seleccionar todos los registros de la tabla employees donde el salario sea mayor a 50,000?
 	• Opciones típicas:
 		• A) SELECT * FROM employees WHERE salary > 50000; (Correcta)
