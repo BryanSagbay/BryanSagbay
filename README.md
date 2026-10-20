@@ -1,10 +1,4 @@
 
-
-Principales Certificaciones de SQL
-
-• Oracle Database SQL Certified Associate (1Z0-071)
-	• Enfoque: Valida habilidades en consultas SQL, modelado de datos, uso de funciones y manejo de bases de datos Oracle.
-	• Formato: Examen de opción múltiple (duración de 2 horas) a través de Pearson VUE.
 	• Costo aproximado: $245 USD.
 <div align="center">
 <!-- TYPING ANIMATION -->
