@@ -1,10 +1,4 @@
 
-• Unión de tablas (Joins):
-	• Pregunta: ¿Qué tipo de JOIN devuelve únicamente los registros que tienen una coincidencia en ambas tablas?
-	• Opciones típicas:
-		• A) INNER JOIN (Correcta)
-		• B) LEFT JOIN
-		• C) OUTER JOIN
 
 Principales Certificaciones de SQL
 
