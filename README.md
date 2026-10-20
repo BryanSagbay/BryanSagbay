@@ -1,7 +1,4 @@
 
-		• A) DELETE TABLE
-		• B) ALTER TABLE (Correcta)
-		• C) UPDATE TABLE
 • Filtrado de duplicados:
 	• Pregunta: ¿Qué palabra clave se usa para asegurar que un resultado devuelva únicamente valores únicos?
 	• Opciones típicas:
