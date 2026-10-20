@@ -1,10 +1,4 @@
 
-• Funciones de agregación:
-	• Pregunta: ¿Qué función calcula el valor promedio de una columna numérica?
-	• Opciones típicas:
-		• A) SUM()
-		• B) AVG() (Correcta)
-		• C) COUNT()
 • Unión de tablas (Joins):
 	• Pregunta: ¿Qué tipo de JOIN devuelve únicamente los registros que tienen una coincidencia en ambas tablas?
 	• Opciones típicas:
