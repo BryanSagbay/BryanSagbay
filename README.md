@@ -1,10 +1,4 @@
 
-• Filtrado de duplicados:
-	• Pregunta: ¿Qué palabra clave se usa para asegurar que un resultado devuelva únicamente valores únicos?
-	• Opciones típicas:
-		• A) UNIQUE
-		• B) DISTINCT (Correcta)
-		• C) GROUP
 • Funciones de agregación:
 	• Pregunta: ¿Qué función calcula el valor promedio de una columna numérica?
 	• Opciones típicas:
