@@ -1,5 +1,4 @@
 
-Para qué sirve (Operaciones básicas)
 
 • SELECT: Recupera o consulta datos de las tablas.
 • INSERT: Añade nuevos registros.
