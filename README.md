@@ -1,6 +1,4 @@
 
-• UPDATE: Modifica datos existentes.
-• DELETE: Elimina registros de una base de datos.
 Puedes aprender más sobre su funcionamiento en la guía oficial de AWS
 
 <div align="center">
