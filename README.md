@@ -1,6 +1,4 @@
 
-• Organización: Los datos se estructuran en tablas con filas y columnas.
-• Estandarización: Es un estándar regulado por el ANSI (desde 1986) y la ISO (desde 1987).
 • Compatibilidad: Es compatible con múltiples sistemas de gestión de bases de datos relacionales (RDBMS) como MySQL, PostgreSQL, Oracle, SQLite y Microsoft SQL Server.
 
 Para qué sirve (Operaciones básicas)
