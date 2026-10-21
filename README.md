@@ -1,6 +1,4 @@
 
-• Compatibilidad: Es compatible con múltiples sistemas de gestión de bases de datos relacionales (RDBMS) como MySQL, PostgreSQL, Oracle, SQLite y Microsoft SQL Server.
-
 Para qué sirve (Operaciones básicas)
 
 • SELECT: Recupera o consulta datos de las tablas.
