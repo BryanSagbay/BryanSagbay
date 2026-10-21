@@ -1,4 +1,4 @@
-El SQL (Structured Query Language o Lenguaje de Consulta Estructurada) es un lenguaje de dominio específico utilizado para administrar, consultar, actualizar y recuperar información en bases de datos relacionales.
+
 
 Características principales
 
