@@ -1,7 +1,4 @@
-Open
-Order By
-6 exercises
-Open
+
 And
 5 exercises
 Open
