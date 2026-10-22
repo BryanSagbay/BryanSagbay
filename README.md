@@ -1,7 +1,3 @@
-Test your SQL skills with exercises from all categories:
-
-
-Filter categories (e.g. syntax, select, where, etc.)
 Syntax
 4 exercises
 Open
