@@ -1,7 +1,5 @@
 Test your SQL skills with exercises from all categories:
 
-Exercises
-Tip: Sign in to track your progress.
 
 Filter categories (e.g. syntax, select, where, etc.)
 Syntax
