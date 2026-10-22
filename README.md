@@ -1,8 +1,3 @@
-Syntax
-4 exercises
-Open
-Select
-
 Open
 Order By
 6 exercises
