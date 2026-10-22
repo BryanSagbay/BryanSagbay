@@ -1,9 +1,4 @@
 
-And
-5 exercises
-Open
-Or
-5 exercises
 Open
 Not
 6 exercises
