@@ -1,13 +1,3 @@
-7 exercises
-Open
-Update
-6 exercises
-Open
-Delete
-6 exercises
-Open
-Select Top
-3 exercises
 Open
 Min and Max
 5 exercises
