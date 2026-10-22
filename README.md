@@ -1,12 +1,3 @@
-
-Open
-Not
-6 exercises
-Open
-Insert Into
-4 exercises
-Open
-Null Values
 7 exercises
 Open
 Update
