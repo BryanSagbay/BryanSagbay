@@ -2,13 +2,7 @@ Syntax
 4 exercises
 Open
 Select
-5 exercises
-Open
-Select Distinct
-5 exercises
-Open
-Where
-6 exercises
+
 Open
 Order By
 6 exercises
