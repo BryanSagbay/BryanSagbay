@@ -1,14 +1,3 @@
-
-
-
-
-SQL ORDER BY
-
-Get Certified!
-Take the SQL exam and become w3schools certified!!
-
-
-
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
