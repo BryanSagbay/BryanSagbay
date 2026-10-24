@@ -3,8 +3,6 @@ This page covers all the SQL examples from the SQL tutorial. Each example opens 
 
 SQL Syntax
 
-SQL SELECT
-
 SQL WHERE
 
 SQL AND, OR and NOT Operators
