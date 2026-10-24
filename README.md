@@ -12,29 +12,6 @@ SQL AND, OR and NOT Operators
 
 SQL ORDER BY
 
-w
-3
-s
-c
-h
-o
-o
-l
-s
-C
-E
-R
-T
-I
-F
-I
-E
-D
-.
-2
-0
-2
-5
 Get Certified!
 Take the SQL exam and become w3schools certified!!
 
