@@ -12,8 +12,6 @@ SQL AND, OR and NOT Operators
 
 SQL ORDER BY
 
-SQL NULL Values
-
 w
 3
 s
