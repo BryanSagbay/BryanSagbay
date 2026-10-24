@@ -1,7 +1,4 @@
-SQL Examples
-This page covers all the SQL examples from the SQL tutorial. Each example opens in our SQL editor, showing the SQL command and the result.
 
-SQL Syntax
 
 
 
