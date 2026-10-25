@@ -1,7 +1,6 @@
 sjshwj
 jajdj. 
 ajjaja
-anjdjdj
 mañana
 Kansas
 jaja
