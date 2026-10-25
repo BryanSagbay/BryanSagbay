@@ -1,3 +1,16 @@
+sjshwj
+jajdj. 
+ajjaja
+anjdjdj
+Annandale
+mañana
+Kansas
+jaja
+najdjd
+
+
+
+
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
