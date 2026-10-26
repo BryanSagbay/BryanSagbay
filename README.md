@@ -1,9 +1,7 @@
 
 jajdj. 
 ajjaja
-mañana
-Kansas
-jaja
+mañanajaja
 najdjd
 
 
