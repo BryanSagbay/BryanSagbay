@@ -1,7 +1,6 @@
 
 jajdj. 
 ajjaja
-mañanajaja
 najdjd
 
 
