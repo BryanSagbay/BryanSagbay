@@ -1,6 +1,5 @@
 
 jajdj. 
-najdjd
 
 
 
