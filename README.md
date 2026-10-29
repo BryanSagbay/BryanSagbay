@@ -1,7 +1,4 @@
 
-SQL AND, OR and NOT Operators
-
-
 SQL ORDER BY
 
 SQL NULL Values
