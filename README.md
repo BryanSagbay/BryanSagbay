@@ -1,6 +1,3 @@
-
-SQL ORDER BY
-
 SQL NULL Values
 
 w
