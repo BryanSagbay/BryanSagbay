@@ -1,6 +1,4 @@
 
-SQL WHERE
-
 SQL AND, OR and NOT Operators
 
 
