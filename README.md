@@ -1,5 +1,3 @@
-Applies to:  SQL Server  Azure SQL Database  Azure Synapse Analytics  SQL database in Microsoft Fabric
-
 Locations of sample databases and code samples for Microsoft SQL products.
 
 SQL samples repository
