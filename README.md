@@ -1,11 +1,3 @@
-
-The database downloads and samples are in the SQL Server samples GitHub repository.
-
-WideWorldImporters readme and samples on GitHub.
-
-Tutorial: Load WideWorldImportersDW to Azure Synapse Analytics
-
-AdventureWorks sample database
 AdventureWorks databases can be found on the installation page or directly within the SQL Server samples GitHub repository.
 
 Azure samples and templates
