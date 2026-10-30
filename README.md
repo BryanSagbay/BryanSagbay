@@ -1,9 +1,4 @@
 
-The samples and templates are all licensed under the MIT license. See the license.txt file in the root.
-
-WideWorldImporters sample database
-WideWorldImporters (WWI) is a sample database that showcases database design using current features, tools and design techniques. WideWorldImporters downloads include an OLTP and an OLAP database, which are built to run on SQL Server 2016 and later.
-
 The database downloads and samples are in the SQL Server samples GitHub repository.
 
 WideWorldImporters readme and samples on GitHub.
