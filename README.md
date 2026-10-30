@@ -1,14 +1,3 @@
-Configure the AdventureWorks sample data for use with Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services business intelligence scenarios.
-
-Training
-
-Certification
-
-Microsoft Certified: Azure Database Administrator Associate - Certifications
-
-Administer an SQL Server database infrastructure for cloud, on-premises and hybrid relational databases using the Microsoft PaaS relational database offerings.
-
-
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
