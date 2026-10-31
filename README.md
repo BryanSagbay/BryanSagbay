@@ -1,12 +1,3 @@
-Azure samples
-Azure Quickstart Templates
-Additional resources
-Documentation
-
-AdventureWorks Sample Databases - SQL Server
-
-Follow these instructions to download and install AdventureWorks sample databases to SQL Server.
-
 Restore the AdventureWorks Sample Database into SQL Managed Instance - Azure Arc
 
 Restore the AdventureWorks sample database into SQL Managed Instance
