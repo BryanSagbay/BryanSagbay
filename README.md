@@ -1,10 +1,3 @@
-WideWorldImporters readme and samples on GitHub.
-
-Tutorial: Load WideWorldImportersDW to Azure Synapse Analytics
-
-AdventureWorks sample database
-AdventureWorks databases can be found on the installation page or directly within the SQL Server samples GitHub repository.
-
 Azure samples and templates
 There are several Azure code samples and examples available on GitHub in .NET, Java, Python, Node.js, PHP and Ruby. Additionally, Azure Resource Manager allows you to configure your applications using a declarative template. In a single template, you can deploy multiple services along with their dependencies. You use the same template to repeatedly deploy your application during every stage of the application lifecycle.
 
