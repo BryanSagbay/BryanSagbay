@@ -1,6 +1,3 @@
-Azure samples and templates
-There are several Azure code samples and examples available on GitHub in .NET, Java, Python, Node.js, PHP and Ruby. Additionally, Azure Resource Manager allows you to configure your applications using a declarative template. In a single template, you can deploy multiple services along with their dependencies. You use the same template to repeatedly deploy your application during every stage of the application lifecycle.
-
 Azure samples
 Azure Quickstart Templates
 Additional resources
