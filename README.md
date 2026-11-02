@@ -1,9 +1,3 @@
-
-20 min read
-Need one that is not on this list? Describe it
-⚡ Live demo · no signup
-Top 3 products by revenue in each category
-
 MySQL
 Generate SQL
 Trusted by SQL engineers at startups, fintechs, and enterprise data teams.
