@@ -1,12 +1,3 @@
-
-CREATE TABLE orders (
-    id INT PRIMARY KEY,
-    employee_id INT REFERENCES employees(id),
-    customer_name VARCHAR(100),
-    amount DECIMAL(10,2),
-    order_date DATE,
-    status VARCHAR(20)
-);CopyRun in AI2SQL ▶
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
