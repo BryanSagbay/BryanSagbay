@@ -1,3 +1,42 @@
+30 SQL Query Examples for Beginners to Advanced (Copy & Paste)
+Practical SQL examples you can copy, paste, and run immediately. Each query includes the problem it solves, the SQL code, and the expected output. Uses a consistent sample database so you can follow along from start to finish.
+
+Mar 10, 2026
+20 min read
+Need one that is not on this list? Describe it
+⚡ Live demo · no signup
+Top 3 products by revenue in each category
+
+MySQL
+Generate SQL
+Trusted by SQL engineers at startups, fintechs, and enterprise data teams.
+Free to start · 7-day trial
+Getting Started with SQL Queries
+Every example in this guide uses three related tables: employees, departments, and orders. Here is the schema so you can create them yourself or follow along mentally.
+
+CREATE TABLE departments (
+    id INT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100),
+    salary DECIMAL(10,2),
+    hire_date DATE,
+    department_id INT REFERENCES departments(id)
+);
+
+CREATE TABLE orders (
+    id INT PRIMARY KEY,
+    employee_id INT REFERENCES employees(id),
+    customer_name VARCHAR(100),
+    amount DECIMAL(10,2),
+    order_date DATE,
+    status VARCHAR(20)
+);CopyRun in AI2SQL ▶
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
