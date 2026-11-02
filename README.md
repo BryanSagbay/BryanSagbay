@@ -1,7 +1,3 @@
-
-Getting Started with SQL Queries
-Every example in this guide uses three related tables: employees, departments, and orders. Here is the schema so you can create them yourself or follow along mentally.
-
 CREATE TABLE departments (
     id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL
