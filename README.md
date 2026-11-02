@@ -1,7 +1,4 @@
-MySQL
-Generate SQL
-Trusted by SQL engineers at startups, fintechs, and enterprise data teams.
-Free to start · 7-day trial
+
 Getting Started with SQL Queries
 Every example in this guide uses three related tables: employees, departments, and orders. Here is the schema so you can create them yourself or follow along mentally.
 
