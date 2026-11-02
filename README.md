@@ -1,10 +1,3 @@
-Example 4: LIMIT - Restrict Results
-Problem: Get the top 3 highest-paid employees.
-
-SELECT first_name, last_name, salary
-FROM employees
-ORDER BY salary DESC
-LIMIT 3;
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
