@@ -1,8 +1,3 @@
-CREATE TABLE departments (
-    id INT PRIMARY KEY,
-    name VARCHAR(50) NOT NULL
-);
-
 CREATE TABLE employees (
     id INT PRIMARY KEY,
     first_name VARCHAR(50),
