@@ -1,12 +1,5 @@
-SQL SELECT DISTINCT
 
-SQL WHERE
-
-SQL AND, OR and NOT Operators
-
-
-SQL ORDER BY
-
+SQL ORDER B
 SQL NULL Values
 
 w
