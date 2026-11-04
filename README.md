@@ -1,6 +1,3 @@
-Get Certified!
-Take the SQL exam and become w3schools certified!!
-
 SQL SELECT TOP
 
 SQL MIN() and MAX()
