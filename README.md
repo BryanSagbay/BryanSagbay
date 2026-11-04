@@ -1,10 +1,3 @@
-SQL SELECT TOP
-
-SQL MIN() and MAX()
-
-SQL COUNT, AVG() and SUM()
-
-SQL LIKE
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
