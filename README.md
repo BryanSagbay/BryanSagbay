@@ -1,8 +1,3 @@
-
-SQL ORDER B
-SQL NULL Values
-
-w
 3
 s
 c
