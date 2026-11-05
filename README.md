@@ -1,5 +1,4 @@
-	• Gemini (Argon, Flash): Destacan por su capacidad multimodal nativa (texto, audio, imagen y video) y grandes ventanas de contexto (hasta 1M de tokens), ideales para flujos de trabajo en tiempo real y ecosistemas de Google.
-	• Gemma: Familia de modelos abiertos (open models) para desarrolladores.
+
 • Meta / xAI / Otros
 	• Llama (Meta): Modelos de código abierto populares para ejecutar de forma local mediante herramientas como Ollama.
 	• Grok (xAI): Orientados a integración con datos en tiempo
