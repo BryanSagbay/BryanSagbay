@@ -1,8 +1,4 @@
 
-Tipos Generales de Modelos de IA
-
-• Modelos Generativos: Crean contenido nuevo (texto, imágenes, video, audio) a partir de instrucciones (ej. GPT, Claude, Gemini).
-• Modelos de Razonamiento: Piensan paso a paso antes de emitir una respuesta para resolver problemas complejos.
 • Modelos Multimodales: Procesan y combinan varios tipos de entrada a la vez (texto, voz, imagen y video).
 <div align="center">
 <!-- TYPING ANIMATION -->
