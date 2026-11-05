@@ -1,5 +1,4 @@
- Modelos de razonamiento (como o3 / o3-pro): Enfocados en aplicar mayor capacidad de cómputo a problemas lógicos, matemáticos y científicos complejos.
-• Anthropic
+
 	• Claude Opus / Claude Fable: Considerados de los mejores para escritura creativa, análisis detallado de documentos y programación (ej. Claude Opus 5.5 o Fable 5.1).
 • Google (Gemini / Gemma)
 	• Gemini (Argon, Flash): Destacan por su capacidad multimodal nativa (texto, audio, imagen y video) y grandes ventanas de contexto (hasta 1M de tokens), ideales para flujos de trabajo en tiempo real y ecosistemas de Google.
