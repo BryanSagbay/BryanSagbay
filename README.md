@@ -1,6 +1,4 @@
-Los principales modelos de Inteligencia Artificial (IA) se dividen por desarrollador y sus fortalezas actuales:
 
-Modelos Destacados por Desarrollador
 
 • OpenAI
 	• GPT-6 / GPT-5 (y series Luna / Sol): Ideales como todoterreno para generación de texto, integración de imágenes y procesamiento de alto volumen con contextos extensos (hasta más de 1 millón de tokens).
