@@ -1,5 +1,3 @@
-
-• Modelos Multimodales: Procesan y combinan varios tipos de entrada a la vez (texto, voz, imagen y video).
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
