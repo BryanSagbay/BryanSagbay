@@ -14,8 +14,6 @@ Características de la evaluación
 • Modalidad: 100% presencial en los campus universitarios (Central, Balzay, Paraíso, Yanuncay y Centro Histórico).
 • Estructura: 60 preguntas de opción múltiple.
 • Duración: 70 minutos.
-• Áreas evaluadas: Matemáticas, Lengua y Literatura, Ciencias Naturales, Ciencias Sociales y Razonamiento Abstracto.
-• Calificación: Sobre 1000 puntos (60% nota del examen y 40% antecedentes académicos). [1] (https://www.ucuenca.edu.ec/wp-content/uploads/2026/07/Guia-del-Examen-de-Admision-2026.pdf), [2] 
 
 <div align="center">
 <!-- TYPING ANIMATION -->
