@@ -15,8 +15,7 @@ Características de la evaluación
 • Estructura: 60 preguntas de opción múltiple.
 • Duración: 70 minutos.
 • Áreas evaluadas: Matemáticas, Lengua y Literatura, Ciencias Naturales, Ciencias Sociales y Razonamiento Abstracto.
-• Calificación: Sobre 1000 puntos (60% nota del examen y 40% antecedentes académicos). [1] (https://www.ucuenca.edu.ec/wp-content/uploads/2026/07/Guia-del-Examen-de-Admision-2026.pdf), [2] (https://blog.alau.org/todo-lo-que-necesitas-saber-del-examen-ucuenca-2026/)
-Puedes revisar avisos oficiales o comunicarte directamente a través de la página web de Admisiones UCuenca o mediante el correo de soporte admision@ucuenca.edu.ec. [1] (https://www.ucuenca.edu.ec/admisiones/), [2] (https://www.ucuenca.edu.ec/wp-content/uploads/2026/07/Guia-del-Examen-de-Admision-2026.pdf)
+• Calificación: Sobre 1000 puntos (60% nota del examen y 40% antecedentes académicos). [1] (https://www.ucuenca.edu.ec/wp-content/uploads/2026/07/Guia-del-Examen-de-Admision-2026.pdf), [2] 
 
 <div align="center">
 <!-- TYPING ANIMATION -->
