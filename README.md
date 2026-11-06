@@ -9,11 +9,7 @@ Cronograma principal del proceso 2026
 • Examen para personas con discapacidad: 5 de agosto de 2026
 • Asignación y aceptación de cupos: 12 – 23 de agosto de 2026 [1] (https://www.facebook.com/ucuenca/videos/admisionesucuenca-se-acercan-fechas-clave-para-el-examen-de-admisi%C3%B3n-100-presenc/1382634277263505/), [2] (https://www.ucuenca.edu.ec/admisiones/)
 
-Características de la evaluación
-
-• Modalidad: 100% presencial en los campus universitarios (Central, Balzay, Paraíso, Yanuncay y Centro Histórico).
-• Estructura: 60 preguntas de opción múltiple.
-• Duración: 70 minutos.
+Características de la evaluación\
 
 <div align="center">
 <!-- TYPING ANIMATION -->
