@@ -4,8 +4,6 @@ Cronograma principal del proceso 2026
 
 • Registro Nacional (MINEDUC): 2 – 13 de junio de 2026
 • Inscripción y postulación en la UCuenca: 6 – 12 de julio de 2026
-• Asignación de sede para el examen: 14 – 17 de julio de 2026
-• Examen de admisión presencial: 29 y 30 de julio de 2026
 
 
 <div align="center">
