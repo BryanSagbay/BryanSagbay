@@ -6,10 +6,7 @@ Cronograma principal del proceso 2026
 • Inscripción y postulación en la UCuenca: 6 – 12 de julio de 2026
 • Asignación de sede para el examen: 14 – 17 de julio de 2026
 • Examen de admisión presencial: 29 y 30 de julio de 2026
-• Examen para personas con discapacidad: 5 de agosto de 2026
-• Asignación y aceptación de cupos: 12 – 23 de agosto de 2026 [1] (https://www.facebook.com/ucuenca/videos/admisionesucuenca-se-acercan-fechas-clave-para-el-examen-de-admisi%C3%B3n-100-presenc/1382634277263505/), [2] (https://www.ucuenca.edu.ec/admisiones/)
 
-Características de la evaluación\
 
 <div align="center">
 <!-- TYPING ANIMATION -->
