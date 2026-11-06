@@ -1,4 +1,4 @@
-El proceso de admisión 2026 de la Universidad de Cuenca ya concluyó las fases de evaluación y asignación de cupos para el periodo septiembre 2026 – febrero 2027. [1] (https://www.ucuenca.edu.ec/admisiones/), [2] (https://www.facebook.com/elmercurioec/posts/la-universidad-de-cuenca-concluy%C3%B3-el-examen-de-admisi%C3%B3n-2026-el-proceso-contin%C3%BAa/1366627845673560/)
+El proceso de admisión 2026 de la Universidad de Cuenca ya concluyó las fases de evaluación y asignación de cupos para el periodo septiembre 2026 – febrero 2027. [1] 
 
 
 
