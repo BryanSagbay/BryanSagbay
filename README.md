@@ -1,6 +1,3 @@
-
-¿Te gustaría que te ayude a resolver un ejercicio específico de SQL-EX o prefieres recomendaciones sobre otros sitios interactivos para practicar?
-
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
