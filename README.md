@@ -1,5 +1,3 @@
-
-Visión general creada por IA
 Puedes practicar SQL en la plataforma interactiva SQL-EX, un sitio web clásico diseñado para resolver ejercicios y mejorar tus habilidades con consultas de lenguaje de manipulación de datos (DML). 
 
 SQL-EX
