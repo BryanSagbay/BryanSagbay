@@ -1,5 +1,4 @@
 
-8 nov 2006 — Practical skills of SQL language. This site will help everyone to gain or improve skills in building SQL Data Manipulation Language ...
 Visión general creada por IA
 Puedes practicar SQL en la plataforma interactiva SQL-EX, un sitio web clásico diseñado para resolver ejercicios y mejorar tus habilidades con consultas de lenguaje de manipulación de datos (DML). 
 
