@@ -1,7 +1,4 @@
 
-SQL-EX
-https://www.sql-ex.ru
-·
 Traducir esta página
 8 nov 2006 — Practical skills of SQL language. This site will help everyone to gain or improve skills in building SQL Data Manipulation Language ...
 Visión general creada por IA
