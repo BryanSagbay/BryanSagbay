@@ -1,5 +1,3 @@
-Puedes practicar SQL en la plataforma interactiva SQL-EX, un sitio web clásico diseñado para resolver ejercicios y mejorar tus habilidades con consultas de lenguaje de manipulación de datos (DML). 
-
 SQL-EX
 Características de SQL-EX
 Niveles de dificultad: Cuenta con 5 niveles progresivos que van desde ejercicios básicos hasta consultas avanzadas.
