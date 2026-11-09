@@ -1,3 +1,21 @@
+
+SQL-EX
+https://www.sql-ex.ru
+·
+Traducir esta página
+8 nov 2006 — Practical skills of SQL language. This site will help everyone to gain or improve skills in building SQL Data Manipulation Language ...
+Visión general creada por IA
+Puedes practicar SQL en la plataforma interactiva SQL-EX, un sitio web clásico diseñado para resolver ejercicios y mejorar tus habilidades con consultas de lenguaje de manipulación de datos (DML). 
+
+SQL-EX
+Características de SQL-EX
+Niveles de dificultad: Cuenta con 5 niveles progresivos que van desde ejercicios básicos hasta consultas avanzadas.
+Tipos de consultas: Permite entrenar tanto la recuperación de datos (SELECT) como la modificación de información (INSERT, UPDATE, etc.).
+Retroalimentación: Al enviar una respuesta incorrecta, puedes comparar las filas que devolvió tu consulta con el resultado que generó la consulta correcta. 
+
+SQL-EX
+¿Te gustaría que te ayude a resolver un ejercicio específico de SQL-EX o prefieres recomendaciones sobre otros sitios interactivos para practicar?
+
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
