@@ -1,7 +1,4 @@
-Tipos de consultas: Permite entrenar tanto la recuperación de datos (SELECT) como la modificación de información (INSERT, UPDATE, etc.).
-Retroalimentación: Al enviar una respuesta incorrecta, puedes comparar las filas que devolvió tu consulta con el resultado que generó la consulta correcta. 
 
-SQL-EX
 ¿Te gustaría que te ayude a resolver un ejercicio específico de SQL-EX o prefieres recomendaciones sobre otros sitios interactivos para practicar?
 
 <div align="center">
