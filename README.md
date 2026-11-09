@@ -1,7 +1,3 @@
-
-
-SQL-EX
-Características de SQL-EX
 Niveles de dificultad: Cuenta con 5 niveles progresivos que van desde ejercicios básicos hasta consultas avanzadas.
 Tipos de consultas: Permite entrenar tanto la recuperación de datos (SELECT) como la modificación de información (INSERT, UPDATE, etc.).
 Retroalimentación: Al enviar una respuesta incorrecta, puedes comparar las filas que devolvió tu consulta con el resultado que generó la consulta correcta. 
