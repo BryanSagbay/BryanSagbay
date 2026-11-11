@@ -1,13 +1,4 @@
 
-7. Modify Data (UPDATE)
-Changes existing records in a table. Always ensure you use a WHERE clause, or you will update every row in the database! 
-
-JS Mastery Pro
-sql
-UPDATE employees 
-SET salary = salary * 1.05 
-WHERE performance_rating = 'Excellent';
-Usa el código con precaución.
 8. Use Subqueries
 Nests a query inside another query to perform complex, multi-step filtering. 
 
