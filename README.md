@@ -1,12 +1,4 @@
 
-Querio
-sql
-SELECT department_id, COUNT(employee_id) AS total_staff, AVG(salary) AS average_salary
-FROM employees
-GROUP BY department_id;
-Usa el código con precaución.
-5. Filter Aggregates (HAVING)
-Similar to WHERE, but explicitly used to filter data after a GROUP BY aggregation has occurred. 
 
 Querio
 sql
