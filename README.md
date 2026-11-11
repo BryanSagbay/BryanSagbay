@@ -1,25 +1,4 @@
 
-
-JS Mastery Pro
-sql
-SELECT * 
-FROM orders 
-WHERE status = 'Completed' AND total_amount >= 150.00;
-Usa el código con precaución.
-3. Sort Results (ORDER BY)
-Arranges data in ascending (ASC) or descending (DESC) order. 
-
-YouTube
-·Data Geek is my name
- +1
-sql
-SELECT product_name, price 
-FROM products 
-ORDER BY price DESC;
-Usa el código con precaución.
-4. Group Data & Aggregate (GROUP BY)
-Combines rows that have the same values into summary rows, typically used with functions like SUM, AVG, COUNT, MAX, or MIN. 
-
 Querio
 sql
 SELECT department_id, COUNT(employee_id) AS total_staff, AVG(salary) AS average_salary
