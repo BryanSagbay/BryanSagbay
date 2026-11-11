@@ -1,13 +1,4 @@
 
-6. Combine Tables (JOIN)
-Merges rows from two or more tables based on a related column between them. 
-
-Querio
-sql
-SELECT orders.order_id, customers.customer_name, orders.order_date
-FROM orders
-INNER JOIN customers ON orders.customer_id = customers.customer_id;
-Usa el código con precaución.
 7. Modify Data (UPDATE)
 Changes existing records in a table. Always ensure you use a WHERE clause, or you will update every row in the database! 
 
