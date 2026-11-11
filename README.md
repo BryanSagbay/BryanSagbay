@@ -1,18 +1,3 @@
-
-9. Organize with CTEs (WITH)
-Common Table Expressions (CTEs) create a temporary, named result set that makes complex queries much easier to read and maintain. 
-
-Medium
-·DataNest
- +1
-sql
-WITH HighEarners AS (
-    SELECT employee_id, first_name, salary
-    FROM employees
-    WHERE salary > 100000
-)
-SELECT * FROM HighEarners WHERE salary < 150000;
-Usa el código con precaución.
 10. Sequential Ranking (ROW_NUMBER())
 A powerful window function used to assign a sequential integer to each row within a partition of your data. 
 
