@@ -1,3 +1,104 @@
+What are 10 common SQL queries?
+Visión general creada por IA
+Here are 10 essential SQL queries ranging from fundamental data manipulation to analytical patterns, complete with a quick example of how each works.
+1. Retrieve Data (SELECT)
+The foundation of SQL. Used to fetch specific columns or all data from a table.
+sql
+SELECT employee_id, first_name, salary 
+FROM employees;
+Usa el código con precaución.
+2. Filter Records (WHERE)
+Narrows down results based on specific conditions. 
+
+JS Mastery Pro
+sql
+SELECT * 
+FROM orders 
+WHERE status = 'Completed' AND total_amount >= 150.00;
+Usa el código con precaución.
+3. Sort Results (ORDER BY)
+Arranges data in ascending (ASC) or descending (DESC) order. 
+
+YouTube
+·Data Geek is my name
+ +1
+sql
+SELECT product_name, price 
+FROM products 
+ORDER BY price DESC;
+Usa el código con precaución.
+4. Group Data & Aggregate (GROUP BY)
+Combines rows that have the same values into summary rows, typically used with functions like SUM, AVG, COUNT, MAX, or MIN. 
+
+Querio
+sql
+SELECT department_id, COUNT(employee_id) AS total_staff, AVG(salary) AS average_salary
+FROM employees
+GROUP BY department_id;
+Usa el código con precaución.
+5. Filter Aggregates (HAVING)
+Similar to WHERE, but explicitly used to filter data after a GROUP BY aggregation has occurred. 
+
+Querio
+sql
+SELECT department_id, SUM(salary) AS total_payroll
+FROM employees
+GROUP BY department_id
+HAVING SUM(salary) > 500000;
+Usa el código con precaución.
+6. Combine Tables (JOIN)
+Merges rows from two or more tables based on a related column between them. 
+
+Querio
+sql
+SELECT orders.order_id, customers.customer_name, orders.order_date
+FROM orders
+INNER JOIN customers ON orders.customer_id = customers.customer_id;
+Usa el código con precaución.
+7. Modify Data (UPDATE)
+Changes existing records in a table. Always ensure you use a WHERE clause, or you will update every row in the database! 
+
+JS Mastery Pro
+sql
+UPDATE employees 
+SET salary = salary * 1.05 
+WHERE performance_rating = 'Excellent';
+Usa el código con precaución.
+8. Use Subqueries
+Nests a query inside another query to perform complex, multi-step filtering. 
+
+JS Mastery Pro
+sql
+SELECT first_name, salary 
+FROM employees 
+WHERE salary > (SELECT AVG(salary) FROM employees);
+Usa el código con precaución.
+9. Organize with CTEs (WITH)
+Common Table Expressions (CTEs) create a temporary, named result set that makes complex queries much easier to read and maintain. 
+
+Medium
+·DataNest
+ +1
+sql
+WITH HighEarners AS (
+    SELECT employee_id, first_name, salary
+    FROM employees
+    WHERE salary > 100000
+)
+SELECT * FROM HighEarners WHERE salary < 150000;
+Usa el código con precaución.
+10. Sequential Ranking (ROW_NUMBER())
+A powerful window function used to assign a sequential integer to each row within a partition of your data. 
+
+YouTube
+·techTFQ
+ +1
+sql
+SELECT employee_id, department_id, salary,
+       ROW_NUMBER() OVER (PARTITION BY department_id ORDER BY salary DESC) as salary_rank
+FROM employees;
+Usa el código con precaución.
+
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
