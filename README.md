@@ -1,14 +1,4 @@
-What are 10 common SQL queries?
-Visión general creada por IA
-Here are 10 essential SQL queries ranging from fundamental data manipulation to analytical patterns, complete with a quick example of how each works.
-1. Retrieve Data (SELECT)
-The foundation of SQL. Used to fetch specific columns or all data from a table.
-sql
-SELECT employee_id, first_name, salary 
-FROM employees;
-Usa el código con precaución.
-2. Filter Records (WHERE)
-Narrows down results based on specific conditions. 
+
 
 JS Mastery Pro
 sql
