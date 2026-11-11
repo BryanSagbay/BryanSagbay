@@ -1,12 +1,4 @@
 
-
-Querio
-sql
-SELECT department_id, SUM(salary) AS total_payroll
-FROM employees
-GROUP BY department_id
-HAVING SUM(salary) > 500000;
-Usa el código con precaución.
 6. Combine Tables (JOIN)
 Merges rows from two or more tables based on a related column between them. 
 
