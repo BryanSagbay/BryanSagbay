@@ -1,15 +1,3 @@
-10. Sequential Ranking (ROW_NUMBER())
-A powerful window function used to assign a sequential integer to each row within a partition of your data. 
-
-YouTube
-·techTFQ
- +1
-sql
-SELECT employee_id, department_id, salary,
-       ROW_NUMBER() OVER (PARTITION BY department_id ORDER BY salary DESC) as salary_rank
-FROM employees;
-Usa el código con precaución.
-
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
