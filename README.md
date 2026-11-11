@@ -1,13 +1,4 @@
 
-8. Use Subqueries
-Nests a query inside another query to perform complex, multi-step filtering. 
-
-JS Mastery Pro
-sql
-SELECT first_name, salary 
-FROM employees 
-WHERE salary > (SELECT AVG(salary) FROM employees);
-Usa el código con precaución.
 9. Organize with CTEs (WITH)
 Common Table Expressions (CTEs) create a temporary, named result set that makes complex queries much easier to read and maintain. 
 
