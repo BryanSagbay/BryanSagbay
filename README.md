@@ -1,7 +1,3 @@
-·Super SQA | QA Automation
- +1
-Aggregate function: Count how many customers live in each city.
-sql
 SELECT city, COUNT(customer_id) 
 FROM customers 
 GROUP BY city;
