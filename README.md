@@ -1,5 +1,3 @@
-3. Creating & Designing Tables (Data Definition Language - DDL)
-These commands build, alter, or destroy the actual structure of the database (like creating tables and columns) rather than the data itself. 
 
 Indeed
 Create a table: Set up a brand new table layout with defined column types.
