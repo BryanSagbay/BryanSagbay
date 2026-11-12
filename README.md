@@ -1,10 +1,3 @@
-LearnSQL.com
- +3
-sql
-SELECT customers.first_name, orders.order_date, orders.total_amount
-FROM customers
-INNER JOIN orders ON customers.customer_id = orders.customer_id;
-Usa el código con precaución.
 <div align="center">
 <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
