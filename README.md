@@ -1,13 +1,3 @@
-
-Indeed
-Create a table: Set up a brand new table layout with defined column types.
-sql
-CREATE TABLE customers (
-    customer_id INT PRIMARY KEY,
-    first_name VARCHAR(50),
-    last_name VARCHAR(50),
-    city VARCHAR(50)
-);
 Usa el código con precaución.
 Delete a table: Permanently remove an entire table structure and all its data. 
 
