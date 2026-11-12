@@ -1,9 +1,3 @@
-Usa el código con precaución.
-Delete a table: Permanently remove an entire table structure and all its data. 
-
-Indeed
- +1
-sql
 DROP TABLE customers;
 Usa el código con precaución.
 4. Advanced Analysis (Aggregations & Joins)
