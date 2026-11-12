@@ -1,9 +1,3 @@
-DROP TABLE customers;
-Usa el código con precaución.
-4. Advanced Analysis (Aggregations & Joins)
-SQL shines when combining data or calculating summaries across thousands of records. 
-
-YouTube
 ·Super SQA | QA Automation
  +1
 Aggregate function: Count how many customers live in each city.
