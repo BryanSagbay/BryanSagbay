@@ -1,9 +1,3 @@
-SELECT city, COUNT(customer_id) 
-FROM customers 
-GROUP BY city;
-Usa el código con precaución.
-Join tables: Combine data from a customers table and an orders table using a shared ID to see who placed what order. 
-
 LearnSQL.com
  +3
 sql
