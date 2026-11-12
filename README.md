@@ -1,34 +1,3 @@
-SQL (Structured Query Language) is the standard programming language used to manage and manipulate data in relational databases. 
-
-GeeksforGeeks
- +1
-SQL commands are divided into different categories based on what they do. Below are code examples for the most common SQL tasks, assuming a database containing a table named customers. 
-
-Indeed
- +2
-1. Reading Data (Data Query Language - DQL)
-These commands are used to look up and pull information out of a database table. 
-
-Indeed
- +1
-Select everything: Retrieve all rows and all columns from a table.
-sql
-SELECT * FROM customers;
-Usa el código con precaución.
-Filter results: Retrieve only specific columns for customers living in a specific city.
-sql
-SELECT first_name, last_name 
-FROM customers 
-WHERE city = 'New York';
-Usa el código con precaución.
-Sort results: Retrieve customers and sort them alphabetically by their last name. 
-
-LearnSQL.com
- +1
-sql
-SELECT * FROM customers 
-ORDER BY last_name ASC;
-Usa el código con precaución.
 2. Modifying Data (Data Manipulation Language - DML)
 These commands are used to add, edit, or delete the actual rows of data inside your tables. 
 
