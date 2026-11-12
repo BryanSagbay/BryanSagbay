@@ -1,27 +1,3 @@
-2. Modifying Data (Data Manipulation Language - DML)
-These commands are used to add, edit, or delete the actual rows of data inside your tables. 
-
-Indeed
-Insert data: Add a brand new customer to the table.
-sql
-INSERT INTO customers (first_name, last_name, city) 
-VALUES ('Alice', 'Smith', 'Chicago');
-Usa el código con precaución.
-Update data: Change existing information (e.g., updating a customer's city).
-sql
-UPDATE customers 
-SET city = 'Los Angeles' 
-WHERE customer_id = 4;
-Usa el código con precaución.
-Delete data: Remove a specific record from the database. 
-
-YouTube
-·Data Geek is my name
- +3
-sql
-DELETE FROM customers 
-WHERE customer_id = 4;
-Usa el código con precaución.
 3. Creating & Designing Tables (Data Definition Language - DDL)
 These commands build, alter, or destroy the actual structure of the database (like creating tables and columns) rather than the data itself. 
 
