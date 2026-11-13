@@ -1,12 +1,3 @@
-select *
-from TCUENTACHEQUES WHERE CCUENTA ='1300626021' AND NUMEROCHEQUE ='14';
-
-update TCUENTACHEQUES set CMOTIVOESTATUSCHEQUE ='1' WHERE CCUENTA ='1300626021' AND NUMEROCHEQUE ='14';
-
-
-select *   FROM TFEFACTURA   WHERE ESTATUSENVIO='E' AND FECHAEMISION >=TO_DATE('2026-11-10','YYYY-MM-DD');
-
-
 -- 1) Tipo de ID y cuentas del cliente (cambia :cpersona)
   SELECT tc.ccuenta, tc.cestatuscuenta, tp.CTIPOIDENTIFICACION, tp.identificacion
   FROM TCUENTA tc JOIN TPERSONA tp ON tp.cpersona = tc.cpersona_cliente AND tp.fhasta = FNCFHASTA()
