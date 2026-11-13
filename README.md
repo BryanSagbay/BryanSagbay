@@ -1,9 +1,3 @@
-UPDATE customers 
-SET city = 'Los Angeles' 
-WHERE customer_id = 4;
-Usa el código con precaución.
-Delete data: Remove a specific record from the database. 
-
 YouTube
 ·Data Geek is my name
  +3
