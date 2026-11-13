@@ -1,9 +1,3 @@
-LearnSQL.com
- +1
-sql
-SELECT * FROM customers 
-ORDER BY last_name ASC;
-Usa el código con precaución.
 2. Modifying Data (Data Manipulation Language - DML)
 These commands are used to add, edit, or delete the actual rows of data inside your tables. 
 
