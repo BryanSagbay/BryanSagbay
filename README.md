@@ -1,9 +1,3 @@
-SELECT first_name, last_name 
-FROM customers 
-WHERE city = 'New York';
-Usa el código con precaución.
-Sort results: Retrieve customers and sort them alphabetically by their last name. 
-
 LearnSQL.com
  +1
 sql
