@@ -1,9 +1,3 @@
-Select everything: Retrieve all rows and all columns from a table.
-sql
-SELECT * FROM customers;
-Usa el código con precaución.
-Filter results: Retrieve only specific columns for customers living in a specific city.
-sql
 SELECT first_name, last_name 
 FROM customers 
 WHERE city = 'New York';
