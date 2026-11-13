@@ -15,27 +15,6 @@
   -- 4) Montos y parámetro de la trx 01-9246
   SELECT valortexto natural, valornumerico juridico FROM TCOMPANIAPARAMETROSSISTEMA
   WHERE cparametrosistema = 'MONTOALTADEN' AND fhasta = FNCFHASTA();
-
-SELECT parametro, activado FROM TCOMANDOSMANTENIMIENTO
-  WHERE csubsistema = '01' AND ctransaccion = '9246';
-
-
-  -- Hipótesis 2: relación PRI de ambas cuentas
-  SELECT ccuenta, cpersona, crelacionproducto, fhasta
-  FROM TCUENTASPERSONA
-  WHERE ccuenta IN ('0600318985','2100029033') AND fhasta = FNCFHASTA();
-
-  -- Hipótesis 1: ver si hubo otro depósito con hora cercana (campo de usuario/sesión)
-  SELECT ccuenta, ctransaccion, freal, montodenominacion, cusuario, sesion
-  FROM TCAJACALCULADORA
-  WHERE ccuenta IN ('0600318985','2100029033') AND freal >= DATE '2026-09-14';
-
-
-select *
-from TCAJADETALLEESPECIESMONETARIAS
-WHERE NUMEROMENSAJE = '1aceac18a1a0a15aaddbabf9'
-      --'-5e04e688a1a0a167ffc2a316b'
-    CUSUARIO IN ('BA01260349','BA01190333') AND FCONTABLE ='14-09-2026';
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
