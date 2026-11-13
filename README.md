@@ -1,32 +1,5 @@
-Indeed
- +1
-sql
-DROP TABLE customers;
-Usa el código con precaución.
-4. Advanced Analysis (Aggregations & Joins)
-SQL shines when combining data or calculating summaries across thousands of records. 
-
-YouTube
-·Super SQA | QA Automation
- +1
-Aggregate function: Count how many customers live in each city.
-sql
-SELECT city, COUNT(customer_id) 
-FROM customers 
-GROUP BY city;
-Usa el código con precaución.
-Join tables: Combine data from a customers table and an orders table using a shared ID to see who placed what order. 
-
-LearnSQL.com
- +3
-sql
-SELECT customers.first_name, orders.order_date, orders.total_amount
-FROM customers
-INNER JOIN orders ON customers.customer_id = orders.customer_id;
-Usa el código con precaución.
-
 <div align="center">
-<!-- TYPING ANIMATION -->
+ <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
                 src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=600&lines=Software+Engineer;MSc+Artificial+Intelligence;Full+Stack+Developer;Always+building+something+new+%E2%9A%A1"
                 alt="Typing SVG" />
