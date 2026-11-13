@@ -1,9 +1,3 @@
-2. Modifying Data (Data Manipulation Language - DML)
-These commands are used to add, edit, or delete the actual rows of data inside your tables. 
-
-Indeed
-Insert data: Add a brand new customer to the table.
-sql
 INSERT INTO customers (first_name, last_name, city) 
 VALUES ('Alice', 'Smith', 'Chicago');
 Usa el código con precaución.
