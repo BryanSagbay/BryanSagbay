@@ -1,9 +1,3 @@
-select *
-from TMOVIMIENTOS where NUMEROMENSAJE ='-42f8cea1a1d029af77a-7cc3';
-
-select *
-from tcuentacheques where ccuenta ='0017046950' and numerocheque ='218967';
-
 SELECT * FROM TCUENTACHEQUERASID tci
 WHERE tci.CCUENTA = '0017046950';
 
