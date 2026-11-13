@@ -1,8 +1,3 @@
-1. Reading Data (Data Query Language - DQL)
-These commands are used to look up and pull information out of a database table. 
-
-Indeed
- +1
 Select everything: Retrieve all rows and all columns from a table.
 sql
 SELECT * FROM customers;
