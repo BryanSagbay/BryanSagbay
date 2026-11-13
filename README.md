@@ -1,8 +1,3 @@
-INSERT INTO customers (first_name, last_name, city) 
-VALUES ('Alice', 'Smith', 'Chicago');
-Usa el código con precaución.
-Update data: Change existing information (e.g., updating a customer's city).
-sql
 UPDATE customers 
 SET city = 'Los Angeles' 
 WHERE customer_id = 4;
