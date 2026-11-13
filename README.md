@@ -1,20 +1,3 @@
--- 1) Tipo de ID y cuentas del cliente (cambia :cpersona)
-  SELECT tc.ccuenta, tc.cestatuscuenta, tp.CTIPOIDENTIFICACION, tp.identificacion
-  FROM TCUENTA tc JOIN TPERSONA tp ON tp.cpersona = tc.cpersona_cliente AND tp.fhasta = FNCFHASTA()
-  WHERE tc.cpersona_cliente = '4164772' AND tc.fhasta = FNCFHASTA and CSUBSISTEMA ='04';
-
-  -- 2) Qué ve el query como "utilizado"
-  SELECT cal.ccuenta, cal.csubsistema, cal.ctransaccion, cal.freal, cal.montodenominacion, cal.estado
-  FROM TCAJACALCULADORA cal
-  WHERE cal.ccuenta IN ('0600318985', '2100029033') ORDER BY cal.freal;
-
-  -- 3) Excepciones vigentes
-  SELECT ccuenta, montousuario, fmaxima FROM TCUENTAEXCEPCIONES
-  WHERE ccuenta IN ('0600318985', '2100029033') AND ctipoexcepcion = 'EBAD' AND fhasta = FNCFHASTA();
-
-  -- 4) Montos y parámetro de la trx 01-9246
-  SELECT valortexto natural, valornumerico juridico FROM TCOMPANIAPARAMETROSSISTEMA
-  WHERE cparametrosistema = 'MONTOALTADEN' AND fhasta = FNCFHASTA();
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
