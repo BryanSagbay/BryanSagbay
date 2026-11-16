@@ -1,6 +1,3 @@
-2. History and development
-The history of SQL goes back to the 1970s, when IBM developed the R system, which was based on Edgar F. Codd’s relational model. Originally the language was called SEQUEL (Structured English Query Language), but the name was later changed to SQL. In 1986, SQL was recognized as a standard by the American National Standards Institute (ANSI) and in 1987 by the International Organization for Standardization (ISO). Since then, SQL has continued to evolve and is now the de facto standard for relational databases. SQL is supported by almost all modern database management systems (DBMS), including MySQL, PostgreSQL, Oracle and Microsoft SQL Server.
-
 3. Basic SQL commands
 SQL commands can be divided into four main categories:
 
