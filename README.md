@@ -1,8 +1,4 @@
-There are several types of keys in a relational database model:
 
-Primary Key: A unique identifier for each row in a table.
-Foreign Key: A field in a table that references the primary key of another table to establish a relationship between the tables.
-5. SQL queries and functions
 SQL queries use the SELECT command to retrieve data from one or more tables. Conditions can be added with the WHERE clause to filter specific records. Other useful SQL commands and functions include:
 
 ORDER BY: Sorting the query results.
