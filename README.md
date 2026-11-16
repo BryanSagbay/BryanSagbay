@@ -1,3 +1,56 @@
+1. Basics of SQL
+SQL, or Structured Query Language, is a standardized language developed specifically for managing and editing data in relational databases. SQL allows users to create databases, store, retrieve, update and delete data. This language is easy to learn and offers a variety of commands to perform both simple and complex database operations. With SQL, data can be stored in a structured tabular form and queried efficiently, making it an indispensable tool in the world of data management.
+
+2. History and development
+The history of SQL goes back to the 1970s, when IBM developed the R system, which was based on Edgar F. Codd’s relational model. Originally the language was called SEQUEL (Structured English Query Language), but the name was later changed to SQL. In 1986, SQL was recognized as a standard by the American National Standards Institute (ANSI) and in 1987 by the International Organization for Standardization (ISO). Since then, SQL has continued to evolve and is now the de facto standard for relational databases. SQL is supported by almost all modern database management systems (DBMS), including MySQL, PostgreSQL, Oracle and Microsoft SQL Server.
+
+3. Basic SQL commands
+SQL commands can be divided into four main categories:
+
+DDL (Data Definition Language): These commands are used to define and change the structure of the database. Examples are
+CREATE: Creating databases and tables.
+ALTER: Change the structure of existing tables.
+DROP: Deleting databases and tables.
+DML (Data Manipulation Language): These commands are used to manipulate the data within the database. Examples are:
+SELECT: Retrieve data from one or more tables.
+INSERT: Insert new data records into a table.
+UPDATE: Updating existing data records in a table.
+DELETE: Delete data records from a table.
+DCL (Data Control Language): These commands control access to the database. Examples are:
+GRANT: Granting access rights.
+REVOKE: Withdrawal of access rights.
+TCL (Transaction Control Language): These commands manage transactions in the database. Examples are:
+COMMIT: Confirm a transaction.
+ROLLBACK: Undoing a transaction.
+SAVEPOINT: Set an intermediate point within a transaction.
+Connect your database
+The database connection with the OPC Router – test it now in the comprehensive and free demo.
+
+Test OPC Router free of charge
+4. SQL database models
+SQL databases are based on the relational model, which organizes data in tables. Each table consists of rows (data records) and columns (fields). Relationships between the tables are defined by keys (primary and foreign keys). The relational model enables efficient data organization and retrieval by minimizing redundant data and ensuring consistency.
+
+There are several types of keys in a relational database model:
+
+Primary Key: A unique identifier for each row in a table.
+Foreign Key: A field in a table that references the primary key of another table to establish a relationship between the tables.
+5. SQL queries and functions
+SQL queries use the SELECT command to retrieve data from one or more tables. Conditions can be added with the WHERE clause to filter specific records. Other useful SQL commands and functions include:
+
+ORDER BY: Sorting the query results.
+GROUP BY: Group results based on one or more fields.
+HAVING: Applying conditions to grouped data records.
+JOIN: Joining data from multiple tables based on common fields. Types of joins are:
+INNER JOIN: Returns data records for which there is a match in both tables.
+LEFT JOIN (oder LEFT OUTER JOIN): Returns all data records from the left table and the matching data records from the right table.
+RIGHT JOIN (oder RIGHT OUTER JOIN): Returns all data records from the right-hand table and the matching data records from the left-hand table.
+FULL JOIN (oder FULL OUTER JOIN): Returns all data records if there is a match in one of the tables.
+Aggregatfunktionen: Calculations on a group of values, e.g.:
+COUNT(): Counts the number of lines.
+SUM(): Calculates the sum of the values.
+AVG(): Calculates the sum of the values.
+MAX(): Finds the maximum value.
+MIN(): Finds the minimum value.
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
