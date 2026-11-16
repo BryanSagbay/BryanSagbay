@@ -1,12 +1,3 @@
-ing data records from the right table.
-RIGHT JOIN (oder RIGHT OUTER JOIN): Returns all data records from the right-hand table and the matching data records from the left-hand table.
-FULL JOIN (oder FULL OUTER JOIN): Returns all data records if there is a match in one of the tables.
-Aggregatfunktionen: Calculations on a group of values, e.g.:
-COUNT(): Counts the number of lines.
-SUM(): Calculates the sum of the values.
-AVG(): Calculates the sum of the values.
-MAX(): Finds the maximum value.
-MIN(): Finds the minimum value.
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
