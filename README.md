@@ -1,8 +1,3 @@
-
-DML (Data Manipulation Language): These commands are used to manipulate the data within the database. Examples are:
-SELECT: Retrieve data from one or more tables.
-INSERT: Insert new data records into a table.
-UPDATE: Updating existing data records in a table.
 DELETE: Delete data records from a table.
 DCL (Data Control Language): These commands control access to the database. Examples are:
 GRANT: Granting access rights.
