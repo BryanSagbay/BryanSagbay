@@ -1,12 +1,4 @@
-
-SQL queries use the SELECT command to retrieve data from one or more tables. Conditions can be added with the WHERE clause to filter specific records. Other useful SQL commands and functions include:
-
-ORDER BY: Sorting the query results.
-GROUP BY: Group results based on one or more fields.
-HAVING: Applying conditions to grouped data records.
-JOIN: Joining data from multiple tables based on common fields. Types of joins are:
-INNER JOIN: Returns data records for which there is a match in both tables.
-LEFT JOIN (oder LEFT OUTER JOIN): Returns all data records from the left table and the matching data records from the right table.
+ing data records from the right table.
 RIGHT JOIN (oder RIGHT OUTER JOIN): Returns all data records from the right-hand table and the matching data records from the left-hand table.
 FULL JOIN (oder FULL OUTER JOIN): Returns all data records if there is a match in one of the tables.
 Aggregatfunktionen: Calculations on a group of values, e.g.:
