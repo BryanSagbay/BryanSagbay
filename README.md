@@ -1,6 +1,3 @@
-1. Basics of SQL
-SQL, or Structured Query Language, is a standardized language developed specifically for managing and editing data in relational databases. SQL allows users to create databases, store, retrieve, update and delete data. This language is easy to learn and offers a variety of commands to perform both simple and complex database operations. With SQL, data can be stored in a structured tabular form and queried efficiently, making it an indispensable tool in the world of data management.
-
 2. History and development
 The history of SQL goes back to the 1970s, when IBM developed the R system, which was based on Edgar F. Codd’s relational model. Originally the language was called SEQUEL (Structured English Query Language), but the name was later changed to SQL. In 1986, SQL was recognized as a standard by the American National Standards Institute (ANSI) and in 1987 by the International Organization for Standardization (ISO). Since then, SQL has continued to evolve and is now the de facto standard for relational databases. SQL is supported by almost all modern database management systems (DBMS), including MySQL, PostgreSQL, Oracle and Microsoft SQL Server.
 
