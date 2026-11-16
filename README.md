@@ -1,10 +1,4 @@
-3. Basic SQL commands
-SQL commands can be divided into four main categories:
 
-DDL (Data Definition Language): These commands are used to define and change the structure of the database. Examples are
-CREATE: Creating databases and tables.
-ALTER: Change the structure of existing tables.
-DROP: Deleting databases and tables.
 DML (Data Manipulation Language): These commands are used to manipulate the data within the database. Examples are:
 SELECT: Retrieve data from one or more tables.
 INSERT: Insert new data records into a table.
