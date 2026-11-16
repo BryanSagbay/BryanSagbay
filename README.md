@@ -1,13 +1,3 @@
-DELETE: Delete data records from a table.
-DCL (Data Control Language): These commands control access to the database. Examples are:
-GRANT: Granting access rights.
-REVOKE: Withdrawal of access rights.
-TCL (Transaction Control Language): These commands manage transactions in the database. Examples are:
-COMMIT: Confirm a transaction.
-ROLLBACK: Undoing a transaction.
-SAVEPOINT: Set an intermediate point within a transaction.
-Connect your database
-The database connection with the OPC Router – test it now in the comprehensive and free demo.
 
 Test OPC Router free of charge
 4. SQL database models
