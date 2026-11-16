@@ -1,8 +1,3 @@
-
-Test OPC Router free of charge
-4. SQL database models
-SQL databases are based on the relational model, which organizes data in tables. Each table consists of rows (data records) and columns (fields). Relationships between the tables are defined by keys (primary and foreign keys). The relational model enables efficient data organization and retrieval by minimizing redundant data and ensuring consistency.
-
 There are several types of keys in a relational database model:
 
 Primary Key: A unique identifier for each row in a table.
