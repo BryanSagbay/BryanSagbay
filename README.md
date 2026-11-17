@@ -1,11 +1,3 @@
-
-
-Restore the AdventureWorks sample database into SQL Managed Instance
-
-Get the sample SQL Server databases for ADO.NET code samples - ADO.NET
-
-Download the sample SQL Server databases used in the code samples in the ADO.NET documentation, as well as SQL Server and management tools
-
 Show 2 more
 Training
 
