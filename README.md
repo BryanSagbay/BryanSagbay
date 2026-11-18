@@ -1,7 +1,3 @@
- [1] (https://translate.google.com/translate?u=https://medium.com/@AnweshaB/14-topics-to-cover-in-sql-6058441411fc&hl=es&sl=en&tl=es&client=sge), [2] (https://www.youtube.com/watch?v=DFg1V-rO6Pg)
-Si quieres profundizar en la ruta de aprendizaje, consulta la Guía de 14 Temas de SQL en Medium. [1] (https://translate.google.com/translate?u=https://medium.com/@AnweshaB/14-topics-to-cover-in-sql-6058441411fc&hl=es&sl=en&tl=es&client=sge)
-Dime tu nivel actual (principiante, intermedio o avanzado) y el gestor de base de datos que usas (como PostgreSQL, MySQL o SQL Server), y armamos un plan de estudio o ejercicios prácticos.
-
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
