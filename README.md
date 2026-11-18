@@ -1,11 +1,5 @@
 
 
-• Funciones de agregado: COUNT, SUM, AVG, MIN y MAX.
-• Agrupación y filtros de grupos: GROUP BY y HAVING.
-• Uniones (JOIN): INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN y CROSS JOIN para combinar datos de varias tablas.
-• Operadores de conjuntos: UNION, UNION ALL, INTERSECT y EXCEPT.
-• Subconsultas: consultas anidadas en SELECT, WHERE o FROM. [1] (https://www.reddit.com/r/SQL/comments/19eob3d/what_would_you_consider_a_basic_knowledge_of_sql/?tl=es-419), [2] (https://translate.google.com/translate?u=https://www.superdatascience.com/blogs/blog-10-essential-topics-to-understand-sql&hl=es&sl=en&tl=es&client=sge), [3] (https://www.youtube.com/shorts/jlWxO5Xf1wQ)
-
 3. Definición de estructuras y control
 
 • Definición de datos (DDL): CREATE TABLE, ALTER TABLE, DROP TABLE y restricciones (NOT NULL, UNIQUE, CHECK, DEFAULT).
