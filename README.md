@@ -1,7 +1,3 @@
-
-
-3. Definición de estructuras y control
-
 • Definición de datos (DDL): CREATE TABLE, ALTER TABLE, DROP TABLE y restricciones (NOT NULL, UNIQUE, CHECK, DEFAULT).
 • Transacciones (TCL): BEGIN / START TRANSACTION, COMMIT, ROLLBACK y propiedades ACID.
 • Control de acceso (DCL): usuarios, roles, GRANT y REVOKE.
