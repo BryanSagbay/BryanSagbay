@@ -1,4 +1,3 @@
-Los temas de SQL se organizan mejor de lo básico a lo avanzado, y puedes practicarlos paso a paso en SQL Practice por Concepto o revisar un temario estructurado en SQL Mastery Curso Completo. [1] (https://translate.google.com/translate?u=https://medium.com/@AnweshaB/14-topics-to-cover-in-sql-6058441411fc&hl=es&sl=en&tl=es&client=sge), [2] (https://translate.google.com/translate?u=https://www.sql-practice.online/scenario&hl=es&sl=en&tl=es&client=sge), [3] (https://sqlmastery.net/curso-sql-completo)
 
 1. Fundamentos y consultas básicas
 
