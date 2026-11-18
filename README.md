@@ -1,6 +1,4 @@
- [2] (https://translate.google.com/translate?u=https://www.superdatascience.com/blogs/blog-10-essential-topics-to-understand-sql&hl=es&sl=en&tl=es&client=sge), [3] (https://learnsql.es/blog/terminos-de-sql-que-los-principiantes-deben-conocer/), [4] (https://www.youtube.com/shorts/jlWxO5Xf1wQ), [5] (https://www.youtube.com/shorts/zMVRWyl1wiw)
 
-2. Agrupación y combinación de tablas
 
 • Funciones de agregado: COUNT, SUM, AVG, MIN y MAX.
 • Agrupación y filtros de grupos: GROUP BY y HAVING.
