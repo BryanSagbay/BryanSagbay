@@ -1,9 +1,4 @@
 
-• Vistas: CREATE VIEW y vistas materializadas para encapsular consultas frecuentes. [1] (https://www.youtube.com/watch?v=DFg1V-rO6Pg), [2] (https://www.youtube.com/shorts/krpC4gmKjuU), [3] (https://www.ibm.com/docs/es/db2w-as-a-service?topic=reference-statements)
-
-4. SQL avanzado y optimización
-
-• CTE y recursividad: expresiones de tabla comunes (WITH) y consultas recursivas.
 • Funciones de ventana: ROW_NUMBER(), RANK(), DENSE_RANK(), NTILE(), LAG() y LEAD().
 • Objetos programables: procedimientos almacenados, funciones definidas por el usuario y disparadores (TRIGGERS).
 • Manejo de errores y JSON/XML: bloques TRY...CATCH, SQL dinámico y consulta de datos semiestructurados.
