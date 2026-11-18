@@ -1,7 +1,3 @@
-
-1. Fundamentos y consultas básicas
-
-• Modelado relacional: bases de datos, tablas, filas, columnas, claves primarias (PRIMARY KEY) y foráneas (FOREIGN KEY).
 • Tipos de datos: enteros (INT, BIGINT), decimales, cadenas (VARCHAR, CHAR, TEXT), fechas y booleanos.
 • Consultas básicas (DQL): SELECT, FROM, WHERE, operadores lógicos y de comparación, LIKE, IN, BETWEEN, ORDER BY y LIMIT.
 • Manipulación de datos (DML): INSERT INTO, UPDATE y DELETE. [1] (https://translate.google.com/translate?u=https://www.linkedin.com/pulse/list-sql-topics-follow-comprehensive-end-learning-shubhrajit-basu-36ewc&hl=es&sl=en&tl=es&client=sge), [2] (https://translate.google.com/translate?u=https://www.superdatascience.com/blogs/blog-10-essential-topics-to-understand-sql&hl=es&sl=en&tl=es&client=sge), [3] (https://learnsql.es/blog/terminos-de-sql-que-los-principiantes-deben-conocer/), [4] (https://www.youtube.com/shorts/jlWxO5Xf1wQ), [5] (https://www.youtube.com/shorts/zMVRWyl1wiw)
