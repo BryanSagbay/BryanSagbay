@@ -1,6 +1,4 @@
-• Definición de datos (DDL): CREATE TABLE, ALTER TABLE, DROP TABLE y restricciones (NOT NULL, UNIQUE, CHECK, DEFAULT).
-• Transacciones (TCL): BEGIN / START TRANSACTION, COMMIT, ROLLBACK y propiedades ACID.
-• Control de acceso (DCL): usuarios, roles, GRANT y REVOKE.
+
 • Vistas: CREATE VIEW y vistas materializadas para encapsular consultas frecuentes. [1] (https://www.youtube.com/watch?v=DFg1V-rO6Pg), [2] (https://www.youtube.com/shorts/krpC4gmKjuU), [3] (https://www.ibm.com/docs/es/db2w-as-a-service?topic=reference-statements)
 
 4. SQL avanzado y optimización
