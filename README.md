@@ -1,7 +1,3 @@
-SQL SELECT DISTINCT
-
-SQL WHERE
-
 SQL AND, OR and NOT Operators
 
 
