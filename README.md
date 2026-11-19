@@ -1,12 +1,4 @@
 
-3
-s
-c
-h
-o
-o
-l
-s
 C
 E
 R
