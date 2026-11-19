@@ -1,10 +1,3 @@
-QL COUNT, AVG() and SUM()
-
-SQL LIKE
-
-SQL Wildcards
-
-
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
