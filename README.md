@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body>
 
-
-
-</body>
 </html>
 <?php
 $target_dir = "uploads/";
