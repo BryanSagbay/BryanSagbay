@@ -1,6 +1,4 @@
-
-
-RDS para SQL Server admite el modelo de licencias “Licencia incluida”, lo que significa que no es necesario comprar licencias de Microsoft SQL Server por separado. Los precios del servicio “Licencia incluida” incluyen la licencia de software, los recursos de hardware subyacentes y las funciones de administración de RDS.
+\
 
 Puede beneficiarse de un precio por horas sin tener que pagar tarifas por adelantado y sin necesidad de asumir compromisos a largo plazo. Además, también tiene la opción de adquirir instancias de base de datos reservadas con arreglo a plazos de reserva de uno o tres años. Con las instancias de base de datos reservadas, puede hacer un pago inicial único y por un bajo importe para cada instancia de base de datos y, posteriormente, pagar una tarifa de uso por hora con un importante descuento, de forma que se puede conseguir hasta el 65% de ahorro neto.
 
