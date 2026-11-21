@@ -1,5 +1,3 @@
- además de estar optimizada para cargas de trabajo de bases de datos transaccionales (OLTP) y con un uso intensivo de E/S.
-
 Beneficios de Amazon RDS para SQL Server
 
 Completamente administrado
