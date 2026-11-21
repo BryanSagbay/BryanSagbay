@@ -1,6 +1,4 @@
-\
-
-Puede beneficiarse de un precio por horas sin tener que pagar tarifas por adelantado y sin necesidad de asumir compromisos a largo plazo. Además, también tiene la opción de adquirir instancias de base de datos reservadas con arreglo a plazos de reserva de uno o tres años. Con las instancias de base de datos reservadas, puede hacer un pago inicial único y por un bajo importe para cada instancia de base de datos y, posteriormente, pagar una tarifa de uso por hora con un importante descuento, de forma que se puede conseguir hasta el 65% de ahorro neto.
+o inicial único y por un bajo importe para cada instancia de base de datos y, posteriormente, pagar una tarifa de uso por hora con un importante descuento, de forma que se puede conseguir hasta el 65% de ahorro neto.
 
 Las instancias de base de datos de RDS para SQL Server se pueden aprovisionar con almacenamiento estándar o con almacenamiento de E/S por segundo aprovisionadas. La opción de almacenamiento de E/S por segundo aprovisionadas está diseñada para proporcionar un rendimiento de entrada y salida rápido, predecible y consistente, además de estar optimizada para cargas de trabajo de bases de datos transaccionales (OLTP) y con un uso intensivo de E/S.
 
