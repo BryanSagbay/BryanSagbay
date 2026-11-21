@@ -1,4 +1,3 @@
-o inicial único y por un bajo importe para cada instancia de base de datos y, posteriormente, pagar una tarifa de uso por hora con un importante descuento, de forma que se puede conseguir hasta el 65% de ahorro neto.
 
 Las instancias de base de datos de RDS para SQL Server se pueden aprovisionar con almacenamiento estándar o con almacenamiento de E/S por segundo aprovisionadas. La opción de almacenamiento de E/S por segundo aprovisionadas está diseñada para proporcionar un rendimiento de entrada y salida rápido, predecible y consistente, además de estar optimizada para cargas de trabajo de bases de datos transaccionales (OLTP) y con un uso intensivo de E/S.
 
