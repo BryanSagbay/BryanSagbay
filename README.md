@@ -1,3 +1,23 @@
+SQL Server es un sistema de administración de bases de datos relacionales desarrollado por Microsoft. Con RDS para SQL Server, puede implementar varias ediciones de SQL Server (2016, 2017, 2019 y 2022), incluidas las Enterprise, Standard, Web, Developer y Express, en cuestión de minutos y con una capacidad de cómputo rentable y de tamaño variable. RDS para SQL Server le permite centrarse en el desarrollo de la aplicación, ya que se ocupa de las tareas de administración de bases de datos que tanto tiempo consumen, como el aprovisionamiento, las copias de seguridad, los parches de software, el monitoreo y el escalado del hardware.
+
+RDS para SQL Server admite el modelo de licencias “Licencia incluida”, lo que significa que no es necesario comprar licencias de Microsoft SQL Server por separado. Los precios del servicio “Licencia incluida” incluyen la licencia de software, los recursos de hardware subyacentes y las funciones de administración de RDS.
+
+Puede beneficiarse de un precio por horas sin tener que pagar tarifas por adelantado y sin necesidad de asumir compromisos a largo plazo. Además, también tiene la opción de adquirir instancias de base de datos reservadas con arreglo a plazos de reserva de uno o tres años. Con las instancias de base de datos reservadas, puede hacer un pago inicial único y por un bajo importe para cada instancia de base de datos y, posteriormente, pagar una tarifa de uso por hora con un importante descuento, de forma que se puede conseguir hasta el 65% de ahorro neto.
+
+Las instancias de base de datos de RDS para SQL Server se pueden aprovisionar con almacenamiento estándar o con almacenamiento de E/S por segundo aprovisionadas. La opción de almacenamiento de E/S por segundo aprovisionadas está diseñada para proporcionar un rendimiento de entrada y salida rápido, predecible y consistente, además de estar optimizada para cargas de trabajo de bases de datos transaccionales (OLTP) y con un uso intensivo de E/S.
+
+Beneficios de Amazon RDS para SQL Server
+
+Completamente administrado
+
+Alta disponibilidad con un solo clic
+
+Almacenamiento autoescalado
+
+Copias de seguridad automatizadas
+
+Facilidad de migración
+
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
