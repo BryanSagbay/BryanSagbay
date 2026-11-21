@@ -1,4 +1,4 @@
-RDS para SQL Server le permite centrarse en el desarrollo de la aplicación, ya que se ocupa de las tareas de administración de bases de datos que tanto tiempo consumen, como el aprovisionamiento, las copias de seguridad, los parches de software, el monitoreo y el escalado del hardware.
+
 
 RDS para SQL Server admite el modelo de licencias “Licencia incluida”, lo que significa que no es necesario comprar licencias de Microsoft SQL Server por separado. Los precios del servicio “Licencia incluida” incluyen la licencia de software, los recursos de hardware subyacentes y las funciones de administración de RDS.
 
