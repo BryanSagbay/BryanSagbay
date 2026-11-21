@@ -1,15 +1,3 @@
-Beneficios de Amazon RDS para SQL Server
-
-Completamente administrado
-
-Alta disponibilidad con un solo clic
-
-Almacenamiento autoescalado
-
-Copias de seguridad automatizadas
-
-Facilidad de migración
-
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
