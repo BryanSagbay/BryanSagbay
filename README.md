@@ -1,5 +1,4 @@
-
-Las instancias de base de datos de RDS para SQL Server se pueden aprovisionar con almacenamiento estándar o con almacenamiento de E/S por segundo aprovisionadas. La opción de almacenamiento de E/S por segundo aprovisionadas está diseñada para proporcionar un rendimiento de entrada y salida rápido, predecible y consistente, además de estar optimizada para cargas de trabajo de bases de datos transaccionales (OLTP) y con un uso intensivo de E/S.
+ además de estar optimizada para cargas de trabajo de bases de datos transaccionales (OLTP) y con un uso intensivo de E/S.
 
 Beneficios de Amazon RDS para SQL Server
 
