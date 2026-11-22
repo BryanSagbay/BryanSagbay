@@ -1,6 +1,3 @@
-OPC Router
- +2
-Reading and Filtering Data
 Select specific columns: SELECT name, email FROM users;
 Filter rows with a condition: SELECT * FROM orders WHERE status = 'shipped';
 Sort and group results: SELECT category, COUNT(*) FROM products GROUP BY category ORDER BY COUNT(*) DESC; 
