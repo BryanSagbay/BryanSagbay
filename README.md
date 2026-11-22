@@ -1,3 +1,30 @@
+Common SQL examples include statements that read, add, update, delete, and structure data in a relational database. 
+
+OPC Router
+ +2
+Reading and Filtering Data
+Select specific columns: SELECT name, email FROM users;
+Filter rows with a condition: SELECT * FROM orders WHERE status = 'shipped';
+Sort and group results: SELECT category, COUNT(*) FROM products GROUP BY category ORDER BY COUNT(*) DESC; 
+
+YouTube
+·Data Geek is my name
+ +3
+Modifying Data
+Insert a new row: INSERT INTO users (name, email) VALUES ('Alex', 'alex@example.com');
+Update existing rows: UPDATE products SET price = 19.99 WHERE id = 101;
+Delete rows: DELETE FROM orders WHERE id = 55; 
+
+Indeed
+ +3
+Combining Tables and Defining Structure
+Join two tables: SELECT orders.id, users.name FROM orders JOIN users ON orders.user_id = users.id;
+Create a table: CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(100)); 
+
+Coursera
+ +3
+
+
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
