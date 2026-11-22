@@ -1,5 +1,3 @@
-Common SQL examples include statements that read, add, update, delete, and structure data in a relational database. 
-
 OPC Router
  +2
 Reading and Filtering Data
