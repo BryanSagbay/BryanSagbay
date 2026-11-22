@@ -1,5 +1,3 @@
-Sort and group results: SELECT category, COUNT(*) FROM products GROUP BY category ORDER BY COUNT(*) DESC; 
-
 YouTube
 ·Data Geek is my name
  +3
