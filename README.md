@@ -1,5 +1,3 @@
-Modifying Data
-Insert a new row: INSERT INTO users (name, email) VALUES ('Alex', 'alex@example.com');
 Update existing rows: UPDATE products SET price = 19.99 WHERE id = 101;
 Delete rows: DELETE FROM orders WHERE id = 55; 
 
