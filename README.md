@@ -1,6 +1,3 @@
-Update existing rows: UPDATE products SET price = 19.99 WHERE id = 101;
-Delete rows: DELETE FROM orders WHERE id = 55; 
-
 Indeed
  +3
 Combining Tables and Defining Structure
