@@ -1,13 +1,3 @@
-Indeed
- +3
-Combining Tables and Defining Structure
-Join two tables: SELECT orders.id, users.name FROM orders JOIN users ON orders.user_id = users.id;
-Create a table: CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(100)); 
-
-Coursera
- +3
-
-
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
