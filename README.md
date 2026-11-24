@@ -1,13 +1,3 @@
-
-Insert, update, and delete records (INSERT, UPDATE, DELETE):
-sql
-INSERT INTO customers (first_name, last_name, city)
-VALUES ('Maya', 'Lin', 'Seattle');
-
-UPDATE products
-SET price = 24.99
-WHERE product_id = 101;
-
 DELETE FROM orders
 WHERE status = 'Cancelled';
 Usa el código con precaución.
