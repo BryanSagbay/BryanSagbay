@@ -1,3 +1,57 @@
+SQL (Structured Query Language) examples include statements that query, modify, and define data in relational databases, as well as the database systems that use SQL. 
+
+Amazon Web Services
+ +2
+Common SQL Statements and Queries
+Retrieve and filter rows (SELECT, WHERE):
+sql
+SELECT first_name, last_name
+FROM customers
+WHERE city = 'Chicago';
+Usa el código con precaución.
+Sort and limit results (ORDER BY, LIMIT):
+sql
+SELECT product_name, price
+FROM products
+ORDER BY price DESC
+LIMIT 5;
+Usa el código con precaución.
+Aggregate and group data (COUNT, SUM, GROUP BY):
+sql
+SELECT customer_id, COUNT(*) AS order_count, SUM(total_amount) AS total_spent
+FROM orders
+GROUP BY customer_id;
+Usa el código con precaución.
+Combine data across tables (JOIN):
+sql
+SELECT orders.order_id, customers.last_name, orders.total_amount
+FROM orders
+INNER JOIN customers ON orders.customer_id = customers.customer_id;
+Usa el código con precaución.
+Insert, update, and delete records (INSERT, UPDATE, DELETE):
+sql
+INSERT INTO customers (first_name, last_name, city)
+VALUES ('Maya', 'Lin', 'Seattle');
+
+UPDATE products
+SET price = 24.99
+WHERE product_id = 101;
+
+DELETE FROM orders
+WHERE status = 'Cancelled';
+Usa el código con precaución.
+Create or change table structure (CREATE TABLE, ALTER TABLE):
+sql
+CREATE TABLE employees (
+  employee_id INT PRIMARY KEY,
+  full_name VARCHAR(100),
+  hire_date DATE
+);
+Usa el código con precaución.
+You can practice interactive examples in W3Schools or browse beginner query patterns in LearnSQL. 
+Examples of SQL Database Systems
+Popular database management systems that use SQL include MySQL, PostgreSQL, Microsoft SQL Server, Oracle Database, and SQLite
+
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
