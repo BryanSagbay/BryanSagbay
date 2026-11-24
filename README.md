@@ -1,7 +1,4 @@
-SQL (Structured Query Language) examples include statements that query, modify, and define data in relational databases, as well as the database systems that use SQL. 
 
-Amazon Web Services
- +2
 Common SQL Statements and Queries
 Retrieve and filter rows (SELECT, WHERE):
 sql
