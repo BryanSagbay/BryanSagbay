@@ -1,10 +1,4 @@
-SELECT product_name, price
-FROM products
-ORDER BY price DESC
-LIMIT 5;
-Usa el código con precaución.
-Aggregate and group data (COUNT, SUM, GROUP BY):
-sql
+
 SELECT customer_id, COUNT(*) AS order_count, SUM(total_amount) AS total_spent
 FROM orders
 GROUP BY customer_id;
