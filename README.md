@@ -1,10 +1,4 @@
 
-SELECT customer_id, COUNT(*) AS order_count, SUM(total_amount) AS total_spent
-FROM orders
-GROUP BY customer_id;
-Usa el código con precaución.
-Combine data across tables (JOIN):
-sql
 SELECT orders.order_id, customers.last_name, orders.total_amount
 FROM orders
 INNER JOIN customers ON orders.customer_id = customers.customer_id;
