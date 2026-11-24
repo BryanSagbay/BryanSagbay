@@ -1,7 +1,4 @@
 
-Common SQL Statements and Queries
-Retrieve and filter rows (SELECT, WHERE):
-sql
 SELECT first_name, last_name
 FROM customers
 WHERE city = 'Chicago';
