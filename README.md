@@ -1,7 +1,3 @@
-
-SELECT first_name, last_name
-FROM customers
-WHERE city = 'Chicago';
 Usa el código con precaución.
 Sort and limit results (ORDER BY, LIMIT):
 sql
