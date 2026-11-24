@@ -1,6 +1,3 @@
-Usa el código con precaución.
-Sort and limit results (ORDER BY, LIMIT):
-sql
 SELECT product_name, price
 FROM products
 ORDER BY price DESC
