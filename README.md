@@ -1,18 +1,3 @@
-DELETE FROM orders
-WHERE status = 'Cancelled';
-Usa el código con precaución.
-Create or change table structure (CREATE TABLE, ALTER TABLE):
-sql
-CREATE TABLE employees (
-  employee_id INT PRIMARY KEY,
-  full_name VARCHAR(100),
-  hire_date DATE
-);
-Usa el código con precaución.
-You can practice interactive examples in W3Schools or browse beginner query patterns in LearnSQL. 
-Examples of SQL Database Systems
-Popular database management systems that use SQL include MySQL, PostgreSQL, Microsoft SQL Server, Oracle Database, and SQLite
-
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
