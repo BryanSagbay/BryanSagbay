@@ -1,9 +1,3 @@
-Get the sample SQL Server databases for ADO.NET code samples - ADO.NET
-
-Download the sample SQL Server databases used in the code samples in the ADO.NET documentation, as well as SQL Server and management tools
-
-Configure AdventureWorks for Business Intelligence solutions - SharePoint Server
-
 Configure the AdventureWorks sample data for use with Excel, Excel Services in SharePoint Server 2013, and PerformancePoint Services business intelligence scenarios.
 
 Training
