@@ -1,13 +1,3 @@
-Events
-
-FabCon Atlanta
-
-Sep 15, 1 AM - Sep 17, 10 AM
-
-The top Fabric and SQL community-led learning event. Mar 2027. Save $200 with code MSCMTY.
-
-Register
-
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
