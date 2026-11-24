@@ -1,9 +1,3 @@
-Follow these instructions to download and install AdventureWorks sample databases to SQL Server.
-
-Restore the AdventureWorks Sample Database into SQL Managed Instance - Azure Arc
-
-Restore the AdventureWorks sample database into SQL Managed Instance
-
 Get the sample SQL Server databases for ADO.NET code samples - ADO.NET
 
 Download the sample SQL Server databases used in the code samples in the ADO.NET documentation, as well as SQL Server and management tools
