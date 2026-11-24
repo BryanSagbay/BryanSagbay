@@ -1,8 +1,4 @@
 
-SELECT orders.order_id, customers.last_name, orders.total_amount
-FROM orders
-INNER JOIN customers ON orders.customer_id = customers.customer_id;
-Usa el código con precaución.
 Insert, update, and delete records (INSERT, UPDATE, DELETE):
 sql
 INSERT INTO customers (first_name, last_name, city)
