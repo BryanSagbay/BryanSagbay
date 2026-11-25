@@ -1,24 +1,3 @@
-heapq — Heap queue algorithm
-bisect — Array bisection algorithm
-array — Efficient arrays of numeric values
-weakref — Weak references
-types — Dynamic type creation and names for built-in types
-copy — Shallow and deep copy operations
-pprint — Data pretty printer
-reprlib — Alternate repr() implementation
-enum — Support for enumerations
-graphlib — Functionality to operate with graph-like structures
-Numeric and Mathematical Modules
-numbers — Numeric abstract base classes
-math — Mathematical functions
-math.integer — integer-specific mathematics functions
-cmath — Mathematical functions for complex numbers
-decimal — Decimal fixed-point and floating-point arithmetic
-fractions — Rational numbers
-random — Generate pseudo-random numbers
-statistics — Mathematical statistics functions
-Functional Programming Modules
-itertools — Functions creating iterators for efficient looping
 functools — Higher-order functions and operations on callable objects
 operator — Standard operators as functions
 File and Directory Access
