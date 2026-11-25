@@ -1,10 +1,4 @@
-textwrap — Text wrapping and filling
-unicodedata — Unicode Database
-stringprep — Internet String Preparation
-readline — GNU readline interface
-rlcompleter — Completion function for GNU readline
-Binary Data Services
-struct — Interpret bytes as packed binary data
+ data
 codecs — Codec registry and base classes
 Data Types
 datetime — Basic date and time types
