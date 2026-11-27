@@ -1,7 +1,3 @@
-Next Steps
-Create your first application and learn the core Next.js features.
-
-Getting Started
 Learn how to create full-stack web applications with the Next.js App Router.
 Last updated May 13, 2026
 <div align="center">
