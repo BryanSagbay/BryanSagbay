@@ -1,9 +1,3 @@
-Accessibility
-For the best experience when using a screen reader, we recommend using Firefox and NVDA, or Safari and VoiceOver.
-
-Join our Community
-If you have questions about anything related to Next.js, you're always welcome to ask our community on GitHub Discussions, Discord, X (Twitter), and Reddit.
-
 Next Steps
 Create your first application and learn the core Next.js features.
 
