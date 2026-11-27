@@ -1,8 +1,4 @@
-Examples of SQL include SQL queries and statements (such as SELECT, INSERT, UPDATE, DELETE, and CREATE) as well as SQL-based database systems (such as MySQL, PostgreSQL, Oracle, and Microsoft SQL Server). 
-
-OPC Router
- +1
-Common SQL Statements and Queries
+ommon SQL Statements and Queries
 Retrieve data (SELECT): Pulls rows or columns from a table.
 sql
 SELECT first_name, last_name
