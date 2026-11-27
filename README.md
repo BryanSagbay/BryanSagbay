@@ -1,10 +1,3 @@
-sql
-SELECT orders.order_id, customers.full_name
-FROM orders
-INNER JOIN customers ON orders.customer_id = customers.customer_id;
-Usa el código con precaución.
-Examples of SQL Database Systems
-Relational database management systems (RDBMS) that use SQL include: 
 
 Amazon Web Services
  +1
