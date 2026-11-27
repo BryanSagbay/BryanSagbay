@@ -1,3 +1,63 @@
+Examples of SQL include SQL queries and statements (such as SELECT, INSERT, UPDATE, DELETE, and CREATE) as well as SQL-based database systems (such as MySQL, PostgreSQL, Oracle, and Microsoft SQL Server). 
+
+OPC Router
+ +1
+Common SQL Statements and Queries
+Retrieve data (SELECT): Pulls rows or columns from a table.
+sql
+SELECT first_name, last_name
+FROM employees
+WHERE department = 'Corporate'
+ORDER BY last_name ASC;
+Usa el código con precaución.
+Add data (INSERT): Inserts a new record into a table.
+sql
+INSERT INTO products (product_id, product_name, color_id)
+VALUES (101, 'Desk Lamp', 1);
+Usa el código con precaución.
+Modify data (UPDATE): Changes existing values in a table.
+sql
+UPDATE employees
+SET salary = 75000
+WHERE id = 12;
+Usa el código con precaución.
+Remove data (DELETE): Deletes rows from a table.
+sql
+DELETE FROM orders
+WHERE order_id = 504;
+Usa el código con precaución.
+Create structure (CREATE): Builds a new table or database.
+sql
+CREATE TABLE customers (
+  customer_id INT PRIMARY KEY,
+  full_name VARCHAR(100)
+);
+Usa el código con precaución.
+Combine tables (JOIN): Joins related rows across two or more tables. 
+
+YouTube
+·Data Geek is my name
+ +2
+sql
+SELECT orders.order_id, customers.full_name
+FROM orders
+INNER JOIN customers ON orders.customer_id = customers.customer_id;
+Usa el código con precaución.
+Examples of SQL Database Systems
+Relational database management systems (RDBMS) that use SQL include: 
+
+Amazon Web Services
+ +1
+MySQL
+PostgreSQL
+Microsoft SQL Server
+Oracle Database
+SQLite 
+
+Quora
+ +2
+For more practice, W3Schools offers interactive code examples covering queries, joins, and database operations, while LearnSQL provides beginner query examples using sample employee and sales tables. You can also see introductory command walkthroughs in Coursera. 
+
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
