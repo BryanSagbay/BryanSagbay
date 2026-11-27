@@ -1,12 +1,3 @@
-App Router: Uses React canary releases built-in, which include all the stable React 19 changes, as well as newer features being validated in frameworks, prior to a new React release.
-
-Pages Router: Uses the React version installed in your project's package.json.
-
-This approach ensures new React features work reliably in the App Router while maintaining backwards compatibility for existing Pages Router applications.
-
-Pre-requisite knowledge
-Our documentation assumes some familiarity with web development. Before getting started, it'll help if you're comfortable with:
-
 HTML
 CSS
 JavaScript
