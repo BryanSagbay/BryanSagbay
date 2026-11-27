@@ -1,9 +1,3 @@
-HTML
-CSS
-JavaScript
-React
-If you're new to React or need a refresher, we recommend starting with our React Foundations course, and the Next.js Foundations course that has you building an application as you learn.
-
 Accessibility
 For the best experience when using a screen reader, we recommend using Firefox and NVDA, or Safari and VoiceOver.
 
