@@ -1,9 +1,3 @@
-How to use the docs
-The docs are organized into 3 sections:
-
-App Router and Pages Router
-Next.js has two different routers:
-
 App Router: The newer router that supports new React features like Server Components.
 Pages Router: The original router, still supported and being improved.
 At the top of the sidebar, you'll notice a dropdown menu that allows you to switch between the App Router and the Pages Router docs.
