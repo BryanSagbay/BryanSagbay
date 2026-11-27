@@ -1,9 +1,4 @@
-sql
-INSERT INTO products (product_id, product_name, color_id)
-VALUES (101, 'Desk Lamp', 1);
-Usa el código con precaución.
-Modify data (UPDATE): Changes existing values in a table.
-sql
+
 UPDATE employees
 SET salary = 75000
 WHERE id = 12;
