@@ -1,11 +1,6 @@
 How to use the docs
 The docs are organized into 3 sections:
 
-Getting Started: Step-by-step tutorials to help you create a new application and learn the core Next.js features.
-Guides: Tutorials on specific use cases, choose what's relevant to you.
-API Reference: Detailed technical reference for every feature.
-Use the sidebar to navigate through the sections, or search (Ctrl+K or Cmd+K) to quickly find a page.
-
 App Router and Pages Router
 Next.js has two different routers:
 
