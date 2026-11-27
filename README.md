@@ -1,8 +1,3 @@
-DELETE FROM orders
-WHERE order_id = 504;
-Usa el código con precaución.
-Create structure (CREATE): Builds a new table or database.
-sql
 CREATE TABLE customers (
   customer_id INT PRIMARY KEY,
   full_name VARCHAR(100)
