@@ -1,10 +1,3 @@
-
-UPDATE employees
-SET salary = 75000
-WHERE id = 12;
-Usa el código con precaución.
-Remove data (DELETE): Deletes rows from a table.
-sql
 DELETE FROM orders
 WHERE order_id = 504;
 Usa el código con precaución.
