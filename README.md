@@ -1,7 +1,3 @@
-Quora
- +2
-For more practice, W3Schools offers interactive code examples covering queries, joins, and database operations, while LearnSQL provides beginner query examples using sample employee and sales tables. You can also see introductory command walkthroughs in Coursera. 
-
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
