@@ -1,5 +1,3 @@
-Learn how to create full-stack web applications with the Next.js App Router.
-Last updated May 13, 2026
 <div align="center">
  <!-- TYPING ANIMATION -->
         <a href="https://github.com/BryanSagbay"> <img
