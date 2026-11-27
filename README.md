@@ -1,12 +1,3 @@
-ommon SQL Statements and Queries
-Retrieve data (SELECT): Pulls rows or columns from a table.
-sql
-SELECT first_name, last_name
-FROM employees
-WHERE department = 'Corporate'
-ORDER BY last_name ASC;
-Usa el código con precaución.
-Add data (INSERT): Inserts a new record into a table.
 sql
 INSERT INTO products (product_id, product_name, color_id)
 VALUES (101, 'Desk Lamp', 1);
