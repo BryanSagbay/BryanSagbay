@@ -1,12 +1,3 @@
-
-Amazon Web Services
- +1
-MySQL
-PostgreSQL
-Microsoft SQL Server
-Oracle Database
-SQLite 
-
 Quora
  +2
 For more practice, W3Schools offers interactive code examples covering queries, joins, and database operations, while LearnSQL provides beginner query examples using sample employee and sales tables. You can also see introductory command walkthroughs in Coursera. 
