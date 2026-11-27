@@ -1,13 +1,3 @@
-CREATE TABLE customers (
-  customer_id INT PRIMARY KEY,
-  full_name VARCHAR(100)
-);
-Usa el código con precaución.
-Combine tables (JOIN): Joins related rows across two or more tables. 
-
-YouTube
-·Data Geek is my name
- +2
 sql
 SELECT orders.order_id, customers.full_name
 FROM orders
